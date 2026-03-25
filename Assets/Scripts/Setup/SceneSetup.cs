@@ -164,3 +164,192 @@ namespace Dune.SpiceAndSand.Setup
                 switch (missionNumber)
                 {
                     case 1:
+                        dialogue.StartDialogue(dialogue.GetArrivalDialogue());
+                        break;
+                    case 2:
+                        // dialogue.StartDialogue(dialogue.GetReconDialogue());
+                        break;
+                    case 3:
+                        // dialogue.StartDialogue(dialogue.GetTrapDialogue());
+                        break;
+                }
+            }
+        }
+        
+        private void SetupSkirmish()
+        {
+            currentSceneType = SceneType.Skirmish;
+            
+            // Setup camera
+            SetupCamera();
+            
+            // Setup terrain
+            SetupTerrain();
+            
+            // Spawn player base
+            SpawnPlayerBase();
+            
+            // Spawn enemy base
+            SpawnEnemyBase();
+            
+            // Setup UI for skirmish
+            if (UIManager.Instance != null)
+            {
+                // UIManager.Instance.ShowSkirmishUI();
+            }
+        }
+        
+        private void SetupMultiplayer()
+        {
+            currentSceneType = SceneType.Multiplayer;
+            
+            // Setup camera
+            SetupCamera();
+            
+            // Setup terrain
+            SetupTerrain();
+            
+            // Spawn player base
+            SpawnPlayerBase();
+            
+            // Setup network UI
+            if (UIManager.Instance != null)
+            {
+                // UIManager.Instance.ShowMultiplayerUI();
+            }
+        }
+        
+        private void SetupCamera()
+        {
+            CameraController cameraController = FindObjectOfType<CameraController>();
+            if (cameraController != null)
+            {
+                // Set camera bounds based on terrain
+                Terrain terrain = FindObjectOfType<Terrain>();
+                if (terrain != null)
+                {
+                    Vector3 terrainSize = terrain.terrainData.size;
+                    cameraController.worldBounds = new Bounds(
+                        new Vector3(terrainSize.x / 2f, 0, terrainSize.z / 2f),
+                        terrainSize
+                    );
+                }
+                
+                // Set camera position
+                cameraController.transform.position = new Vector3(50f, 30f, 50f);
+            }
+        }
+        
+        private void SetupTerrain()
+        {
+            // Check if terrain exists
+            Terrain terrain = FindObjectOfType<Terrain>();
+            if (terrain == null)
+            {
+                // Generate terrain if needed
+                TerrainGenerator generator = FindObjectOfType<TerrainGenerator>();
+                if (generator != null)
+                {
+                    generator.GenerateTerrain();
+                }
+            }
+            
+            // Setup fog of war
+            FogOfWar fog = FindObjectOfType<FogOfWar>();
+            if (fog != null && terrain != null)
+            {
+                // Set fog map size based on terrain
+                fog.mapWidth = (int)terrain.terrainData.size.x;
+                fog.mapHeight = (int)terrain.terrainData.size.z;
+            }
+        }
+        
+        private void SpawnPlayerBase()
+        {
+            // Find spawn point
+            Transform spawnPoint = GameObject.FindGameObjectWithTag("PlayerSpawn")?.transform;
+            if (spawnPoint == null)
+            {
+                spawnPoint = GetRandomSpawnPoint();
+            }
+            
+            if (spawnPoint != null)
+            {
+                // Spawn command center
+                BuildingData commandCenterData = BuildingData.CommandCenter();
+                // Instantiate command center prefab
+                
+                // Spawn starting units
+                SpawnStartingUnits(spawnPoint.position);
+            }
+        }
+        
+        private void SpawnEnemyBase()
+        {
+            // Find enemy spawn point
+            Transform enemySpawn = GameObject.FindGameObjectWithTag("EnemySpawn")?.transform;
+            if (enemySpawn == null)
+            {
+                enemySpawn = GetRandomSpawnPoint(true);
+            }
+            
+            if (enemySpawn != null)
+            {
+                // Spawn enemy AI
+                EnemyAI enemyAI = FindObjectOfType<EnemyAI>();
+                if (enemyAI != null)
+                {
+                    enemyAI.transform.position = enemySpawn.position;
+                    enemyAI.basePosition = enemySpawn.position;
+                }
+            }
+        }
+        
+        private void SpawnStartingUnits(Vector3 basePosition)
+        {
+            // Spawn starting units around base
+            UnitData trooperData = UnitData.AtreidesTrooper();
+            
+            for (int i = 0; i < 3; i++)
+            {
+                Vector3 spawnPos = basePosition + new Vector3(Random.Range(-5f, 5f), 0, Random.Range(-5f, 5f));
+                // Instantiate unit
+            }
+        }
+        
+        private Transform GetRandomSpawnPoint(bool isEnemy = false)
+        {
+            Terrain terrain = FindObjectOfType<Terrain>();
+            if (terrain != null)
+            {
+                Vector3 spawnPos = Vector3.zero;
+                
+                if (!isEnemy)
+                {
+                    // Player spawn at edge of map
+                    spawnPos = new Vector3(30f, 0, 30f);
+                }
+                else
+                {
+                    // Enemy spawn opposite side
+                    Vector3 terrainSize = terrain.terrainData.size;
+                    spawnPos = new Vector3(terrainSize.x - 30f, 0, terrainSize.z - 30f);
+                }
+                
+                // Get height at position
+                spawnPos.y = terrain.SampleHeight(spawnPos);
+                
+                GameObject spawnMarker = new GameObject("SpawnPoint");
+                spawnMarker.transform.position = spawnPos;
+                return spawnMarker.transform;
+            }
+            
+            return null;
+        }
+        
+        private void OnDestroy()
+        {
+            // Clean up scene-specific objects
+        }
+    }
+}
