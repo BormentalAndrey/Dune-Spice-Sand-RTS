@@ -1,85 +1,49 @@
-name: Build Dune: Spice & Sand
+name: Unity CI - Test & Validate
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ develop, feature/* ]
   pull_request:
-    branches: [ main ]
-  workflow_dispatch:
+    branches: [ develop, main ]
 
 jobs:
-  build-android:
+  check-and-test:
+    name: Test and Build Check
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        lfs: true
-    
-    - name: Cache Library folder
-      uses: actions/cache@v3
-      with:
-        path: Library
-        key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
-        restore-keys: |
-          Library-
-    
-    - name: Setup Unity
-      uses: game-ci/setup-unity@v1
-      with:
-        version: 2022.3.0f1
-        components: Android
-    
-    - name: Activate Unity License
-      uses: game-ci/unity-license-activation@v2
-      env:
-        UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-    
-    - name: Build Android APK
-      uses: game-ci/unity-builder@v2
-      env:
-        UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-        UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-      with:
-        targetPlatform: Android
-        androidVersionCode: ${{ github.run_number }}
-        androidKeyStoreName: ${{ secrets.ANDROID_KEYSTORE_NAME }}
-        androidKeyStoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-        androidKeyStorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
-        androidKeyAliasName: ${{ secrets.ANDROID_KEY_ALIAS_NAME }}
-        androidKeyAliasPass: ${{ secrets.ANDROID_KEY_ALIAS_PASS }}
-    
-    - name: Upload APK artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: Dune-Spice-And-Sand-APK
-        path: build/Android/Dune_Spice_And_Sand.apk
-    
-    - name: Upload AAB artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: Dune-Spice-And-Sand-AAB
-        path: build/Android/Dune_Spice_And_Sand.aab
-    
-    - name: Create Release
-      if: github.ref == 'refs/heads/main'
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: v1.0.${{ github.run_number }}
-        name: Dune: Spice & Sand v1.0.${{ github.run_number }}
-        body: |
-          ## Dune: Spice & Sand - Android RTS
-          
-          ### Changes in this release:
-          - Automated build #${{ github.run_number }}
-          - Built on: ${{ github.event.head_commit.timestamp }}
-          
-          ### Download:
-          - [APK](${{ github.server_url }}/${{ github.repository }}/releases/download/v1.0.${{ github.run_number }}/Dune_Spice_And_Sand.apk)
-          - [AAB](${{ github.server_url }}/${{ github.repository }}/releases/download/v1.0.${{ github.run_number }}/Dune_Spice_And_Sand.aab)
-        files: |
-          build/Android/Dune_Spice_And_Sand.apk
-          build/Android/Dune_Spice_And_Sand.aab
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          lfs: true
+
+      - name: Cache Library
+        uses: actions/cache@v3
+        with:
+          path: Library
+          key: Library-Test-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-Test-
+
+      - name: Run Editor Tests
+        uses: game-ci/unity-test-runner@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          testMode: editmode
+
+      - name: Run Play Mode Tests
+        uses: game-ci/unity-test-runner@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          testMode: playmode
+
+      - name: Build Check (Dry Run)
+        uses: game-ci/unity-builder@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          targetPlatform: Android
+          buildMethod: Dune.SpiceAndSand.Editor.BuildScripts.CheckBuild
