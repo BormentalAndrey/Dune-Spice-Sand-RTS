@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "units": [
+    {
+      "unit_id": "atreides_trooper",
+      "name": "Atreides Trooper",
+      "faction": "Atreides",
+      "stats_ref": "unit_stats_trooper",
+      "prefab_path": "Assets/Prefabs/Units/Atreides/AtreidesTrooper.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Units/icon_atreides_trooper.png",
+      "sound_set": "infantry_atredies",
+      "model_path": "Assets/Art/Models/Units/Atreides/AtreidesTrooper_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Units/Atreides/Mat_AtreidesTrooper.mat"
+    },
+    {
+      "unit_id": "harkonnen_tank",
+      "name": "Harkonnen Assault Tank",
+      "faction": "Harkonnen",
+      "stats_ref": "unit_stats_heavy_tank",
+      "prefab_path": "Assets/Prefabs/Units/Harkonnen/HarkonnenTank.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Units/icon_harkonnen_tank.png",
+      "sound_set": "vehicle_harkonnen",
+      "model_path": "Assets/Art/Models/Units/Harkonnen/HarkonnenTank_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Units/Harkonnen/Mat_HarkonnenTank.mat"
+    },
+    {
+      "unit_id": "fremen_warrior",
+      "name": "Fremen Warrior",
+      "faction": "Fremen",
+      "stats_ref": "unit_stats_fremen",
+      "prefab_path": "Assets/Prefabs/Units/Fremen/FremenWarrior.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Units/icon_fremen_warrior.png",
+      "sound_set": "infantry_fremen",
+      "model_path": "Assets/Art/Models/Units/Fremen/FremenWarrior_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Units/Fremen/Mat_FremenWarrior.mat"
+    },
+    {
+      "unit_id": "atreides_ornithopter",
+      "name": "Ornithopter Scout",
+      "faction": "Atreides",
+      "stats_ref": "unit_stats_air_scout",
+      "prefab_path": "Assets/Prefabs/Units/Atreides/Ornithopter.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Units/icon_ornithopter.png",
+      "sound_set": "air_atreides",
+      "model_path": "Assets/Art/Models/Units/Atreides/Ornithopter_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Units/Atreides/Mat_Ornithopter.mat"
+    }
+  ]
+}
