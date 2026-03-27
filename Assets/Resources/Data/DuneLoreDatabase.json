@@ -1,0 +1,168 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-15",
+  "loading_quotes": [
+    {
+      "id": "quote_001",
+      "text": "Fear is the mind-killer. Fear is the little-death that brings total obliteration.",
+      "source": "Dune, Book I, Chapter 1",
+      "speaker": "Paul Atreides",
+      "category": "philosophy"
+    },
+    {
+      "id": "quote_002",
+      "text": "The spice must flow.",
+      "source": "Dune, Book I, Chapter 2",
+      "speaker": "Duke Leto Atreides",
+      "category": "resource"
+    },
+    {
+      "id": "quote_003",
+      "text": "He who controls the spice controls the universe.",
+      "source": "Dune, Book I, Chapter 4",
+      "speaker": "Pardot Kynes",
+      "category": "strategy"
+    },
+    {
+      "id": "quote_004",
+      "text": "Walk without rhythm, and you won't attract the worm.",
+      "source": "Dune, Book I, Chapter 3",
+      "speaker": "Fremen Saying",
+      "category": "survival"
+    },
+    {
+      "id": "quote_005",
+      "text": "The sleeper must awaken.",
+      "source": "Dune, Book I, Chapter 36",
+      "speaker": "Paul Atreides",
+      "category": "prophecy"
+    },
+    {
+      "id": "quote_006",
+      "text": "A beginning is the time for taking the most delicate care that the balances are correct.",
+      "source": "Dune, Book I, Chapter 1",
+      "speaker": "Princess Irulan",
+      "category": "wisdom"
+    },
+    {
+      "id": "quote_007",
+      "text": "Bless the Maker and His water. Bless the coming and going of Him. May His passage cleanse the world.",
+      "source": "Dune, Book I, Chapter 3",
+      "speaker": "Fremen Prayer",
+      "category": "religious"
+    },
+    {
+      "id": "quote_008",
+      "text": "I must not fear. Fear is the mind-killer.",
+      "source": "Dune, Book I, Chapter 1",
+      "speaker": "Bene Gesserit Litany",
+      "category": "philosophy"
+    },
+    {
+      "id": "quote_009",
+      "text": "Without change, something sleeps inside us, and seldom awakens.",
+      "source": "Dune Messiah, Chapter 1",
+      "speaker": "Paul Atreides",
+      "category": "philosophy"
+    },
+    {
+      "id": "quote_010",
+      "text": "The power to destroy a thing is the absolute control over it.",
+      "source": "Dune, Book I, Chapter 15",
+      "speaker": "Paul Atreides",
+      "category": "strategy"
+    }
+  ],
+  "factions_lore": [
+    {
+      "faction": "Atreides",
+      "description": "House Atreides is known for honor, loyalty, and the wisdom of its leadership. They bring water-rich philosophy to the desert.",
+      "quote": "Here I am, here I remain.",
+      "source": "Dune, Book I, Chapter 4",
+      "strengths": ["Elite Units", "Air Support", "Prescience"],
+      "weaknesses": ["Honor-bound", "Higher Costs"]
+    },
+    {
+      "faction": "Harkonnen",
+      "description": "House Harkonnen rules through brutality, fear, and industrial might. Their cruelty is legendary across the Imperium.",
+      "quote": "My desert. My Arrakis. My Dune.",
+      "source": "Dune, Book I, Chapter 6",
+      "strengths": ["Cheap Units", "Poison", "Heavy Armor"],
+      "weaknesses": ["Low Morale", "Poor Air Support"]
+    },
+    {
+      "faction": "Fremen",
+      "description": "The native people of Arrakis, the Fremen are fierce warriors who have adapted to the harshest environment in the universe.",
+      "quote": "The desert is my home. The spice is my life.",
+      "source": "Dune, Book I, Chapter 25",
+      "strengths": ["Stealth", "Worm Riding", "Water Discipline"],
+      "weaknesses": ["No Shields", "Limited Technology"]
+    }
+  ],
+  "mechanics_lore": [
+    {
+      "mechanic": "Sandworm",
+      "name": "Shai-Hulud",
+      "description": "The Old Man of the Desert. Sandworms are attracted to rhythmic vibrations and can swallow a spice harvester whole.",
+      "quote": "Bless the Maker and His water.",
+      "source": "Dune, Book I, Chapter 3",
+      "game_rule": "Walk without rhythm to avoid attracting worms"
+    },
+    {
+      "mechanic": "Shield",
+      "name": "Holtzman Shield",
+      "description": "Personal defensive shield that stops fast projectiles but allows slow blades to penetrate.",
+      "quote": "The slow blade penetrates the shield.",
+      "source": "Dune, Book I, Chapter 5",
+      "game_rule": "Lasgun + Shield = Nuclear explosion"
+    },
+    {
+      "mechanic": "Water of Life",
+      "name": "The Awakening",
+      "description": "A toxic liquid produced by drowning a sandworm. Used in Fremen rituals to awaken prescience.",
+      "quote": "The water of life. The poison that transforms.",
+      "source": "Dune, Book I, Chapter 36",
+      "game_rule": "Transforms Paul into Kwisatz Haderach"
+    }
+  ],
+  "units_lore": [
+    {
+      "unit_id": "atreides_trooper",
+      "lore": "The loyal soldiers of House Atreides, trained in Caladan's military academies. They fight with honor and discipline.",
+      "quote": "The Atreides troops are loyal to the death.",
+      "source": "Dune, Book I, Chapter 1"
+    },
+    {
+      "unit_id": "fremen_fedaykin",
+      "lore": "The death commandos of Muad'Dib. These elite warriors have sworn their lives to Paul Atreides.",
+      "quote": "Fedaykin - the death commandos of Muad'Dib.",
+      "source": "Dune, Book II, Chapter 20"
+    },
+    {
+      "unit_id": "sandworm",
+      "lore": "Shai-Hulud, the Old Man of the Desert. Sandworms can grow up to 400 meters and live for thousands of years.",
+      "quote": "May His passage cleanse the world.",
+      "source": "Dune, Book I, Chapter 3"
+    }
+  ],
+  "buildings_lore": [
+    {
+      "building_id": "windtrap",
+      "lore": "These massive structures collect moisture from the air, providing precious water for Fremen settlements.",
+      "quote": "The windtraps of Arrakis.",
+      "source": "Dune, Book I, Chapter 6"
+    },
+    {
+      "building_id": "spice_refinery",
+      "lore": "Processing facilities where raw spice is refined into pure melange for transport off-world.",
+      "quote": "The refinery stands ready. The spice must flow.",
+      "source": "Dune, Book I, Chapter 3"
+    },
+    {
+      "building_id": "sietch",
+      "lore": "Fremen underground communities carved into rock. A sietch is a place of refuge and family.",
+      "quote": "A sietch is a place of refuge. The tribe is family.",
+      "source": "Dune, Book I, Chapter 25"
+    }
+  ]
+}
