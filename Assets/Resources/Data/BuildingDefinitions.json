@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "buildings": [
+    {
+      "building_id": "spice_refinery",
+      "name": "Spice Refinery",
+      "faction": "All",
+      "build_time": 8.0,
+      "grid_size": {
+        "width": 3,
+        "height": 3
+      },
+      "prefab_path": "Assets/Prefabs/Buildings/SpiceRefinery.prefab",
+      "ghost_prefab_path": "Assets/Prefabs/Buildings/Ghost_SpiceRefinery.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Buildings/icon_refinery.png",
+      "model_path": "Assets/Art/Models/Buildings/SpiceRefinery_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Buildings/Mat_SpiceRefinery.mat",
+      "construction_effect": "VFX/Construction_Dust"
+    },
+    {
+      "building_id": "windtrap",
+      "name": "Windtrap",
+      "faction": "All",
+      "build_time": 4.0,
+      "grid_size": {
+        "width": 2,
+        "height": 2
+      },
+      "prefab_path": "Assets/Prefabs/Buildings/Windtrap.prefab",
+      "ghost_prefab_path": "Assets/Prefabs/Buildings/Ghost_Windtrap.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Buildings/icon_windtrap.png",
+      "model_path": "Assets/Art/Models/Buildings/Windtrap_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Buildings/Mat_Windtrap.mat",
+      "construction_effect": "VFX/Construction_Wind"
+    },
+    {
+      "building_id": "barracks",
+      "name": "Barracks",
+      "faction": "All",
+      "build_time": 6.0,
+      "grid_size": {
+        "width": 3,
+        "height": 2
+      },
+      "prefab_path": "Assets/Prefabs/Buildings/Barracks.prefab",
+      "ghost_prefab_path": "Assets/Prefabs/Buildings/Ghost_Barracks.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Buildings/icon_barracks.png",
+      "model_path": "Assets/Art/Models/Buildings/Barracks_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Buildings/Mat_Barracks.mat"
+    },
+    {
+      "building_id": "shield_generator",
+      "name": "Shield Generator",
+      "faction": "All",
+      "build_time": 10.0,
+      "grid_size": {
+        "width": 2,
+        "height": 2
+      },
+      "prefab_path": "Assets/Prefabs/Buildings/ShieldGenerator.prefab",
+      "ghost_prefab_path": "Assets/Prefabs/Buildings/Ghost_ShieldGenerator.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Buildings/icon_shield.png",
+      "model_path": "Assets/Art/Models/Buildings/ShieldGenerator_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Buildings/Mat_ShieldGenerator.mat"
+    },
+    {
+      "building_id": "deathstill",
+      "name": "Deathstill",
+      "faction": "Fremen",
+      "build_time": 5.0,
+      "grid_size": {
+        "width": 2,
+        "height": 2
+      },
+      "prefab_path": "Assets/Prefabs/Buildings/Deathstill.prefab",
+      "ghost_prefab_path": "Assets/Prefabs/Buildings/Ghost_Deathstill.prefab",
+      "icon_path": "Assets/Art/UI/Icons/Buildings/icon_deathstill.png",
+      "model_path": "Assets/Art/Models/Buildings/Deathstill_LOD0.fbx",
+      "material_path": "Assets/Art/Materials/Buildings/Mat_Deathstill.mat"
+    }
+  ]
+}
