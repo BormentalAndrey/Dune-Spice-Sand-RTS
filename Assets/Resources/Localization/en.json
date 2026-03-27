@@ -1,0 +1,120 @@
+{
+  "version": "1.0.0",
+  "language": "en",
+  "translations": {
+    "ui": {
+      "play": "Play",
+      "settings": "Settings",
+      "quit": "Quit",
+      "resume": "Resume",
+      "pause": "Pause",
+      "main_menu": "Main Menu",
+      "campaign": "Campaign",
+      "skirmish": "Skirmish",
+      "multiplayer": "Multiplayer",
+      "options": "Options",
+      "back": "Back",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "loading": "Loading...",
+      "save": "Save",
+      "load": "Load",
+      "delete": "Delete"
+    },
+    "resources": {
+      "spice": "Spice",
+      "water": "Water",
+      "spice_must_flow": "The spice must flow!",
+      "water_shortage": "Water shortage!",
+      "spice_harvest": "Spice harvested: {0}",
+      "water_collected": "Water collected: {0}"
+    },
+    "units": {
+      "atreides_trooper": "Atreides Trooper",
+      "atreides_commando": "Atreides Commando",
+      "swordmaster": "Swordmaster",
+      "ornithopter_scout": "Ornithopter Scout",
+      "ornithopter_fighter": "Fighter Ornithopter",
+      "carryall": "Carryall",
+      "harkonnen_slave": "Harkonnen Slave",
+      "harkonnen_heavy": "Harkonnen Heavy",
+      "harkonnen_elite": "Harkonnen Elite",
+      "harkonnen_tank": "Harkonnen Tank",
+      "fremen_warrior": "Fremen Warrior",
+      "fremen_fedaykin": "Fedaykin",
+      "fremen_naib": "Fremen Naib",
+      "sandworm": "Sandworm",
+      "unit_selected": "Unit Selected",
+      "units_selected": "{0} Units Selected",
+      "cannot_afford": "Cannot afford {0}"
+    },
+    "buildings": {
+      "command_center": "Command Center",
+      "barracks": "Barracks",
+      "spice_refinery": "Spice Refinery",
+      "windtrap": "Windtrap",
+      "ornithopter_bay": "Ornithopter Bay",
+      "shield_generator": "Shield Generator",
+      "deathstill": "Deathstill",
+      "sietch_entrance": "Sietch Entrance",
+      "construction_complete": "{0} complete!",
+      "building_destroyed": "{0} destroyed!"
+    },
+    "mechanics": {
+      "shield_active": "Shield Active",
+      "shield_collapse": "Shield Collapse!",
+      "worm_approaching": "Worm Approaching!",
+      "worm_attacks": "Worm Attack!",
+      "lasgun_explosion": "LASGEN-SHIELD EXPLOSION!",
+      "prescience_active": "Prescience Active",
+      "voice_command": "Voice Command: {0}",
+      "walk_without_rhythm": "Walk without rhythm"
+    },
+    "campaign": {
+      "mission_1_title": "Arrival on Arrakis",
+      "mission_1_desc": "Duke Leto Atreides arrives on Arrakis to take control of spice mining.",
+      "mission_2_title": "Desert Reconnaissance",
+      "mission_2_desc": "Send scouts into the deep desert to map Fremen territory.",
+      "mission_3_title": "Harkonnen Trap",
+      "mission_3_desc": "Baron Harkonnen launches a surprise attack with Imperial Sardaukar.",
+      "objective_build": "Build {0}",
+      "objective_harvest": "Harvest {0} Spice",
+      "objective_train": "Train {0} Units",
+      "objective_destroy": "Destroy {0} Enemies",
+      "objective_survive": "Survive for {0} Seconds",
+      "mission_complete": "Mission Complete!",
+      "mission_failed": "Mission Failed",
+      "unlock_next": "New Mission Unlocked!"
+    },
+    "factions": {
+      "atreides": "House Atreides",
+      "harkonnen": "House Harkonnen",
+      "fremen": "Fremen",
+      "sardaukar": "Sardaukar",
+      "neutral": "Neutral"
+    },
+    "abilities": {
+      "prescience": "Prescience",
+      "voice": "The Voice",
+      "worm_ride": "Worm Ride",
+      "stealth": "Desert Stealth",
+      "poison": "Poison Attack",
+      "thumper": "Deploy Thumper"
+    },
+    "notifications": {
+      "under_attack": "Your base is under attack!",
+      "harvester_destroyed": "Spice harvester destroyed!",
+      "unit_trained": "{0} ready for deployment",
+      "tech_upgraded": "{0} upgraded to level {1}",
+      "new_achievement": "Achievement Unlocked: {0}"
+    },
+    "errors": {
+      "save_failed": "Save failed!",
+      "load_failed": "Load failed!",
+      "network_error": "Network error!",
+      "insufficient_resources": "Insufficient resources!",
+      "invalid_target": "Invalid target!",
+      "already_building": "Already building!"
+    }
+  }
+}
