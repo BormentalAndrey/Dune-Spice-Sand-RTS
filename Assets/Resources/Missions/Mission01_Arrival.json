@@ -1,0 +1,20 @@
+{
+  "missionData": {
+    "missionId": 1,
+    "title": "Arrival on Arrakis",
+    "description": "Duke Leto Atreides arrives on Arrakis",
+    "objectives": [
+      {
+        "type": "BuildBuilding",
+        "target": "CommandCenter",
+        "amount": 1,
+        "description": "Establish Command Center"
+      }
+    ],
+    "startingResources": {
+      "spice": 0,
+      "water": 100
+    },
+    "bookReference": "Dune, Book I, Chapters 1-4"
+  }
+}
