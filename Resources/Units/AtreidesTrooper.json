@@ -1,0 +1,15 @@
+{
+  "unitData": {
+    "unitName": "Atreides Trooper",
+    "maxHealth": 120,
+    "armor": 15,
+    "maxShield": 50,
+    "damage": 20,
+    "attackType": "Projectile",
+    "speed": 4.5,
+    "movementType": "Ground",
+    "spiceCost": 80,
+    "waterCost": 5,
+    "bookReference": "Dune, Book I, Chapter 1"
+  }
+}
