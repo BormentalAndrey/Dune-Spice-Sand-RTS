@@ -1,0 +1,23 @@
+{
+  "saveData": {
+    "currentMission": 1,
+    "missionCompleted": [true, false, false],
+    "playerFaction": "Atreides",
+    "resources": {
+      "spice": 500.0,
+      "water": 200.0,
+      "jihadMeter": 0.0
+    },
+    "date": {
+      "day": 1,
+      "month": 1,
+      "year": 10191
+    },
+    "statistics": {
+      "totalSpiceHarvested": 1500,
+      "totalEnemiesKilled": 25,
+      "wormsRidden": 0,
+      "voiceCommandsUsed": 5
+    }
+  }
+}
