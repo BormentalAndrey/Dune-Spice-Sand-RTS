@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M54,54m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"/>
+    
+    <!-- Inner circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0"/>
+    
+    <!-- Chef hat - top part -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M38,38 L70,38 C72,28 80,24 84,28 C88,24 94,28 92,38 L92,42 L38,42 Z"/>
+    
+    <!-- Chef hat - bottom band -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M36,42 L72,42 L72,44 C72,46 70,48 68,48 L40,48 C38,48 36,46 36,44 Z"/>
+    
+    <!-- Plate -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M30,68 L78,68 C84,68 88,72 88,78 C88,84 84,88 78,88 L30,88 C24,88 20,84 20,78 C20,72 24,68 30,68 Z"/>
+    
+    <!-- Plate inner -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,72 L72,72 C76,72 80,76 80,78 C80,80 76,84 72,84 L36,84 C32,84 28,80 28,78 C28,76 32,72 36,72 Z"/>
+    
+    <!-- Fork -->
+    <path
+        android:fillColor="#FF6B35"
+        android:strokeColor="#FF6B35"
+        android:strokeWidth="1.5"
+        android:pathData="M44,54 L44,64 M44,58 L46,58 M46,54 L46,64 M46,58 L48,58 M48,54 L48,64 M48,58 L50,58 M50,54 L50,64"/>
+    
+    <!-- Knife -->
+    <path
+        android:fillColor="#FF6B35"
+        android:strokeColor="#FF6B35"
+        android:strokeWidth="1.5"
+        android:pathData="M60,54 L58,64 M60,58 L68,58 L66,62 L58,62"/>
+    
+    <!-- Steam lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF6B35"
+        android:strokeWidth="2"
+        android:pathData="M44,30 C42,26 46,22 44,18"/>
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF6B35"
+        android:strokeWidth="2"
+        android:pathData="M54,28 C52,24 56,20 54,16"/>
+    
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF6B35"
+        android:strokeWidth="2"
+        android:pathData="M64,30 C62,26 66,22 64,18"/>
+    
+</vector>
