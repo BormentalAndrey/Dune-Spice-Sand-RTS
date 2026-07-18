@@ -54,7 +54,14 @@ class ShoppingListRepositoryImpl @Inject constructor(
     }
     
     override suspend fun deleteItem(itemId: Long) {
-        shoppingListDao.deleteItem(ShoppingItemEntity(id = itemId))
+        shoppingListDao.deleteItem(
+            ShoppingItemEntity(
+                id = itemId,
+                name = "",
+                quantity = 0f,
+                unit = ""
+            )
+        )
     }
     
     override suspend fun clearPurchasedItems() {
