@@ -1,7 +1,5 @@
 package com.yourapp.recipes.domain.model
 
-import java.util.*
-
 data class MealPlan(
     val id: Long = 0,
     val recipeId: Long,
