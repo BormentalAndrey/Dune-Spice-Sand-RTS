@@ -20,11 +20,13 @@ class HomeViewModel @Inject constructor(
     private val _filter = MutableStateFlow(RecipeFilter())
     val filter: StateFlow<RecipeFilter> = _filter.asStateFlow()
     
-    private val _recipes = _filter.flatMapLatest { filter ->
-        getFilteredRecipesUseCase(filter)
-    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
-    
-    val recipes: StateFlow<List<Recipe>> = _recipes
+    val recipes: StateFlow<List<Recipe>> = _filter
+        .flatMapLatest { filter -> getFilteredRecipesUseCase(filter) }
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = emptyList()
+        )
     
     private val _randomRecipe = MutableStateFlow<Recipe?>(null)
     val randomRecipe: StateFlow<Recipe?> = _randomRecipe.asStateFlow()
@@ -41,27 +43,27 @@ class HomeViewModel @Inject constructor(
     }
     
     fun updateSearchQuery(query: String) {
-        _filter.update { it.copy(searchQuery = query) }
+        _filter.value = _filter.value.copy(searchQuery = query)
     }
     
     fun updateCategory(category: Category?) {
-        _filter.update { it.copy(category = category) }
+        _filter.value = _filter.value.copy(category = category)
     }
     
     fun updateDifficulty(difficulty: Difficulty?) {
-        _filter.update { it.copy(difficulty = difficulty) }
+        _filter.value = _filter.value.copy(difficulty = difficulty)
     }
     
     fun updateMaxCookingTime(minutes: Int?) {
-        _filter.update { it.copy(maxCookingTime = minutes) }
+        _filter.value = _filter.value.copy(maxCookingTime = minutes)
     }
     
     fun toggleFavorites() {
-        _filter.update { it.copy(onlyFavorites = !it.onlyFavorites) }
+        _filter.value = _filter.value.copy(onlyFavorites = !_filter.value.onlyFavorites)
     }
     
     fun updateSortBy(sortBy: SortOption) {
-        _filter.update { it.copy(sortBy = sortBy) }
+        _filter.value = _filter.value.copy(sortBy = sortBy)
     }
     
     fun toggleFavorite(recipeId: Long, isFavorite: Boolean) {
@@ -76,7 +78,7 @@ class HomeViewModel @Inject constructor(
             try {
                 _randomRecipe.value = recipeRepository.getRandomRecipe()
             } catch (e: Exception) {
-                // Handle error
+                e.printStackTrace()
             } finally {
                 _isLoading.value = false
             }
