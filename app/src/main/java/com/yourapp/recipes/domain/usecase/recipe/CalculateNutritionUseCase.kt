@@ -3,9 +3,6 @@ package com.yourapp.recipes.domain.usecase.recipe
 import com.yourapp.recipes.domain.model.NutritionInfo
 import javax.inject.Inject
 
-/**
- * Use case для пересчета КБЖУ при изменении количества порций.
- */
 class CalculateNutritionUseCase @Inject constructor() {
     
     operator fun invoke(baseNutrition: NutritionInfo, multiplier: Float): NutritionInfo {
