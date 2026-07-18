@@ -1,23 +1,22 @@
 package com.yourapp.recipes.presentation.ui.home
 
-import androidx.compose.animation.*
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
-import androidx.compose.material3.pulltorefresh.PullToRefreshBox
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import com.yourapp.recipes.domain.model.*
-import com.yourapp.recipes.presentation.ui.components.*
 import com.yourapp.recipes.presentation.viewmodel.HomeViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -32,12 +31,7 @@ fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel()
 ) {
     val recipes by viewModel.recipes.collectAsState()
-    val filter by viewModel.filter.collectAsState()
     val randomRecipe by viewModel.randomRecipe.collectAsState()
-    val isLoading by viewModel.isLoading.collectAsState()
-    
-    var showFilterSheet by remember { mutableStateOf(false) }
-    var searchQuery by remember { mutableStateOf("") }
     
     Scaffold(
         topBar = {
@@ -68,82 +62,38 @@ fun HomeScreen(
             }
         }
     ) { paddingValues ->
-        Column(
+        LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(paddingValues)
+                .padding(paddingValues),
+            contentPadding = PaddingValues(16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            // Search bar
-            SearchBar(
-                query = searchQuery,
-                onQueryChange = { 
-                    searchQuery = it
-                    viewModel.updateSearchQuery(it)
-                },
-                onSearch = { viewModel.updateSearchQuery(it) },
-                active = false,
-                onActiveChange = {},
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 8.dp),
-                leadingIcon = { Icon(Icons.Default.Search, null) },
-                trailingIcon = {
-                    if (filter != RecipeFilter()) {
-                        IconButton(onClick = { showFilterSheet = true }) {
-                            Icon(Icons.Default.FilterList, "Фильтры")
-                        }
-                    }
-                },
-                placeholder = { Text("Поиск по названию или ингредиентам") }
-            ) {}
-            
             // Random recipe card
             randomRecipe?.let { recipe ->
-                RecipeOfTheDayCard(
-                    recipe = recipe,
-                    onClick = { onRecipeClick(recipe.id) },
-                    onRefresh = { viewModel.loadRandomRecipe() },
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
-                )
-            }
-            
-            // Recipe list with pull-to-refresh
-            PullToRefreshBox(
-                isRefreshing = isLoading,
-                onRefresh = { viewModel.loadRandomRecipe() }
-            ) {
-                LazyColumn(
-                    modifier = Modifier.fillMaxSize(),
-                    contentPadding = PaddingValues(16.dp),
-                    verticalArrangement = Arrangement.spacedBy(12.dp)
-                ) {
-                    items(
-                        items = recipes,
-                        key = { it.id }
-                    ) { recipe ->
-                        RecipeCard(
-                            recipe = recipe,
-                            onClick = { onRecipeClick(recipe.id) },
-                            onFavoriteClick = { 
-                                viewModel.toggleFavorite(recipe.id, !recipe.isFavorite)
-                            }
-                        )
-                    }
+                item {
+                    RecipeOfTheDayCard(
+                        recipe = recipe,
+                        onClick = { onRecipeClick(recipe.id) },
+                        onRefresh = { viewModel.loadRandomRecipe() }
+                    )
                 }
             }
+            
+            // Recipe list
+            items(
+                items = recipes,
+                key = { it.id }
+            ) { recipe ->
+                RecipeCard(
+                    recipe = recipe,
+                    onClick = { onRecipeClick(recipe.id) },
+                    onFavoriteClick = { 
+                        viewModel.toggleFavorite(recipe.id, !recipe.isFavorite)
+                    }
+                )
+            }
         }
-    }
-    
-    // Filter bottom sheet
-    if (showFilterSheet) {
-        FilterBottomSheet(
-            filter = filter,
-            onFilterChange = { newFilter ->
-                viewModel.updateFilter(newFilter)
-                showFilterSheet = false
-            },
-            onDismiss = { showFilterSheet = false }
-        )
     }
 }
 
@@ -170,7 +120,7 @@ fun RecipeCard(
                 contentDescription = recipe.title,
                 modifier = Modifier
                     .size(100.dp)
-                    .cardShape()
+                    .clip(RoundedCornerShape(8.dp))
             )
             
             Column(
