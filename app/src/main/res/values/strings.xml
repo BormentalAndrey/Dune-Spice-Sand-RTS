@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кулинарные рецепты</string>
+    <string name="settings">Настройки</string>
+    <string name="favorites">Избранное</string>
+    <string name="shopping_list">Список покупок</string>
+    <string name="meal_planner">План меню</string>
+    <string name="add_recipe">Добавить рецепт</string>
+    <string name="edit_recipe">Редактировать рецепт</string>
+    <string name="delete_recipe">Удалить рецепт</string>
+    <string name="search_recipes">Поиск рецептов</string>
+    <string name="recipe_of_day">Рецепт дня</string>
+    <string name="no_recipes">Нет рецептов</string>
+    <string name="no_favorites">Нет избранных рецептов</string>
+    <string name="empty_shopping_list">Список покупок пуст</string>
+</resources>
