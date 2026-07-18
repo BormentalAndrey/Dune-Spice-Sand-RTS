@@ -1,8 +1,11 @@
+// app/src/main/java/com/yourapp/recipes/data/local/dao/RecipeCollectionDao.kt
+
 package com.yourapp.recipes.data.local.dao
 
 import androidx.room.*
 import com.yourapp.recipes.data.local.database.entity.RecipeCollectionEntity
 import com.yourapp.recipes.data.local.database.entity.RecipeCollectionCrossRef
+import com.yourapp.recipes.data.local.database.entity.RecipeEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
