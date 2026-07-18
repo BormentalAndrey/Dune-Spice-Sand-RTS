@@ -1,9 +1,8 @@
 package com.yourapp.recipes.widget
 
-import android.app.Service
-import android.appwidget.AppWidgetManager
+import android.content.Context
 import android.content.Intent
-import android.os.IBinder
+import android.appwidget.AppWidgetManager
 import androidx.core.app.JobIntentService
 
 class RecipeWidgetUpdateService : JobIntentService() {
