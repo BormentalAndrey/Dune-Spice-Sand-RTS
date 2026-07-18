@@ -1,30 +1,7 @@
 package com.yourapp.recipes.data.local.database.entity
 
 import androidx.room.*
-import com.yourapp.recipes.domain.model.*
 
-/**
- * Основная сущность рецепта в базе данных Room.
- * Содержит всю информацию о рецепте, включая ингредиенты и шаги в JSON формате.
- *
- * @property id Уникальный идентификатор рецепта
- * @property title Название рецепта
- * @property description Описание рецепта
- * @property cookingTimeMinutes Время приготовления в минутах
- * @property difficulty Сложность приготовления
- * @property category Категория блюда
- * @property ingredientsJson JSON-строка с ингредиентами
- * @property stepsJson JSON-строка с пошаговыми инструкциями
- * @property calories Калории на порцию
- * @property proteins Белки на порцию (г)
- * @property fats Жиры на порцию (г)
- * @property carbohydrates Углеводы на порцию (г)
- * @property servings Количество порций по умолчанию
- * @property photoPath Локальный путь к фото
- * @property isFavorite Избранный рецепт
- * @property dateAdded Дата добавления
- * @property dateModified Дата последнего изменения
- */
 @Entity(
     tableName = "recipes",
     indices = [
@@ -49,10 +26,10 @@ data class RecipeEntity(
     val cookingTimeMinutes: Int = 0,
     
     @ColumnInfo(name = "difficulty")
-    val difficulty: String = Difficulty.EASY.name,
+    val difficulty: String = "EASY",
     
     @ColumnInfo(name = "category")
-    val category: String = Category.DINNER.name,
+    val category: String = "DINNER",
     
     @ColumnInfo(name = "ingredients_json")
     val ingredientsJson: String = "[]",
