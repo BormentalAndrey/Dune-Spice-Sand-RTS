@@ -1,3 +1,5 @@
+package com.yourapp.recipes.domain.model
+
 data class RecipeFilter(
     val searchQuery: String = "",
     val category: Category? = null,
