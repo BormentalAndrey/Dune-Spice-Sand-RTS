@@ -1,6 +1,7 @@
 package com.yourapp.recipes.domain.repository
 
-import com.yourapp.recipes.domain.model.*
+import com.yourapp.recipes.domain.model.Recipe
+import com.yourapp.recipes.domain.model.RecipeFilter
 import kotlinx.coroutines.flow.Flow
 
 interface RecipeRepository {
