@@ -1,5 +1,3 @@
-// app/src/main/java/com/yourapp/recipes/data/local/database/RecipeDatabase.kt
-
 package com.yourapp.recipes.data.local.database
 
 import androidx.room.*
@@ -18,7 +16,9 @@ import javax.inject.Provider
         MealPlanEntity::class,
         ShoppingItemEntity::class,
         RecipeCollectionEntity::class,
-        RecipeCollectionCrossRef::class
+        RecipeCollectionCrossRef::class,
+        RecipeStepEntity::class,
+        UserPreferencesEntity::class
     ],
     version = 1,
     exportSchema = false
@@ -30,6 +30,8 @@ abstract class RecipeDatabase : RoomDatabase() {
     abstract fun mealPlanDao(): MealPlanDao
     abstract fun shoppingListDao(): ShoppingListDao
     abstract fun recipeCollectionDao(): RecipeCollectionDao
+    abstract fun recipeStepDao(): RecipeStepDao
+    abstract fun userPreferencesDao(): UserPreferencesDao
     
     class Callback @Inject constructor(
         private val database: Provider<RecipeDatabase>
