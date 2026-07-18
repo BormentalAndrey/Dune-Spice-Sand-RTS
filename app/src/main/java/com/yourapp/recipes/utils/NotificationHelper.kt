@@ -1,12 +1,15 @@
 package com.yourapp.recipes.utils
 
+import android.Manifest
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.app.NotificationCompat
+import androidx.core.content.ContextCompat
 import com.yourapp.recipes.presentation.ui.main.MainActivity
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -50,7 +53,20 @@ class NotificationHelper @Inject constructor(
         }
     }
     
+    private fun hasNotificationPermission(): Boolean {
+        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            ContextCompat.checkSelfPermission(
+                context,
+                Manifest.permission.POST_NOTIFICATIONS
+            ) == PackageManager.PERMISSION_GRANTED
+        } else {
+            true
+        }
+    }
+    
     fun showShoppingReminder(unpurchasedCount: Int) {
+        if (!hasNotificationPermission()) return
+        
         val intent = Intent(context, MainActivity::class.java).apply {
             putExtra("open_shopping_list", true)
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
@@ -76,6 +92,8 @@ class NotificationHelper @Inject constructor(
     }
     
     fun showRecipeOfDay(recipeTitle: String) {
+        if (!hasNotificationPermission()) return
+        
         val intent = Intent(context, MainActivity::class.java).apply {
             putExtra("open_random_recipe", true)
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
