@@ -29,7 +29,7 @@ object DatabaseModule {
         )
             .addCallback(callback)
             .addMigrations(*Migrations.ALL_MIGRATIONS)
-            .fallbackToDestructiveMigration() // Only for development!
+            .fallbackToDestructiveMigration()
             .build()
     }
     
@@ -56,5 +56,15 @@ object DatabaseModule {
     @Provides
     fun provideRecipeCollectionDao(database: RecipeDatabase): RecipeCollectionDao {
         return database.recipeCollectionDao()
+    }
+    
+    @Provides
+    fun provideRecipeStepDao(database: RecipeDatabase): RecipeStepDao {
+        return database.recipeStepDao()
+    }
+    
+    @Provides
+    fun provideUserPreferencesDao(database: RecipeDatabase): UserPreferencesDao {
+        return database.userPreferencesDao()
     }
 }
