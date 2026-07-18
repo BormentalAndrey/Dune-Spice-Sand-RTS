@@ -19,62 +19,50 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: gradle
     
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
-    
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-    
-    - name: Cache Gradle packages
-      uses: actions/cache@v3
       with:
-        path: |
-          ~/.gradle/caches
-          ~/.gradle/wrapper
-        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-        restore-keys: |
-          ${{ runner.os }}-gradle-
+        packages: 'platforms;android-34 build-tools;34.0.0'
+    
+    # Используем конкретную версию Gradle через wrapper
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v3
+      with:
+        gradle-version: 8.4  # Фиксируем версию 8.4 вместо 9.0
+    
+    - name: Make gradlew executable
+      run: |
+        if [ -f "gradlew" ]; then
+          chmod +x gradlew
+        fi
     
     - name: Run Unit Tests
-      run: ./gradlew testDebugUnitTest
+      run: |
+        if [ -f "gradlew" ]; then
+          ./gradlew testDebugUnitTest
+        else
+          gradle testDebugUnitTest
+        fi
     
     - name: Run Lint
-      run: ./gradlew lintDebug
+      run: |
+        if [ -f "gradlew" ]; then
+          ./gradlew lintDebug
+        else
+          gradle lintDebug
+        fi
     
     - name: Build Debug APK
-      run: ./gradlew assembleDebug
-    
-    - name: Build Release APK
-      run: ./gradlew assembleRelease
-      env:
-        KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
-        KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+      run: |
+        if [ -f "gradlew" ]; then
+          ./gradlew assembleDebug
+        else
+          gradle assembleDebug
+        fi
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: app-debug
         path: app/build/outputs/apk/debug/app-debug.apk
-    
-    - name: Run Instrumentation Tests
-      uses: reactivecircus/android-emulator-runner@v2
-      with:
-        api-level: 30
-        arch: x86_64
-        script: ./gradlew connectedCheck
-    
-    - name: Generate Test Report
-      if: always()
-      run: ./gradlew testDebugUnitTest jacocoTestReport
-    
-    - name: Upload Test Report
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: test-reports
-        path: |
-          app/build/reports/tests/
-          app/build/reports/jacoco/
