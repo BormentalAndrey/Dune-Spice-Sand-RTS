@@ -13,10 +13,6 @@ import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 import javax.inject.Singleton
 
-/**
- * Реализация репозитория рецептов.
- * Отвечает за преобразование между сущностями БД и доменными моделями.
- */
 @Singleton
 class RecipeRepositoryImpl @Inject constructor(
     private val recipeDao: RecipeDao,
@@ -57,12 +53,15 @@ class RecipeRepositoryImpl @Inject constructor(
     
     override suspend fun saveRecipe(recipe: Recipe): Long {
         val entity = recipe.toEntity()
-        // Сохраняем ингредиенты для автодополнения
         recipe.ingredients.forEach { ingredient ->
-            ingredientDao.insertOrUpdateIngredient(
-                IngredientEntity(name = ingredient.name, category = ingredient.category)
-            )
-            ingredientDao.incrementUsageCount(ingredient.name)
+            try {
+                ingredientDao.insertOrUpdateIngredient(
+                    IngredientEntity(name = ingredient.name, category = ingredient.category)
+                )
+                ingredientDao.incrementUsageCount(ingredient.name)
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
         }
         return if (recipe.id == 0L) {
             recipeDao.insertRecipe(entity)
@@ -90,20 +89,47 @@ class RecipeRepositoryImpl @Inject constructor(
         return recipeDao.getRecipeCount()
     }
     
-    // Extension functions for mapping
     private fun RecipeEntity.toDomain(): Recipe {
-        val ingredientsType = object : TypeToken<List<Ingredient>>() {}.type
-        val stepsType = object : TypeToken<List<CookingStep>>() {}.type
+        val ingredients = try {
+            val listType = object : TypeToken<List<Map<String, Any>>>() {}.type
+            val rawList: List<Map<String, Any>> = gson.fromJson(ingredientsJson, listType) ?: emptyList()
+            rawList.map { map ->
+                Ingredient(
+                    id = (map["id"] as? String) ?: java.util.UUID.randomUUID().toString(),
+                    name = (map["name"] as? String) ?: "",
+                    quantity = ((map["quantity"] as? Number)?.toFloat()) ?: 0f,
+                    unit = (map["unit"] as? String) ?: "",
+                    category = (map["category"] as? String) ?: "other"
+                )
+            }
+        } catch (e: Exception) {
+            emptyList()
+        }
+        
+        val steps = try {
+            val listType = object : TypeToken<List<Map<String, Any>>>() {}.type
+            val rawList: List<Map<String, Any>> = gson.fromJson(stepsJson, listType) ?: emptyList()
+            rawList.map { map ->
+                CookingStep(
+                    stepNumber = ((map["stepNumber"] as? Number)?.toInt()) ?: 0,
+                    description = (map["description"] as? String) ?: "",
+                    durationMinutes = ((map["durationMinutes"] as? Number)?.toInt()) ?: 0,
+                    isCompleted = (map["isCompleted"] as? Boolean) ?: false
+                )
+            }
+        } catch (e: Exception) {
+            emptyList()
+        }
         
         return Recipe(
             id = id,
             title = title,
             description = description,
             cookingTimeMinutes = cookingTimeMinutes,
-            difficulty = Difficulty.valueOf(difficulty),
-            category = Category.valueOf(category),
-            ingredients = gson.fromJson(ingredientsJson, ingredientsType) ?: emptyList(),
-            steps = gson.fromJson(stepsJson, stepsType) ?: emptyList(),
+            difficulty = try { Difficulty.valueOf(difficulty) } catch (e: Exception) { Difficulty.EASY },
+            category = try { Category.valueOf(category) } catch (e: Exception) { Category.DINNER },
+            ingredients = ingredients,
+            steps = steps,
             nutritionInfo = NutritionInfo(calories, proteins, fats, carbohydrates),
             servings = servings,
             photoPath = photoPath,
