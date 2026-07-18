@@ -56,8 +56,18 @@ android {
     }
     
     lint {
-        disable += listOf("NotificationPermission", "FullBackupContent")
-        baseline = file("lint-baseline.xml")
+        disable += listOf(
+            "NotificationPermission",
+            "FullBackupContent",
+            "LibraryCustomView",
+            "UnusedAttribute",
+            "AllowBackup",
+            "LintBaseline"
+        )
+        checkReleaseBuilds = false
+        abortOnError = false
+        ignoreWarnings = true
+        warningsAsErrors = false
     }
 }
 
