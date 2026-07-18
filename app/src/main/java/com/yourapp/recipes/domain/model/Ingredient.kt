@@ -1,3 +1,7 @@
+package com.yourapp.recipes.domain.model
+
+import java.util.UUID
+
 data class Ingredient(
     val id: String = UUID.randomUUID().toString(),
     val name: String,
