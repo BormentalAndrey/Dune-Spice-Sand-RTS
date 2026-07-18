@@ -20,6 +20,20 @@ class RecipeRepositoryImpl @Inject constructor(
     private val gson: Gson
 ) : RecipeRepository {
     
+    // Классы для парсинга JSON из базы
+    data class JsonIngredient(
+        val name: String = "",
+        val quantity: Double = 0.0,
+        val unit: String = "",
+        val category: String = "other"
+    )
+    
+    data class JsonStep(
+        val stepNumber: Int = 0,
+        val description: String = "",
+        val durationMinutes: Int = 0
+    )
+    
     override fun getFilteredRecipes(filter: RecipeFilter): Flow<List<Recipe>> {
         return recipeDao.getFilteredRecipes(
             searchQuery = filter.searchQuery,
@@ -90,34 +104,35 @@ class RecipeRepositoryImpl @Inject constructor(
     }
     
     private fun RecipeEntity.toDomain(): Recipe {
-        val ingredients = try {
-            val listType = object : TypeToken<List<Map<String, Any>>>() {}.type
-            val rawList: List<Map<String, Any>> = gson.fromJson(ingredientsJson, listType) ?: emptyList()
-            rawList.map { map ->
+        val ingredientsType = object : TypeToken<List<JsonIngredient>>() {}.type
+        val stepsType = object : TypeToken<List<JsonStep>>() {}.type
+        
+        val parsedIngredients: List<Ingredient> = try {
+            val jsonIngredients: List<JsonIngredient> = gson.fromJson(ingredientsJson, ingredientsType) ?: emptyList()
+            jsonIngredients.map { json ->
                 Ingredient(
-                    id = (map["id"] as? String) ?: java.util.UUID.randomUUID().toString(),
-                    name = (map["name"] as? String) ?: "",
-                    quantity = ((map["quantity"] as? Number)?.toFloat()) ?: 0f,
-                    unit = (map["unit"] as? String) ?: "",
-                    category = (map["category"] as? String) ?: "other"
+                    name = json.name,
+                    quantity = json.quantity.toFloat(),
+                    unit = json.unit,
+                    category = json.category
                 )
             }
         } catch (e: Exception) {
+            e.printStackTrace()
             emptyList()
         }
         
-        val steps = try {
-            val listType = object : TypeToken<List<Map<String, Any>>>() {}.type
-            val rawList: List<Map<String, Any>> = gson.fromJson(stepsJson, listType) ?: emptyList()
-            rawList.map { map ->
+        val parsedSteps: List<CookingStep> = try {
+            val jsonSteps: List<JsonStep> = gson.fromJson(stepsJson, stepsType) ?: emptyList()
+            jsonSteps.map { json ->
                 CookingStep(
-                    stepNumber = ((map["stepNumber"] as? Number)?.toInt()) ?: 0,
-                    description = (map["description"] as? String) ?: "",
-                    durationMinutes = ((map["durationMinutes"] as? Number)?.toInt()) ?: 0,
-                    isCompleted = (map["isCompleted"] as? Boolean) ?: false
+                    stepNumber = json.stepNumber,
+                    description = json.description,
+                    durationMinutes = json.durationMinutes
                 )
             }
         } catch (e: Exception) {
+            e.printStackTrace()
             emptyList()
         }
         
@@ -128,8 +143,8 @@ class RecipeRepositoryImpl @Inject constructor(
             cookingTimeMinutes = cookingTimeMinutes,
             difficulty = try { Difficulty.valueOf(difficulty) } catch (e: Exception) { Difficulty.EASY },
             category = try { Category.valueOf(category) } catch (e: Exception) { Category.DINNER },
-            ingredients = ingredients,
-            steps = steps,
+            ingredients = parsedIngredients,
+            steps = parsedSteps,
             nutritionInfo = NutritionInfo(calories, proteins, fats, carbohydrates),
             servings = servings,
             photoPath = photoPath,
