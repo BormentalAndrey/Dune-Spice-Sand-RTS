@@ -56,7 +56,7 @@ android {
     }
     
     lint {
-        disable += "NotificationPermission"
+        disable += listOf("NotificationPermission", "FullBackupContent")
         baseline = file("lint-baseline.xml")
     }
 }
