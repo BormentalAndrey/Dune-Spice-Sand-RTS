@@ -15,7 +15,7 @@
         android:text="🍳 Рецепт дня"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:textColor="@color/widget_title_color" />
+        android:textColor="#E65100" />
     
     <TextView
         android:id="@+id/widget_recipe_title"
@@ -24,6 +24,6 @@
         android:layout_marginTop="8dp"
         android:text="Загрузка..."
         android:textSize="16sp"
-        android:textColor="@color/widget_text_color" />
+        android:textColor="#212121" />
     
 </LinearLayout>
