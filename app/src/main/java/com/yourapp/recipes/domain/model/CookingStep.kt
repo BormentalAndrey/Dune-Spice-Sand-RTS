@@ -1,3 +1,5 @@
+package com.yourapp.recipes.domain.model
+
 data class CookingStep(
     val stepNumber: Int,
     val description: String,
