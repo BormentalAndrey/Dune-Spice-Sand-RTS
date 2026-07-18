@@ -1,11 +1,5 @@
 package com.yourapp.recipes.domain.model
 
-import java.util.*
-
-/**
- * Доменная модель рецепта.
- * Представляет полную информацию о рецепте в бизнес-логике.
- */
 data class Recipe(
     val id: Long = 0,
     val title: String,
