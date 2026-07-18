@@ -1,24 +1,28 @@
+// app/src/main/java/com/yourapp/recipes/data/local/dao/MealPlanDao.kt
+
 package com.yourapp.recipes.data.local.dao
 
 import androidx.room.*
 import com.yourapp.recipes.data.local.database.entity.MealPlanEntity
+import com.yourapp.recipes.data.local.database.entity.RecipeEntity
 import kotlinx.coroutines.flow.Flow
+
+data class MealPlanWithRecipe(
+    @Embedded val mealPlan: MealPlanEntity,
+    @Relation(
+        parentColumn = "recipe_id",
+        entityColumn = "id"
+    )
+    val recipe: RecipeEntity
+)
 
 @Dao
 interface MealPlanDao {
     
     @Query("""
-        SELECT mp.*, r.* 
-        FROM meal_plans mp 
-        INNER JOIN recipes r ON mp.recipe_id = r.id 
-        WHERE mp.date >= :startDate AND mp.date < :endDate
-        ORDER BY mp.date ASC, 
-            CASE mp.meal_type 
-                WHEN 'breakfast' THEN 1 
-                WHEN 'lunch' THEN 2 
-                WHEN 'dinner' THEN 3 
-                ELSE 4 
-            END
+        SELECT * FROM meal_plans 
+        WHERE date >= :startDate AND date < :endDate
+        ORDER BY date ASC
     """)
     fun getMealPlansForPeriod(startDate: Long, endDate: Long): Flow<List<MealPlanWithRecipe>>
     
@@ -37,15 +41,10 @@ interface MealPlanDao {
     @Query("DELETE FROM meal_plans WHERE id = :mealPlanId")
     suspend fun deleteMealPlanById(mealPlanId: Long)
     
-    @Query("SELECT DISTINCT r.* FROM meal_plans mp INNER JOIN recipes r ON mp.recipe_id = r.id WHERE mp.date >= :startDate AND mp.date < :endDate")
+    @Query("""
+        SELECT DISTINCT r.* FROM meal_plans mp 
+        INNER JOIN recipes r ON mp.recipe_id = r.id 
+        WHERE mp.date >= :startDate AND mp.date < :endDate
+    """)
     suspend fun getRecipesForPeriod(startDate: Long, endDate: Long): List<RecipeEntity>
 }
-
-data class MealPlanWithRecipe(
-    @Embedded val mealPlan: MealPlanEntity,
-    @Relation(
-        parentColumn = "recipe_id",
-        entityColumn = "id"
-    )
-    val recipe: RecipeEntity
-)
