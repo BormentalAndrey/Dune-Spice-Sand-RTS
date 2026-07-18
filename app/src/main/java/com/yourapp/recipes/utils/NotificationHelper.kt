@@ -7,7 +7,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import com.yourapp.recipes.R
 import com.yourapp.recipes.presentation.ui.main.MainActivity
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -63,7 +62,7 @@ class NotificationHelper @Inject constructor(
         )
         
         val notification = NotificationCompat.Builder(context, CHANNEL_SHOPPING)
-            .setSmallIcon(R.drawable.ic_shopping_cart)
+            .setSmallIcon(android.R.drawable.ic_menu_edit)
             .setContentTitle("Пора в магазин!")
             .setContentText("У вас $unpurchasedCount некупленных продуктов")
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
@@ -88,7 +87,7 @@ class NotificationHelper @Inject constructor(
         )
         
         val notification = NotificationCompat.Builder(context, CHANNEL_RECIPE)
-            .setSmallIcon(R.drawable.ic_restaurant)
+            .setSmallIcon(android.R.drawable.ic_menu_edit)
             .setContentTitle("🍳 Рецепт дня")
             .setContentText(recipeTitle)
             .setPriority(NotificationCompat.PRIORITY_LOW)
