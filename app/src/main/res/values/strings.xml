@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Кулинарные рецепты</string>
+    <string name="app_name">Рецепты</string>
     <string name="settings">Настройки</string>
     <string name="favorites">Избранное</string>
     <string name="shopping_list">Список покупок</string>
