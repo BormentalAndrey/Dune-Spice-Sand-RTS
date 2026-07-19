@@ -29,20 +29,14 @@ fun ShoppingListScreen(
     viewModel: ShoppingListViewModel = hiltViewModel()
 ) {
     val itemsGrouped by viewModel.itemsGroupedByCategory.collectAsState()
+    val totalRemaining by viewModel.totalRemainingPrice.collectAsState()
+    val totalSpentThisWeek by viewModel.totalSpentThisWeek.collectAsState()
+    val spendingByCategory by viewModel.spendingByCategory.collectAsState()
+    
     var showAddDialog by remember { mutableStateOf(false) }
     var showClearDialog by remember { mutableStateOf(false) }
+    var showAnalytics by remember { mutableStateOf(false) }
     val context = LocalContext.current
-    
-    // Подсчет общей суммы
-    val totalItems = itemsGrouped.values.flatten().size
-    val purchasedItems = itemsGrouped.values.flatten().count { it.isPurchased }
-    val totalPrice = itemsGrouped.values.flatten()
-        .filter { !it.isPurchased }
-        .sumOf { (it.price * it.quantity).toDouble() }
-    val purchasedPrice = itemsGrouped.values.flatten()
-        .filter { it.isPurchased }
-        .sumOf { (it.price * it.quantity).toDouble() }
-    
     val numberFormat = remember { NumberFormat.getNumberInstance(Locale("ru")) }
     
     Scaffold(
@@ -55,6 +49,12 @@ fun ShoppingListScreen(
                     }
                 },
                 actions = {
+                    IconButton(onClick = { showAnalytics = !showAnalytics }) {
+                        Icon(
+                            if (showAnalytics) Icons.Default.PieChart else Icons.Default.PieChartOutline,
+                            "Аналитика"
+                        )
+                    }
                     IconButton(onClick = { showAddDialog = true }) {
                         Icon(Icons.Default.Add, "Добавить")
                     }
@@ -65,9 +65,7 @@ fun ShoppingListScreen(
                             putExtra(android.content.Intent.EXTRA_TEXT, text)
                             type = "text/plain"
                         }
-                        context.startActivity(
-                            android.content.Intent.createChooser(sendIntent, "Поделиться списком")
-                        )
+                        context.startActivity(android.content.Intent.createChooser(sendIntent, "Поделиться"))
                     }) {
                         Icon(Icons.Default.Share, "Поделиться")
                     }
@@ -80,94 +78,63 @@ fun ShoppingListScreen(
     ) { paddingValues ->
         if (itemsGrouped.isEmpty()) {
             Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(paddingValues),
+                modifier = Modifier.fillMaxSize().padding(paddingValues),
                 contentAlignment = Alignment.Center
             ) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Icon(
-                        Icons.Default.ShoppingCart,
-                        contentDescription = null,
-                        modifier = Modifier.size(64.dp),
-                        tint = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
-                    Spacer(modifier = Modifier.height(16.dp))
-                    Text(
-                        "Список покупок пуст",
-                        style = MaterialTheme.typography.titleMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
-                    Text(
-                        "Добавьте ингредиенты из рецептов",
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
+                    Icon(Icons.Default.ShoppingCart, null, Modifier.size(64.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Spacer(Modifier.height(16.dp))
+                    Text("Список покупок пуст", style = MaterialTheme.typography.titleMedium)
+                    Text("Добавьте ингредиенты из рецептов", style = MaterialTheme.typography.bodyMedium)
                 }
             }
         } else {
             LazyColumn(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(paddingValues),
+                modifier = Modifier.fillMaxSize().padding(paddingValues),
                 contentPadding = PaddingValues(16.dp)
             ) {
+                // Аналитика
+                if (showAnalytics) {
+                    item {
+                        SpendingAnalyticsCard(
+                            totalRemaining = totalRemaining,
+                            totalSpentThisWeek = totalSpentThisWeek,
+                            spendingByCategory = spendingByCategory,
+                            numberFormat = numberFormat
+                        )
+                        Spacer(Modifier.height(16.dp))
+                    }
+                }
+                
                 // Итого
                 item {
                     Card(
                         modifier = Modifier.fillMaxWidth(),
-                        colors = CardDefaults.cardColors(
-                            containerColor = MaterialTheme.colorScheme.primaryContainer
-                        )
+                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
                     ) {
-                        Column(
-                            modifier = Modifier.padding(16.dp)
-                        ) {
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween
-                            ) {
-                                Text("Всего продуктов:", fontWeight = FontWeight.Bold)
-                                Text("$totalItems шт.")
-                            }
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween
-                            ) {
-                                Text("Куплено:", fontWeight = FontWeight.Bold)
-                                Text("$purchasedItems шт.")
-                            }
-                            Divider(modifier = Modifier.padding(vertical = 4.dp))
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween
-                            ) {
+                        Column(modifier = Modifier.padding(16.dp)) {
+                            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
                                 Text("Осталось купить:", fontWeight = FontWeight.Bold)
                                 Text(
-                                    "${numberFormat.format(totalPrice)} ₽",
+                                    "${numberFormat.format(totalRemaining)} ₽",
                                     color = MaterialTheme.colorScheme.error,
                                     fontWeight = FontWeight.Bold
                                 )
                             }
-                            if (purchasedPrice > 0) {
-                                Row(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.SpaceBetween
-                                ) {
-                                    Text("Уже куплено на:", fontWeight = FontWeight.Bold)
-                                    Text("${numberFormat.format(purchasedPrice)} ₽")
+                            if (totalSpentThisWeek > 0) {
+                                Spacer(Modifier.height(4.dp))
+                                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+                                    Text("Потрачено за неделю:", fontWeight = FontWeight.Bold)
+                                    Text("${numberFormat.format(totalSpentThisWeek)} ₽")
                                 }
                             }
                         }
                     }
-                    Spacer(modifier = Modifier.height(16.dp))
+                    Spacer(Modifier.height(16.dp))
                 }
                 
                 itemsGrouped.forEach { (category, items) ->
-                    item {
-                        CategoryHeader(category = category, itemCount = items.size)
-                    }
-                    
+                    item { CategoryHeader(category = category, itemCount = items.size) }
                     items(items, key = { it.id }) { item ->
                         ShoppingListItem(
                             item = item,
@@ -180,10 +147,7 @@ fun ShoppingListScreen(
                             }
                         )
                     }
-                    
-                    item {
-                        Spacer(modifier = Modifier.height(8.dp))
-                    }
+                    item { Spacer(Modifier.height(8.dp)) }
                 }
             }
         }
@@ -195,17 +159,12 @@ fun ShoppingListScreen(
             title = { Text("Очистить список") },
             text = { Text("Удалить все купленные продукты?") },
             confirmButton = {
-                TextButton(onClick = {
-                    viewModel.clearPurchasedItems()
-                    showClearDialog = false
-                }) {
+                TextButton(onClick = { viewModel.clearPurchasedItems(); showClearDialog = false }) {
                     Text("Очистить")
                 }
             },
             dismissButton = {
-                TextButton(onClick = { showClearDialog = false }) {
-                    Text("Отмена")
-                }
+                TextButton(onClick = { showClearDialog = false }) { Text("Отмена") }
             }
         )
     }
@@ -213,28 +172,64 @@ fun ShoppingListScreen(
     if (showAddDialog) {
         AddShoppingItemDialog(
             onDismiss = { showAddDialog = false },
-            onAdd = { item ->
-                viewModel.addItem(item)
-                showAddDialog = false
-            }
+            onAdd = { viewModel.addItem(it); showAddDialog = false }
         )
     }
 }
 
 @Composable
-fun CategoryHeader(category: String, itemCount: Int) {
-    val categoryIcon = when (category) {
-        "vegetables" -> "🥬"
-        "meat" -> "🥩"
-        "fish" -> "🐟"
-        "dairy" -> "🥛"
-        "groceries" -> "🌾"
-        "spices" -> "🌶️"
-        "bakery" -> "🍞"
-        "frozen" -> "❄️"
-        "drinks" -> "🥤"
-        else -> "📦"
+fun SpendingAnalyticsCard(
+    totalRemaining: Float,
+    totalSpentThisWeek: Float,
+    spendingByCategory: List<com.yourapp.recipes.data.local.dao.CategorySpending>,
+    numberFormat: NumberFormat
+) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Text("📊 Аналитика расходов", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
+            Spacer(Modifier.height(12.dp))
+            
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text("${numberFormat.format(totalRemaining)} ₽", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.error)
+                    Text("Осталось", style = MaterialTheme.typography.bodySmall)
+                }
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text("${numberFormat.format(totalSpentThisWeek)} ₽", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary)
+                    Text("За неделю", style = MaterialTheme.typography.bodySmall)
+                }
+            }
+            
+            if (spendingByCategory.isNotEmpty()) {
+                Spacer(Modifier.height(12.dp))
+                Text("По категориям:", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleSmall)
+                spendingByCategory.forEach { cat ->
+                    Row(Modifier.fillMaxWidth().padding(vertical = 2.dp), horizontalArrangement = Arrangement.SpaceBetween) {
+                        Text("${getCategoryEmoji(cat.category)} ${cat.category}")
+                        Text("${numberFormat.format(cat.total)} ₽")
+                    }
+                }
+            }
+        }
     }
+}
+
+fun getCategoryEmoji(category: String): String = when (category) {
+    "vegetables" -> "🥬"
+    "meat" -> "🥩"
+    "fish" -> "🐟"
+    "dairy" -> "🥛"
+    "groceries" -> "🌾"
+    "spices" -> "🌶️"
+    "bakery" -> "🍞"
+    "frozen" -> "❄️"
+    "drinks" -> "🥤"
+    else -> "📦"
+}
+
+@Composable
+fun CategoryHeader(category: String, itemCount: Int) {
+    val categoryIcon = getCategoryEmoji(category)
     
     Row(
         modifier = Modifier
@@ -244,15 +239,8 @@ fun CategoryHeader(category: String, itemCount: Int) {
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(
-            text = "$categoryIcon $category",
-            style = MaterialTheme.typography.titleSmall
-        )
-        Text(
-            text = "$itemCount",
-            style = MaterialTheme.typography.labelMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
+        Text(text = "$categoryIcon $category", style = MaterialTheme.typography.titleSmall)
+        Text(text = "$itemCount", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
 
@@ -270,117 +258,56 @@ fun ShoppingListItem(
     var priceText by remember(item) { mutableStateOf(if (item.price > 0) item.price.toString() else "") }
     
     Card(
-        modifier = modifier
-            .fillMaxWidth()
-            .padding(vertical = 2.dp),
+        modifier = modifier.fillMaxWidth().padding(vertical = 2.dp),
         colors = CardDefaults.cardColors(
-            containerColor = if (item.isPurchased)
-                MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
-            else
-                MaterialTheme.colorScheme.surface
+            containerColor = if (item.isPurchased) MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+            else MaterialTheme.colorScheme.surface
         )
     ) {
         Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(12.dp),
+            modifier = Modifier.fillMaxWidth().padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Checkbox(
                 checked = item.isPurchased,
                 onCheckedChange = onTogglePurchased,
-                colors = CheckboxDefaults.colors(
-                    checkedColor = MaterialTheme.colorScheme.primary
-                )
+                colors = CheckboxDefaults.colors(checkedColor = MaterialTheme.colorScheme.primary)
             )
-            
-            Spacer(modifier = Modifier.width(12.dp))
-            
+            Spacer(Modifier.width(12.dp))
             Column(modifier = Modifier.weight(1f)) {
                 Text(
                     text = item.name,
                     style = MaterialTheme.typography.bodyLarge,
-                    textDecoration = if (item.isPurchased)
-                        TextDecoration.LineThrough
-                    else
-                        TextDecoration.None,
-                    color = if (item.isPurchased)
-                        MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f)
-                    else
-                        MaterialTheme.colorScheme.onSurface
+                    textDecoration = if (item.isPurchased) TextDecoration.LineThrough else TextDecoration.None,
+                    color = if (item.isPurchased) MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f) else MaterialTheme.colorScheme.onSurface
                 )
-                
-                Row(
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Text(
-                        text = "${item.displayQuantity} ${item.unit}",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
-                    
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text("${item.displayQuantity} ${item.unit}", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     if (item.price > 0) {
-                        Text(
-                            text = "× ${item.price} ₽",
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.primary
-                        )
-                        Text(
-                            text = "= ${(item.price * item.quantity).toInt()} ₽",
-                            style = MaterialTheme.typography.bodySmall,
-                            fontWeight = FontWeight.Bold,
-                            color = MaterialTheme.colorScheme.primary
-                        )
+                        Text("× ${item.price} ₽", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.primary)
+                        Text("= ${(item.price * item.quantity).toInt()} ₽", style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
                     }
                 }
             }
-            
-            // Кнопка цены
             IconButton(onClick = { showPriceDialog = true }) {
-                Icon(
-                    Icons.Default.AttachMoney,
-                    contentDescription = "Цена",
-                    tint = if (item.price > 0) 
-                        MaterialTheme.colorScheme.primary 
-                    else 
-                        MaterialTheme.colorScheme.onSurfaceVariant
-                )
+                Icon(Icons.Default.AttachMoney, "Цена", tint = if (item.price > 0) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant)
             }
-            
             IconButton(onClick = { showDeleteConfirm = true }) {
-                Icon(
-                    Icons.Default.Delete,
-                    contentDescription = "Удалить",
-                    tint = MaterialTheme.colorScheme.error
-                )
+                Icon(Icons.Default.Delete, "Удалить", tint = MaterialTheme.colorScheme.error)
             }
         }
     }
     
-    // Диалог удаления
     if (showDeleteConfirm) {
         AlertDialog(
             onDismissRequest = { showDeleteConfirm = false },
             title = { Text("Удалить продукт") },
             text = { Text("Удалить ${item.name} из списка?") },
-            confirmButton = {
-                TextButton(onClick = {
-                    onDelete()
-                    showDeleteConfirm = false
-                }) {
-                    Text("Удалить")
-                }
-            },
-            dismissButton = {
-                TextButton(onClick = { showDeleteConfirm = false }) {
-                    Text("Отмена")
-                }
-            }
+            confirmButton = { TextButton(onClick = { onDelete(); showDeleteConfirm = false }) { Text("Удалить") } },
+            dismissButton = { TextButton(onClick = { showDeleteConfirm = false }) { Text("Отмена") } }
         )
     }
     
-    // Диалог цены
     if (showPriceDialog) {
         AlertDialog(
             onDismissRequest = { showPriceDialog = false },
@@ -394,20 +321,8 @@ fun ShoppingListItem(
                     singleLine = true
                 )
             },
-            confirmButton = {
-                TextButton(onClick = {
-                    val price = priceText.toFloatOrNull() ?: 0f
-                    onPriceChange(price)
-                    showPriceDialog = false
-                }) {
-                    Text("Сохранить")
-                }
-            },
-            dismissButton = {
-                TextButton(onClick = { showPriceDialog = false }) {
-                    Text("Отмена")
-                }
-            }
+            confirmButton = { TextButton(onClick = { onPriceChange(priceText.toFloatOrNull() ?: 0f); showPriceDialog = false }) { Text("Сохранить") } },
+            dismissButton = { TextButton(onClick = { showPriceDialog = false }) { Text("Отмена") } }
         )
     }
 }
@@ -428,68 +343,22 @@ fun AddShoppingItemDialog(
         title = { Text("Добавить продукт") },
         text = {
             Column {
-                OutlinedTextField(
-                    value = name,
-                    onValueChange = { name = it },
-                    label = { Text("Название") },
-                    modifier = Modifier.fillMaxWidth()
-                )
-                
-                Spacer(modifier = Modifier.height(8.dp))
-                
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    OutlinedTextField(
-                        value = quantity,
-                        onValueChange = { quantity = it },
-                        label = { Text("Кол-во") },
-                        modifier = Modifier.weight(1f),
-                        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
-                    )
-                    
-                    OutlinedTextField(
-                        value = unit,
-                        onValueChange = { unit = it },
-                        label = { Text("Ед.") },
-                        modifier = Modifier.weight(1f)
-                    )
+                OutlinedTextField(value = name, onValueChange = { name = it }, label = { Text("Название") }, modifier = Modifier.fillMaxWidth())
+                Spacer(Modifier.height(8.dp))
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    OutlinedTextField(value = quantity, onValueChange = { quantity = it }, label = { Text("Кол-во") }, modifier = Modifier.weight(1f), keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number))
+                    OutlinedTextField(value = unit, onValueChange = { unit = it }, label = { Text("Ед.") }, modifier = Modifier.weight(1f))
                 }
-                
-                Spacer(modifier = Modifier.height(8.dp))
-                
-                OutlinedTextField(
-                    value = price,
-                    onValueChange = { price = it },
-                    label = { Text("Цена за ед. (₽)") },
-                    modifier = Modifier.fillMaxWidth(),
-                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
-                )
+                Spacer(Modifier.height(8.dp))
+                OutlinedTextField(value = price, onValueChange = { price = it }, label = { Text("Цена за ед. (₽)") }, modifier = Modifier.fillMaxWidth(), keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number))
             }
         },
         confirmButton = {
             TextButton(
-                onClick = {
-                    val qty = quantity.toFloatOrNull() ?: 1f
-                    val prc = price.toFloatOrNull() ?: 0f
-                    onAdd(ShoppingItem(
-                        name = name,
-                        quantity = qty,
-                        unit = unit,
-                        category = category,
-                        price = prc
-                    ))
-                },
+                onClick = { onAdd(ShoppingItem(name = name, quantity = quantity.toFloatOrNull() ?: 1f, unit = unit, category = category, price = price.toFloatOrNull() ?: 0f)) },
                 enabled = name.isNotBlank()
-            ) {
-                Text("Добавить")
-            }
+            ) { Text("Добавить") }
         },
-        dismissButton = {
-            TextButton(onClick = onDismiss) {
-                Text("Отмена")
-            }
-        }
+        dismissButton = { TextButton(onClick = onDismiss) { Text("Отмена") } }
     )
 }
