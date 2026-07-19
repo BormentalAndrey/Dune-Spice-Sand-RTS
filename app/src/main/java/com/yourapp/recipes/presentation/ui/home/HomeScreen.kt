@@ -1,9 +1,12 @@
 package com.yourapp.recipes.presentation.ui.home
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
@@ -32,6 +35,10 @@ fun HomeScreen(
 ) {
     val recipes by viewModel.recipes.collectAsState()
     val randomRecipe by viewModel.randomRecipe.collectAsState()
+    val filter by viewModel.filter.collectAsState()
+    
+    var searchQuery by remember { mutableStateOf("") }
+    var selectedCategory by remember { mutableStateOf<Category?>(null) }
     
     Scaffold(
         topBar = {
@@ -62,36 +69,174 @@ fun HomeScreen(
             }
         }
     ) { paddingValues ->
-        LazyColumn(
+        Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(paddingValues),
-            contentPadding = PaddingValues(16.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
+                .padding(paddingValues)
         ) {
-            // Random recipe card
-            randomRecipe?.let { recipe ->
+            // Поисковая строка
+            OutlinedTextField(
+                value = searchQuery,
+                onValueChange = { 
+                    searchQuery = it
+                    viewModel.updateSearchQuery(it)
+                },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 8.dp),
+                placeholder = { Text("🔍 Поиск по названию или ингредиентам") },
+                leadingIcon = { Icon(Icons.Default.Search, null) },
+                trailingIcon = {
+                    if (searchQuery.isNotEmpty()) {
+                        IconButton(onClick = { 
+                            searchQuery = ""
+                            viewModel.updateSearchQuery("")
+                        }) {
+                            Icon(Icons.Default.Clear, "Очистить")
+                        }
+                    }
+                },
+                singleLine = true,
+                shape = RoundedCornerShape(12.dp)
+            )
+            
+            // Категории (горизонтальный скролл)
+            LazyRow(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 8.dp),
+                contentPadding = PaddingValues(horizontal = 16.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
                 item {
-                    RecipeOfTheDayCard(
-                        recipe = recipe,
-                        onClick = { onRecipeClick(recipe.id) },
-                        onRefresh = { viewModel.loadRandomRecipe() }
+                    FilterChip(
+                        selected = selectedCategory == null,
+                        onClick = {
+                            selectedCategory = null
+                            viewModel.updateCategory(null)
+                        },
+                        label = { Text("Все") },
+                        leadingIcon = { Text("📋") }
+                    )
+                }
+                
+                items(Category.values()) { category ->
+                    FilterChip(
+                        selected = selectedCategory == category,
+                        onClick = {
+                            selectedCategory = if (selectedCategory == category) null else category
+                            viewModel.updateCategory(if (selectedCategory == category) null else category)
+                        },
+                        label = { Text(category.displayName) },
+                        leadingIcon = { Text(category.icon) }
                     )
                 }
             }
             
-            // Recipe list
-            items(
-                items = recipes,
-                key = { it.id }
-            ) { recipe ->
-                RecipeCard(
-                    recipe = recipe,
-                    onClick = { onRecipeClick(recipe.id) },
-                    onFavoriteClick = { 
-                        viewModel.toggleFavorite(recipe.id, !recipe.isFavorite)
+            // Фильтры (время, сложность)
+            LazyRow(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 4.dp),
+                contentPadding = PaddingValues(horizontal = 16.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                item {
+                    AssistChip(
+                        onClick = { viewModel.toggleFavorites() },
+                        label = { Text("⭐ Избранное") },
+                        leadingIcon = {
+                            Icon(
+                                if (filter.onlyFavorites) Icons.Default.Star else Icons.Default.StarBorder,
+                                null,
+                                Modifier.size(16.dp)
+                            )
+                        }
+                    )
+                }
+                
+                item {
+                    AssistChip(
+                        onClick = { 
+                            viewModel.updateMaxCookingTime(
+                                if (filter.maxCookingTime == 30) null else 30
+                            )
+                        },
+                        label = { Text("⏱ до 30 мин") }
+                    )
+                }
+                
+                item {
+                    AssistChip(
+                        onClick = { 
+                            viewModel.updateMaxCookingTime(
+                                if (filter.maxCookingTime == 60) null else 60
+                            )
+                        },
+                        label = { Text("⏱ до 60 мин") }
+                    )
+                }
+            }
+            
+            // Список рецептов
+            if (recipes.isEmpty() && !viewModel.isLoading.collectAsState().value) {
+                Box(
+                    modifier = Modifier.fillMaxSize(),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Icon(
+                            Icons.Default.MenuBook,
+                            contentDescription = null,
+                            modifier = Modifier.size(64.dp),
+                            tint = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                        Spacer(modifier = Modifier.height(16.dp))
+                        Text(
+                            "Рецепты не найдены",
+                            style = MaterialTheme.typography.titleMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                        Text(
+                            "Попробуйте изменить фильтры или поисковый запрос",
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
                     }
-                )
+                }
+            } else {
+                LazyColumn(
+                    modifier = Modifier.fillMaxSize(),
+                    contentPadding = PaddingValues(16.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    // Случайный рецепт дня (только если нет активных фильтров)
+                    if (selectedCategory == null && searchQuery.isEmpty() && !filter.onlyFavorites) {
+                        randomRecipe?.let { recipe ->
+                            item {
+                                RecipeOfTheDayCard(
+                                    recipe = recipe,
+                                    onClick = { onRecipeClick(recipe.id) },
+                                    onRefresh = { viewModel.loadRandomRecipe() }
+                                )
+                            }
+                        }
+                    }
+                    
+                    // Карточки рецептов
+                    items(
+                        items = recipes,
+                        key = { it.id }
+                    ) { recipe ->
+                        RecipeCard(
+                            recipe = recipe,
+                            onClick = { onRecipeClick(recipe.id) },
+                            onFavoriteClick = { 
+                                viewModel.toggleFavorite(recipe.id, !recipe.isFavorite)
+                            }
+                        )
+                    }
+                }
             }
         }
     }
@@ -140,16 +285,12 @@ fun RecipeCard(
                     AssistChip(
                         onClick = {},
                         label = { Text(recipe.category.displayName) },
-                        leadingIcon = {
-                            Text(recipe.category.icon)
-                        }
+                        leadingIcon = { Text(recipe.category.icon) }
                     )
                     
                     AssistChip(
                         onClick = {},
-                        label = { 
-                            Text("${recipe.cookingTimeMinutes} мин")
-                        }
+                        label = { Text("${recipe.cookingTimeMinutes} мин") }
                     )
                 }
                 
