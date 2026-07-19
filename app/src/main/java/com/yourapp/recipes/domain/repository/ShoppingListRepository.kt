@@ -14,6 +14,7 @@ interface ShoppingListRepository {
         recipeId: Long? = null
     )
     suspend fun updatePurchasedStatus(itemId: Long, isPurchased: Boolean)
+    suspend fun updateItemPrice(itemId: Long, price: Float)
     suspend fun deleteItem(itemId: Long)
     suspend fun clearPurchasedItems()
     suspend fun resetAllItems()
