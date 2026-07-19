@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
     id("com.google.devtools.ksp")
+    kotlin("kapt")
 }
 
 android {
@@ -22,13 +23,37 @@ android {
         }
     }
 
+    // ======================================================================
+    // КОНФИГУРАЦИЯ ПОДПИСИ ДЛЯ РЕЛИЗА
+    // ======================================================================
+    signingConfigs {
+        create("release") {
+            // Ключ лежит в папке app/
+            storeFile = file("my-release-key.jks")
+            
+            // Читаем пароли из переменных окружения (GitHub Secrets)
+            storePassword = System.getenv("RELEASE_STORE_PASSWORD") ?: ""
+            keyAlias = System.getenv("RELEASE_KEY_ALIAS") ?: ""
+            keyPassword = System.getenv("RELEASE_KEY_PASSWORD") ?: ""
+        }
+    }
+
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            // Подключаем подпись для релиза
+            signingConfig = signingConfigs.getByName("release")
+        }
+        debug {
+            isMinifyEnabled = false
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
+            isDebuggable = true
         }
     }
 
@@ -52,6 +77,12 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "/META-INF/DEPENDENCIES"
+            excludes += "/META-INF/INDEX.LIST"
+            pickFirsts += listOf(
+                "META-INF/kotlinx-serialization-json.kotlin_module",
+                "META-INF/kotlinx-coroutines-core.kotlin_module"
+            )
         }
     }
     
@@ -119,4 +150,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+}
+
+kapt {
+    correctErrorTypes = true
 }
