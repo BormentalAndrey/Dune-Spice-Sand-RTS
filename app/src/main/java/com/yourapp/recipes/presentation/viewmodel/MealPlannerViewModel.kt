@@ -4,6 +4,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.yourapp.recipes.domain.model.MealPlan
 import com.yourapp.recipes.domain.model.MealType
+import com.yourapp.recipes.domain.model.Recipe
+import com.yourapp.recipes.domain.model.RecipeFilter
 import com.yourapp.recipes.domain.repository.MealPlanRepository
 import com.yourapp.recipes.domain.repository.RecipeRepository
 import com.yourapp.recipes.domain.usecase.shopping.GenerateShoppingListUseCase
@@ -33,6 +35,9 @@ class MealPlannerViewModel @Inject constructor(
     val dayMealPlans = _selectedDate.flatMapLatest { date ->
         mealPlanRepository.getMealPlansForDate(date)
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
+    
+    val allRecipes: StateFlow<List<Recipe>> = recipeRepository.getFilteredRecipes(RecipeFilter())
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
     
     fun selectDate(date: Long) {
         _selectedDate.value = date
