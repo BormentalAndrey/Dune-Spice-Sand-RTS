@@ -12134,6 +12134,1405 @@
       "fats": 14,
       "carbohydrates": 8,
       "servings": 5
+    },
+    {
+      "title": "Сом жареный с помидорами",
+      "description": "Жареное филе сома с обжаренными половинками помидоров. Простое и эффектное рыбное блюдо.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Сом", "quantity": 1500, "unit": "г", "category": "fish"},
+        {"name": "Помидоры", "quantity": 700, "unit": "г", "category": "vegetables"},
+        {"name": "Растительное или топленое масло", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Мука", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Жареный картофель для гарнира", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Зелень петрушки или укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Зеленый салат", "quantity": 0.5, "unit": "пучка", "category": "vegetables"},
+        {"name": "Редис", "quantity": 0.5, "unit": "пучка", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очистить рыбу от кожи, удалить хрящи и внутренности. Промыть, нарезать, посыпать солью и молотым черным перцем, запанировать в муке и обжарить на разогретом масле", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Вымытые помидоры разрезать пополам, очистить от семян, посолить, обсыпать мукой со стороны разреза и обжарить на разогретом масле", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Обжаренную рыбу выложить на блюдо и украсить зеленью петрушки или укропа, редисом, зеленым салатом и обжаренными красными помидорами. Подавать с жареным картофелем", "durationMinutes": 10}
+      ],
+      "calories": 420,
+      "proteins": 30,
+      "fats": 28,
+      "carbohydrates": 14,
+      "servings": 7
+    },
+    {
+      "title": "Судак в яблочном соусе",
+      "description": "Нежное филе судака, тушенное с яблоками и луком в сметанном соусе. Изысканное рыбное блюдо.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Судак", "quantity": 800, "unit": "г", "category": "fish"},
+        {"name": "Яблоки", "quantity": 200, "unit": "г", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Лимон", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очищенную и нарезанную на куски рыбу сбрызнуть лимонным соком, оставить на несколько минут", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Мелко нашинкованный лук поджарить на масле, прибавить нарезанные кусочками яблоки, тушить 10 минут", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Рыбу посолить, поместить в кастрюлю вперемешку с яблоками и луком. Тушить на слабом огне", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Затем прибавить сметану, прикрыть крышкой и тушить до готовности", "durationMinutes": 25}
+      ],
+      "calories": 240,
+      "proteins": 24,
+      "fats": 10,
+      "carbohydrates": 14,
+      "servings": 7
+    },
+    {
+      "title": "Соус белый",
+      "description": "Базовый белый соус на рыбном бульоне. Основа для многих рыбных блюд.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Рыбный бульон", "quantity": 1000, "unit": "мл", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В хорошо разогретом масле поджарить муку, помешивая деревянной ложкой, пока мука не приобретет золотистый оттенок", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Влить 2 стакана процеженного рыбного бульона и тщательно размешать. Прибавить остальной бульон", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Соус посолить, хорошо размешать и варить на медленном огне 30 минут, все время снимая образующуюся пену. Готовый соус процедить", "durationMinutes": 30}
+      ],
+      "calories": 30,
+      "proteins": 1,
+      "fats": 2,
+      "carbohydrates": 3,
+      "servings": 6
+    },
+    {
+      "title": "Стерлядь «По-русски» с огурцами",
+      "description": "Деликатесная стерлядь, тушенная с солеными огурцами, корнишонами и грибами. Парадное блюдо русской кухни.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "HARD",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Стерлядь", "quantity": 1, "unit": "шт", "category": "fish"},
+        {"name": "Маленькие луковицы", "quantity": 10, "unit": "шт", "category": "vegetables"},
+        {"name": "Соленые огурцы", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Грибы", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Корнишоны", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Корень сельдерея", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Хрен", "quantity": 50, "unit": "г", "category": "spices"},
+        {"name": "Лавровый лист", "quantity": 3, "unit": "шт", "category": "spices"},
+        {"name": "Перец горошком", "quantity": 8, "unit": "шт", "category": "spices"},
+        {"name": "Гвоздика", "quantity": 3, "unit": "бутона", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очистить, вымыть и выпотрошить стерлядь, уложить в рыбный котел, влить стакан рыбного бульона", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Положить очищенные и нарезанные соленые огурцы, корнишоны, обваренный кипятком и очищенный лук, грибы, сельдерей, лавровый лист, перец, цельную луковицу и гвоздику", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Посолить, накрыть крышкой, довести до кипения и варить на маленьком огне, пока рыба и коренья не станут мягкими, а бульон не выкипит до густоты", "durationMinutes": 45},
+        {"stepNumber": 4, "description": "Выложить стерлядь на блюдо, обложить гарниром и залить соком, в котором она варилась. Тертый хрен подать в соуснике", "durationMinutes": 5}
+      ],
+      "calories": 250,
+      "proteins": 24,
+      "fats": 12,
+      "carbohydrates": 10,
+      "servings": 5
+    },
+    {
+      "title": "Судак отварной «По-русски»",
+      "description": "Отварной судак с грибами и овощами в томатно-сметанном соусе. Классическое русское блюдо.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Судак", "quantity": 600, "unit": "г", "category": "fish"},
+        {"name": "Свежие грибы", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Лавровый лист", "quantity": 1, "unit": "шт", "category": "spices"},
+        {"name": "Лимон", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Морковь", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Корень петрушки", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Соленые огурцы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Томатный соус", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сметана", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Бульон", "quantity": 2, "unit": "стакан", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Подготовленные порционные куски рыбы посолить, залить горячей водой, добавить грибы, лавровый лист, соль и варить до готовности", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Отдельно сварить морковь, корень петрушки и ломтики соленых огурцов без семян и кожицы", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Грибы вынуть из бульона, нарезать ломтиками, смешать с нарезанными овощами. Добавить томатный соус, слегка развести бульоном, заправить солью и сметаной и прогреть", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Подавая, полить рыбу соусом, украсить ломтиками лимона, зеленью", "durationMinutes": 5}
+      ],
+      "calories": 200,
+      "proteins": 22,
+      "fats": 6,
+      "carbohydrates": 14,
+      "servings": 5
+    },
+    {
+      "title": "Щука «По-русски»",
+      "description": "Припущенная щука под сложным «русским» соусом с грибами, маслинами и каперсами.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Щука", "quantity": 400, "unit": "г", "category": "fish"},
+        {"name": "Лимон", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Специи", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Белые грибы", "quantity": 30, "unit": "г", "category": "vegetables"},
+        {"name": "Маслины", "quantity": 24, "unit": "шт", "category": "vegetables"},
+        {"name": "Каперсы", "quantity": 12, "unit": "шт", "category": "groceries"},
+        {"name": "Морковь", "quantity": 0.25, "unit": "шт", "category": "vegetables"},
+        {"name": "Корень петрушки", "quantity": 0.5, "unit": "шт", "category": "vegetables"},
+        {"name": "Соленый огурец", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Томатный соус", "quantity": 1, "unit": "стакан", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Рыбу разделать на филе с кожей, нарезать кусками и припустить", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Морковь, корень петрушки очистить, нарезать мелкими брусочками и припустить отдельно. Соленый огурец очистить и нарезать ломтиками, отварить", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Грибы очистить, промыть, отварить и нарезать ломтиками. Лук нарезать полукольцами, ошпарить. Каперсы и маслины отделить от рассола", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Подготовленные продукты смешать, прогреть в горячем подсоленном бульоне и добавить горячий томатный соус", "durationMinutes": 5},
+        {"stepNumber": 5, "description": "Припущенные порционные куски рыбы полить приготовленным соусом, сверху положить кусочек очищенного лимона, посыпать зеленью", "durationMinutes": 5}
+      ],
+      "calories": 180,
+      "proteins": 18,
+      "fats": 6,
+      "carbohydrates": 14,
+      "servings": 3
+    },
+    {
+      "title": "Щука фаршированная",
+      "description": "Классическая фаршированная щука, сваренная в марле. Подается с томатным или сметанным соусом.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "HARD",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Щука", "quantity": 800, "unit": "г", "category": "fish"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Корень сельдерея", "quantity": 0.5, "unit": "шт", "category": "vegetables"},
+        {"name": "Сметанный или томатный соус", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Картофель и овощи для гарнира", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 1.5, "unit": "стакан", "category": "drinks"},
+        {"name": "Сырая рыба (для начинки)", "quantity": 200, "unit": "г", "category": "fish"},
+        {"name": "Белый хлеб", "quantity": 1, "unit": "ломтик", "category": "bakery"},
+        {"name": "Молоко или вода", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "ч.л.", "category": "dairy"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Чеснок", "quantity": 2, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Щуку промыть, очистить от чешуи, выпотрошить, отделить голову. Изнутри тушки надрезать реберные кости и отделить их вместе с хребтовой костью, не прорезая кожи", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "С полученного пласта рыбы, положив его кожей вниз, срезать мякоть, оставляя ее на коже слоем 1 см. Срезанную мякоть использовать для начинки", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Мякоть рыбы, обжаренный лук, чеснок, замоченный в молоке хлеб пропустить через мясорубку два раза. Добавить масло, яйцо, перец, перемешать", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Приготовленную для фарширования рыбу наполнить начинкой равномерно по всей длине, придать форму целой рыбы", "durationMinutes": 5},
+        {"stepNumber": 5, "description": "Фаршированную рыбу завернуть в марлю, положить в посуду, залить холодной водой на треть, добавить нарезанный лук и корень сельдерея, соль, закрыть крышкой и варить при слабом кипении 30-40 минут", "durationMinutes": 35},
+        {"stepNumber": 6, "description": "Готовую рыбу подать целиком или нарезать на порции, полить соусом. На гарнир подать отварной картофель или пюре, отварные овощи", "durationMinutes": 5}
+      ],
+      "calories": 220,
+      "proteins": 24,
+      "fats": 8,
+      "carbohydrates": 10,
+      "servings": 6
+    },
+    {
+      "title": "Рыба, фаршированная грибами",
+      "description": "Целая рыба, фаршированная лисичками и запеченная в духовке. Простое и ароматное блюдо.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Тушка рыбы", "quantity": 1, "unit": "шт", "category": "fish"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Грибы (лисички)", "quantity": 200, "unit": "г", "category": "vegetables"},
+        {"name": "Зелень укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Грибы отварить, крупные разрезать. Смешать с мелко нарубленной зеленью укропа", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Подготовленную тушку поперчить, посолить", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Нафаршировать приготовленной начинкой", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Зашить разрез нитками и запекать в духовке, периодически поливая образующимся при запекании соком", "durationMinutes": 40}
+      ],
+      "calories": 180,
+      "proteins": 22,
+      "fats": 6,
+      "carbohydrates": 8,
+      "servings": 4
+    },
+    {
+      "title": "Рыба, обжаренная в яйце",
+      "description": "Нежное рыбное филе в яичной панировке с лимонным соком. Подается с рисом или картофелем.",
+      "cookingTimeMinutes": 100,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Филе рыбы", "quantity": 500, "unit": "г", "category": "fish"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Топленое сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сок лимона", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Лимон", "quantity": 1, "unit": "ломтик", "category": "vegetables"},
+        {"name": "Рис или картофель для гарнира", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Зеленый салат", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Подготовленные куски рыбы посолить, сбрызнуть соком лимона, выдержать в холодильнике 1 час", "durationMinutes": 60},
+        {"stepNumber": 2, "description": "Обвалять в муке, обмакнуть в яйцо и жарить, поворачивая, на масле до образования румяной корочки. Уменьшив огонь, довести рыбу до готовности", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Украсить листиками зеленого салата и ломтиками лимона. Подавать с рисом или картофелем", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 26,
+      "fats": 16,
+      "carbohydrates": 8,
+      "servings": 4
+    },
+    {
+      "title": "Ставрида жареная с баклажанами",
+      "description": "Жареная ставрида с обжаренными баклажанами и чесночным томатным соусом. Средиземноморский акцент.",
+      "cookingTimeMinutes": 100,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Ставрида", "quantity": 800, "unit": "г", "category": "fish"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Баклажаны", "quantity": 1500, "unit": "г", "category": "vegetables"},
+        {"name": "Мука", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Томатный соус", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Чеснок", "quantity": 3, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Петрушка или укроп", "quantity": 0.33, "unit": "пучка", "category": "vegetables"},
+        {"name": "Столовый уксус", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Лавровый лист", "quantity": 2, "unit": "шт", "category": "spices"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 3, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "У рыбы удалить внутренности и подержать ее 40 минут в слабом маринаде (вода, уксус, луковица, листики петрушки, соль)", "durationMinutes": 40},
+        {"stepNumber": 2, "description": "Рыбу вынуть, промыть, посыпать перцем и солью, запанировать в муке и обжарить на сильно разогретом масле", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Томатный соус заправить толченым чесноком и мелко нарезанной петрушкой и размешать", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Баклажаны нарезать тонкими кружками, посолить и оставить на 15-20 минут, чтобы стек горький сок, затем обвалять в муке и обжарить", "durationMinutes": 25},
+        {"stepNumber": 5, "description": "Жареную рыбу выложить на блюдо вместе с баклажанами, посыпанными перцем и зеленью. Томатный соус подать отдельно", "durationMinutes": 5}
+      ],
+      "calories": 380,
+      "proteins": 24,
+      "fats": 26,
+      "carbohydrates": 16,
+      "servings": 4
+    },
+    {
+      "title": "Линь жареный",
+      "description": "Нежное мясо линя в хрустящей сухарной панировке. Подается с лимоном и салатом.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Линь", "quantity": 500, "unit": "г", "category": "fish"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Молотые сухари", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Топленое сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сок лимона", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Лимон", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Зеленый салат", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Подготовленные куски рыбы посолить, сбрызнуть соком лимона, выдержать в холодильнике 1 час", "durationMinutes": 60},
+        {"stepNumber": 2, "description": "Обвалять в муке, обмакнуть в яйцо, панировать в сухарях и жарить, поворачивая, на масле до образования румяной корочки", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Уменьшив огонь, довести рыбу до готовности", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Украсить листиками зеленого салата и ломтиками лимона", "durationMinutes": 5}
+      ],
+      "calories": 300,
+      "proteins": 22,
+      "fats": 18,
+      "carbohydrates": 12,
+      "servings": 4
+    },
+    {
+      "title": "Пескари жареные",
+      "description": "Хрустящие жареные пескари. Простая и вкусная рыбная закуска.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Пескари", "quantity": 500, "unit": "г", "category": "fish"},
+        {"name": "Мука", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Подготовленных пескарей (крупных можно выпотрошить) для удаления горечи отварить в кипятке 5 минут", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Обсушить салфеткой, обвалять в муке с солью и жарить на масле 5-7 минут", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Подавая, посыпать и украсить зеленью петрушки", "durationMinutes": 3}
+      ],
+      "calories": 280,
+      "proteins": 20,
+      "fats": 18,
+      "carbohydrates": 10,
+      "servings": 4
+    },
+    {
+      "title": "Скумбрия жареная с грибами",
+      "description": "Жареная скумбрия на подушке из обжаренных грибов с луком. Ароматное и сытное блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Скумбрия", "quantity": 700, "unit": "г", "category": "fish"},
+        {"name": "Растительное или топленое масло", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Луковицы", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Свежие грибы", "quantity": 150, "unit": "г", "category": "vegetables"},
+        {"name": "Мука", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Зелень петрушки или укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Специальная приправа к рыбе", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "У рыбы удалить голову, внутренности и плавники. Нарезать на порции, посыпать солью, перцем и поставить на холод на 30 минут", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Лук мелко нашинковать и обжарить на растительном масле. Затем добавить нарезанные грибы и жарить до мягкости. Посыпать специями, солью и зеленью", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Порционные куски рыбы запанировать в муке и обжарить в хорошо разогретом масле", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Обжаренный лук с грибами выложить на блюдо, сверху положить обжаренную рыбу, полить растопленным сливочным маслом и посыпать зеленью", "durationMinutes": 5}
+      ],
+      "calories": 420,
+      "proteins": 26,
+      "fats": 34,
+      "carbohydrates": 8,
+      "servings": 4
+    },
+    {
+      "title": "Осетрина «По-русски»",
+      "description": "Осетрина, тушенная в белом вине с грибами и солеными огурцами. Подается как закуска или второе блюдо.",
+      "cookingTimeMinutes": 100,
+      "difficulty": "HARD",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Осетрина", "quantity": 1000, "unit": "г", "category": "fish"},
+        {"name": "Белое сухое вино", "quantity": 1, "unit": "стакан", "category": "drinks"},
+        {"name": "Белые грибы", "quantity": 1, "unit": "стакан", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Корень петрушки", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Лук-порей", "quantity": 4, "unit": "листа", "category": "vegetables"},
+        {"name": "Соленые огурцы", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Огуречный рассол", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Томатная паста", "quantity": 1, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Осетрину положить в крутой кипяток, дать один раз вскипеть, вынуть и положить на 2-3 минуты в холодную воду. Очистить от чешуи, шипов и хрящей", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "В рыбном бульоне сварить мелко нарезанные морковь, корень петрушки и лук", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Бульон процедить, добавить нарезанные огурцы, томатную пасту, нарезанные соломкой грибы, вино, огуречный рассол и вскипятить", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Осетрину залить бульоном и довести до готовности", "durationMinutes": 25},
+        {"stepNumber": 5, "description": "Рыбу остудить, нарезать наискось широкими ломтями и залить соусом", "durationMinutes": 10}
+      ],
+      "calories": 260,
+      "proteins": 24,
+      "fats": 12,
+      "carbohydrates": 8,
+      "servings": 9
+    },
+    {
+      "title": "Рыба в фольге",
+      "description": "Быстрое и сочное рыбное филе, запеченное в фольге с картофелем и сыром. Современный рецепт.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Филе рыбы (любой)", "quantity": 700, "unit": "г", "category": "fish"},
+        {"name": "Картофель, сваренный в мундире", "quantity": 400, "unit": "г", "category": "vegetables"},
+        {"name": "Сыр", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Майонез", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Лимонный сок", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Специи", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Смазать фольгу растительным маслом, на нее положить кусочки рыбы, посыпать их специями, солью, сбрызнуть лимонным соком", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Спассеровать лук, картофель потереть на терке или нарезать кружками", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Разложить все порционно на фольге, посыпать тертым сыром и полить майонезом", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Фольгу защипать по краям, оставляя небольшое отверстие. Запекать в духовке 20 минут", "durationMinutes": 20}
+      ],
+      "calories": 380,
+      "proteins": 28,
+      "fats": 24,
+      "carbohydrates": 14,
+      "servings": 5
+    },
+    {
+      "title": "Рыба, тушенная в сметане",
+      "description": "Нежное рыбное филе, тушенное в сметанном соусе с луком. Простое и быстрое блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Филе рыбы", "quantity": 1000, "unit": "г", "category": "fish"},
+        {"name": "Сметана", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 4, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Зелень петрушки", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Филе нарезать на порции, посолить, выложить в посуду, смазанную маслом, влить воду, покрыв половину уложенной рыбы. Накрыть крышкой и тушить 10-15 минут", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Добавить мелко нарезанный спассерованный с мукой лук", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Влить сметану и тушить до готовности", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Посыпать мелко нарезанной зеленью петрушки", "durationMinutes": 3}
+      ],
+      "calories": 320,
+      "proteins": 28,
+      "fats": 22,
+      "carbohydrates": 6,
+      "servings": 7
+    },
+    {
+      "title": "Рыба жареная",
+      "description": "Классическая жареная рыба в муке. Простой и надежный рецепт на каждый день.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Рыба или готовое филе", "quantity": 750, "unit": "г", "category": "fish"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Мука", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зелень петрушки или укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Черный молотый перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Подготовленную рыбу промыть, посолить, поперчить, обвалять в муке", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Обжарить в растительном масле", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Подавать жареную рыбу, посыпав мелко нарезанной зеленью петрушки или укропа", "durationMinutes": 3}
+      ],
+      "calories": 280,
+      "proteins": 24,
+      "fats": 18,
+      "carbohydrates": 6,
+      "servings": 7
+    },
+    {
+      "title": "Рыба под майонезом",
+      "description": "Рыба, запеченная под майонезом до румяной корочки. Простое и вкусное блюдо.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Рыба", "quantity": 500, "unit": "г", "category": "fish"},
+        {"name": "Майонез или майонез со сметаной", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Помидоры", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зелень петрушки", "quantity": 4, "unit": "веточки", "category": "vegetables"},
+        {"name": "Молотый черный перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Рыбу, разделанную на тушки без головы, нарезать кусками, посыпать солью, перцем, уложить в сковороду с маслом", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Сверху каждый кусок равномерно смазать майонезом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Запекать в духовке 20-30 минут до образования румяной корочки", "durationMinutes": 25},
+        {"stepNumber": 4, "description": "На блюдо выложить кусочки охлажденной рыбы в виде тушки и украсить их ломтиками помидор и веточками зелени", "durationMinutes": 5}
+      ],
+      "calories": 320,
+      "proteins": 22,
+      "fats": 24,
+      "carbohydrates": 4,
+      "servings": 4
+    },
+    {
+      "title": "Рыба, запеченная с помидорами",
+      "description": "Жареная рыба, запеченная с обжаренными помидорами и луком под сыром. Праздничное блюдо.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Рыба", "quantity": 1000, "unit": "г", "category": "fish"},
+        {"name": "Помидоры", "quantity": 8, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Мука", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сметанный соус", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Тертый сыр", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Специи", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Рыбу разделать на филе с кожей, нарезать кусками, посыпать солью, перцем, запанировать в муке и обжарить в масле", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Помидоры обдать кипятком, снять кожицу, разрезать пополам, удалить семена, посыпать солью и обжарить на масле. Лук нарезать соломкой и также обжарить", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "На сковороду налить немного соуса, положить куски рыбы, на них лук, помидоры, все залить оставшимся соусом", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Посыпать тертым сыром, полить растопленным сливочным маслом и запечь в духовке", "durationMinutes": 20}
+      ],
+      "calories": 350,
+      "proteins": 28,
+      "fats": 20,
+      "carbohydrates": 14,
+      "servings": 7
+    },
+    {
+      "title": "Осетрина, запеченная под сыром",
+      "description": "Нежная осетрина, запеченная под сметанно-сырной корочкой. Деликатесное горячее блюдо.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Осетрина", "quantity": 500, "unit": "г", "category": "fish"},
+        {"name": "Сметана", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Сухари", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Тертый сыр", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Помидоры", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Желтки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Топленое сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сок лимона", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Порционные ломтики осетрины посолить, выдержать в холодильнике 30 минут и уложить в смазанный маслом сотейник", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Вареные желтки растереть со сметаной, маслом, полить этой смесью рыбу", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Посыпать сухарями, сыром, полить маслом, соком лимона и запекать в духовке 20-30 минут", "durationMinutes": 25},
+        {"stepNumber": 4, "description": "Подавая рыбу, гарнировать поджаренными на масле половинками помидор, украсить веточками петрушки", "durationMinutes": 5}
+      ],
+      "calories": 380,
+      "proteins": 26,
+      "fats": 26,
+      "carbohydrates": 10,
+      "servings": 3
+    },
+    {
+      "title": "Рыба, запеченная с картофелем",
+      "description": "Простое и сытное блюдо из рыбы, запеченной с картофелем и луком. Домашняя кухня.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Судак или треска", "quantity": 450, "unit": "г", "category": "fish"},
+        {"name": "Картофель", "quantity": 400, "unit": "г", "category": "vegetables"},
+        {"name": "Зеленый лук", "quantity": 10, "unit": "г", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Топленое масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Укроп", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очищенную целую или нарезанную кусками рыбу, нарезанный кольцами лук положить на смазанную маслом сковороду", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Рыбу обложить тонкими ломтиками сырого картофеля, посолить, посыпать перцем, подлить немного воды, сбрызнуть маслом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Запекать в духовке до готовности рыбы", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "При подаче на стол посыпать зеленью", "durationMinutes": 3}
+      ],
+      "calories": 240,
+      "proteins": 22,
+      "fats": 8,
+      "carbohydrates": 18,
+      "servings": 5
+    },
+    {
+      "title": "Рыба в томатном соусе с грибами и чесноком",
+      "description": "Рыба, припущенная с грибами и залитая томатным соусом с чесноком. Ароматное и полезное блюдо.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Рыба (ставрида, сардинелла, минтай, путассу)", "quantity": 1000, "unit": "г", "category": "fish"},
+        {"name": "Шампиньоны", "quantity": 6, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Картофель для гарнира", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Корень петрушки", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Соус", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Чеснок", "quantity": 2, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Специи", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Рыбу разделать на тушки без головы, нарезать кусочками и припустить с добавлением лука, корня петрушки, грибов, соли и специй", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "На полученном отваре приготовить томатный соус с грибами и чесноком", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Залить им кусочки рыбы, довести до кипения", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Подавать вместе с соусом и гарниром — отварным картофелем или картофельным пюре", "durationMinutes": 5}
+      ],
+      "calories": 260,
+      "proteins": 28,
+      "fats": 8,
+      "carbohydrates": 18,
+      "servings": 7
+    },
+    {
+      "title": "Соус белый с грибами",
+      "description": "Белый винный соус с шампиньонами. Изысканное дополнение к рыбным блюдам.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Белый соус", "quantity": 900, "unit": "г", "category": "groceries"},
+        {"name": "Белое вино", "quantity": 0.5, "unit": "стакан", "category": "drinks"},
+        {"name": "Свежие грибы", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Грибы очистить, вымыть и мелко нарезать, обжарить на растительном масле, пока они не станут мягкими", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Посолить, поперчить, залить готовым белым соусом и белым вином и варить 15-20 минут на небольшом огне", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "В готовый соус добавить сливочное масло маленькими кусочками и взбить", "durationMinutes": 5}
+      ],
+      "calories": 80,
+      "proteins": 2,
+      "fats": 6,
+      "carbohydrates": 4,
+      "servings": 8
+    },
+    {
+      "title": "Голубцы",
+      "description": "Классические голубцы из капустных листьев с мясной начинкой, запеченные в томатно-сметанном соусе.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Капуста", "quantity": 1, "unit": "кочан", "category": "vegetables"},
+        {"name": "Мясной фарш", "quantity": 500, "unit": "г", "category": "meat"},
+        {"name": "Яичный желток", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Мука", "quantity": 2, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Сметана", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Жир", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Тмин", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Сливки", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Вода", "quantity": 100, "unit": "мл", "category": "drinks"},
+        {"name": "Томатный сок", "quantity": 1, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из кочана вырезать кочерыжку, капусту отварить в подсоленной воде до полумягкости. Листья отделить, толстые стебли отрезать или отбить до толщины листа", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Фарш смешать с яичным желтком, сливками и рубленым луком, взбить", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Разложить на 8-10 листьев капусты, листья свернуть", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Обжарить голубцы на сковороде в жире, затем переложить их в огнеупорную форму", "durationMinutes": 10},
+        {"stepNumber": 5, "description": "Смешать томатный сок с мукой, тмином и сметаной, посолить, поперчить и залить им голубцы", "durationMinutes": 5},
+        {"stepNumber": 6, "description": "Запекать в духовке до готовности", "durationMinutes": 45}
+      ],
+      "calories": 320,
+      "proteins": 22,
+      "fats": 20,
+      "carbohydrates": 14,
+      "servings": 10
+    },
+    {
+      "title": "Голубцы «Ленивые»",
+      "description": "Быстрые «ленивые» голубцы из рубленой капусты и мяса в томатном соусе. Упрощенный вариант классики.",
+      "cookingTimeMinutes": 55,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Свежая капуста", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Мясо", "quantity": 300, "unit": "г", "category": "meat"},
+        {"name": "Репчатый лук", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Томатный соус", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Масло", "quantity": 20, "unit": "г", "category": "dairy"},
+        {"name": "Специи", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Нашинковать свежую капусту. Мясо пропустить через мясорубку", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Спассеровать нарезанный лук, добавить соль, специи, все перемешать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Сформовать голубцы овальной формы, обжарить, уложить в кастрюлю", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Залить томатным соусом и тушить до готовности", "durationMinutes": 20}
+      ],
+      "calories": 250,
+      "proteins": 18,
+      "fats": 16,
+      "carbohydrates": 10,
+      "servings": 7
+    },
+    {
+      "title": "Голубцы овощные",
+      "description": "Постные голубцы с начинкой из риса, грибов и овощей. Запекаются в сметанно-томатном соусе.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Белокочанная капуста", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Сметанно-томатный соус", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Свежие грибы", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Вареный рис", "quantity": 300, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Зелень петрушки и укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Кочан капусты опустить в крутой подсоленный кипяток и варить 20 минут. Вынуть, охладить и разделить на отдельные листья", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Приготовить фарш: лук нарезать соломкой и обжарить, добавить рубленую зелень. Свежие грибы мелко нарезать и обжарить. Сваренные вкрутую яйца мелко нарубить. В вареный рис положить обжаренные овощи, грибы, рубленые яйца, все посолить и перемешать", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Каждый капустный лист посыпать солью, на середину выложить фарш и завернуть в виде конвертика", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Голубцы уложить на разогретую с маслом сковороду, обжарить, залить сметанно-томатным соусом и запечь в духовке до готовности", "durationMinutes": 15},
+        {"stepNumber": 5, "description": "Готовые голубцы выложить на блюдо, полить соусом, украсить веточками петрушки и укропа", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 10,
+      "fats": 16,
+      "carbohydrates": 26,
+      "servings": 7
+    },
+    {
+      "title": "Помидоры, фаршированные грибами",
+      "description": "Быстрая холодная закуска из помидоров с начинкой из соленых грибов и сметаны.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "SNACK",
+      "ingredients": [
+        {"name": "Помидоры", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Соленые или маринованные грибы", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Сметана пополам с майонезом", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Зеленый лук", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Зелень укропа и петрушки", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Срезать у помидор верхнюю часть, чайной ложкой аккуратно выбрать мякоть", "durationMinutes": 7},
+        {"stepNumber": 2, "description": "Приправить полость помидора перцем и солью", "durationMinutes": 3},
+        {"stepNumber": 3, "description": "Мелко нарезать грибы, зеленый (можно репчатый) лук, укроп, заправить смесью густой сметаны и майонеза", "durationMinutes": 7},
+        {"stepNumber": 4, "description": "Нафаршировать помидоры, воткнуть в серединку каждого по маленькой веточке петрушки", "durationMinutes": 5}
+      ],
+      "calories": 70,
+      "proteins": 3,
+      "fats": 4,
+      "carbohydrates": 6,
+      "servings": 4
+    },
+    {
+      "title": "Помидоры, фаршированные грибами, запеченные",
+      "description": "Горячая закуска из помидоров с грибным фаршем, запеченных под сыром. Подается со сметаной.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "SNACK",
+      "ingredients": [
+        {"name": "Помидоры", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Свежие грибы", "quantity": 400, "unit": "г", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сыр", "quantity": 50, "unit": "г", "category": "dairy"},
+        {"name": "Молотые белые сухари", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Томат-пюре", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Петрушка", "quantity": 8, "unit": "веточек", "category": "vegetables"},
+        {"name": "Чеснок", "quantity": 2, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Выбрать ровные помидоры средней величины. Срезать верхнюю часть с плодоножкой, удалить ложкой часть сердцевины", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Для фарша свежие грибы мелко нарубить и поджарить с луком. Прибавить томат-пюре, зелень петрушки, рубленый чеснок и тушить до готовности", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Наполнить помидоры грибным фаршем, посыпать тертым сыром, смешанным с сухарями, сбрызнуть маслом и запечь", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "При подаче помидоры положить на тарелку и полить сметаной", "durationMinutes": 3}
+      ],
+      "calories": 120,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 10,
+      "servings": 7
+    },
+    {
+      "title": "Перец, фаршированный мясом",
+      "description": "Классический болгарский перец, фаршированный мясом и рисом в томатной заливке.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Мясо (говядина)", "quantity": 1000, "unit": "г", "category": "meat"},
+        {"name": "Сладкий перец", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Помидоры", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Рис", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Майонез", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Зелень петрушки", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Мясо пропустить через мясорубку, добавить измельченный лук, зелень петрушки, половину подготовленных помидор, отварной рис, растительное масло, перец, соль и все тщательно перемешать", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Перец очистить от семян, заполнить приготовленным фаршем, закрыть верхушками перцев", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "В кастрюлю выложить оставшиеся помидоры, фаршированный перец, залить до половины водой и тушить на медленном огне до готовности", "durationMinutes": 35},
+        {"stepNumber": 4, "description": "Готовое блюдо залить майонезом и посыпать измельченной зеленью", "durationMinutes": 5}
+      ],
+      "calories": 350,
+      "proteins": 24,
+      "fats": 20,
+      "carbohydrates": 18,
+      "servings": 10
+    },
+    {
+      "title": "Помидоры, фаршированные мясом и рисом",
+      "description": "Сочные помидоры с мясной начинкой, запеченные в духовке. Подаются со сметаной.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Помидоры", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Мясо", "quantity": 500, "unit": "г", "category": "meat"},
+        {"name": "Белый хлеб", "quantity": 300, "unit": "г", "category": "bakery"},
+        {"name": "Рис", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Сметана", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Большие, круглые и не совсем спелые помидоры тщательно вымыть, срезать верхушки и вынуть ложечкой сердцевину", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Наполнить помидоры фаршем из сырого мяса, пропущенного через мясорубку, слегка отваренного риса, вымоченного хлеба, рубленого и поджаренного на масле лука, перца и соли", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Начиненные фаршем помидоры накрыть срезанными верхушками и слегка обжарить на сковороде на сливочном масле", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Поставить в духовку и запечь", "durationMinutes": 20},
+        {"stepNumber": 5, "description": "Перед подачей полить сметаной", "durationMinutes": 3}
+      ],
+      "calories": 340,
+      "proteins": 22,
+      "fats": 18,
+      "carbohydrates": 24,
+      "servings": 7
+    },
+    {
+      "title": "Помидоры, фаршированные свежими грибами",
+      "description": "Твердые помидоры, фаршированные шампиньонами и запеченные в сметане. Горячая закуска.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "MEDIUM",
+      "category": "SNACK",
+      "ingredients": [
+        {"name": "Твердые помидоры", "quantity": 6, "unit": "шт", "category": "vegetables"},
+        {"name": "Шампиньоны или другие свежие грибы", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 1.5, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Густая сметана", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Петрушка", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "У помидоров срезать верхушки, вынуть мякоть, внутри чуть посолить и поперчить", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Обжарить в масле измельченный лук, прибавить мелко нарезанные грибы, тушить 30-40 минут на слабом огне, подливая при необходимости воду", "durationMinutes": 35},
+        {"stepNumber": 3, "description": "Охладить грибы, измельчить яйца и прибавить к грибам, перемешать, поперчить, посолить", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Заполнить приготовленной начинкой помидоры, уложить их в кастрюлю, прибавить оставшееся масло, сметану, подлить немного воды и запечь в разогретой духовке 15-20 минут", "durationMinutes": 20},
+        {"stepNumber": 5, "description": "При подаче посыпать рубленой петрушкой", "durationMinutes": 3}
+      ],
+      "calories": 130,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 8,
+      "servings": 6
+    },
+    {
+      "title": "Перец, фаршированный грибами",
+      "description": "Постный фаршированный перец с начинкой из риса и грибов в томатном соке.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Томатовидный и стручковый перец", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Свежие грибы", "quantity": 200, "unit": "г", "category": "vegetables"},
+        {"name": "Рис", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Зелень петрушки и укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Томатный сок", "quantity": 1000, "unit": "мл", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Сваренный рис и мелко нарезанные белые грибы перемешать с мелко нарезанным сваренным вкрутую яйцом и мелко нарезанным обжаренным луком. Фарш посолить и поперчить", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Наполнить томатовидный перец и стручковый перец фаршем", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "На медленном огне вскипятить томатный сок, облить им фаршированный перец и тушить до готовности", "durationMinutes": 25},
+        {"stepNumber": 4, "description": "При подаче обсыпать фаршированный перец смесью зелени петрушки и укропа", "durationMinutes": 3}
+      ],
+      "calories": 180,
+      "proteins": 8,
+      "fats": 4,
+      "carbohydrates": 30,
+      "servings": 7
+    },
+    {
+      "title": "Репа или брюква, тушенные в соусе",
+      "description": "Сладковатые дольки репы или брюквы, тушенные в сливках. Простой и полезный гарнир.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Репа или брюква", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сливки или молоко", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 0.5, "unit": "стакан", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Мясной бульон", "quantity": 1, "unit": "стакан", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Небольшие дольки очищенной репы или брюквы посыпать сахаром и обжарить в масле 3-5 минут", "durationMinutes": 7},
+        {"stepNumber": 2, "description": "Полить бульоном, добавить сливки или молоко, посолить, тушить 20-25 минут", "durationMinutes": 25},
+        {"stepNumber": 3, "description": "Подавать вместе с соусом и украсить зеленью", "durationMinutes": 5}
+      ],
+      "calories": 180,
+      "proteins": 2,
+      "fats": 10,
+      "carbohydrates": 22,
+      "servings": 6
+    },
+    {
+      "title": "Картофельная бабка, начиненная грибами",
+      "description": "Белорусская картофельная бабка с грибной начинкой. Золотистая корочка и сочная серединка.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 10, "unit": "шт", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Жир", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зелень укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Черный молотый перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Грибы", "quantity": 200, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Картофель очистить, промыть, натереть, отжать. Когда сок отстоится, слить его, крахмал соединить с картофельной массой, добавить муку, соль, перец, все перемешать", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Подготовленные грибы обжарить в масле, добавить пассерованный лук, соль и перец", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "В глубокую сковороду, смазанную жиром, положить половину картофельной массы, на нее грибную начинку, сверху — оставшуюся массу, разровнять и сбрызнуть маслом", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Выпекать бабку в духовке до образования румяной корочки", "durationMinutes": 30},
+        {"stepNumber": 5, "description": "Подавать с маслом или сметаной, посыпав зеленью укропа", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 6,
+      "fats": 14,
+      "carbohydrates": 34,
+      "servings": 7
+    },
+    {
+      "title": "Кабачки, фаршированные рисом с овощами",
+      "description": "Запеченные кабачки с рисово-овощной начинкой под сыром. Легкое и вкусное блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Кабачки", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Вареный рис", "quantity": 350, "unit": "г", "category": "groceries"},
+        {"name": "Сметана или сметанный соус", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сыр", "quantity": 50, "unit": "г", "category": "dairy"},
+        {"name": "Морковь", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Зелень петрушки и укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Кабачки очистить от кожицы, промыть, разрезать поперек на части длиной 3-5 см. Удалить семена, отварить до полуготовности в подсоленной воде", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Для фарша морковь, лук нарезать соломкой и обжарить на масле. К рису добавить готовые овощи, нарубленные вареные яйца, перец, соль и все перемешать", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Каждую часть кабачка заполнить фаршем так, чтобы он выступал горкой", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Фаршированные кабачки выложить на смазанную маслом сковороду, посыпать тертым сыром, сбрызнуть маслом и запечь в духовке", "durationMinutes": 15},
+        {"stepNumber": 5, "description": "Затем кабачки залить сметанным соусом и довести до кипения. Посыпать рубленой зеленью", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 20,
+      "carbohydrates": 20,
+      "servings": 7
+    },
+    {
+      "title": "Кабачки, фаршированные овощами",
+      "description": "Кабачки с начинкой из шампиньонов и овощей, запеченные под сыром. Сытное вегетарианское блюдо.",
+      "cookingTimeMinutes": 100,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Кабачки", "quantity": 2000, "unit": "г", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сыр", "quantity": 50, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сметана", "quantity": 300, "unit": "г", "category": "dairy"},
+        {"name": "Шампиньоны", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Зелень петрушки и укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Кабачки очистить от кожицы, промыть, разрезать поперек на части длиной 3-5 см. Удалить семена и отварить до полуготовности в подсоленной воде", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Для фарша морковь, лук нарезать соломкой и обжарить на масле. Нарезанные грибы добавить в овощи и протушить все вместе", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "В овощную массу добавить мелко нарубленные вареные яйца, молотый черный перец, соль и все перемешать", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Каждую часть кабачка заполнить фаршем так, чтобы он немного выступал сверху", "durationMinutes": 10},
+        {"stepNumber": 5, "description": "Фаршированные кабачки выложить на смазанную маслом сковороду, посыпать тертым сыром, сбрызнуть маслом и запекать в духовке 30 минут", "durationMinutes": 30},
+        {"stepNumber": 6, "description": "Затем кабачки залить сметаной и немного подержать в духовке. Подавать, посыпав рубленой зеленью", "durationMinutes": 10}
+      ],
+      "calories": 250,
+      "proteins": 8,
+      "fats": 20,
+      "carbohydrates": 14,
+      "servings": 6
+    },
+    {
+      "title": "Кабачки с луком",
+      "description": "Быстрое блюдо из обжаренных кабачков с луком и помидорами. Легкий гарнир или закуска.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Кабачки", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Помидор", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зелень петрушки, укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Молотый черный перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Кабачки очистить, нарезать тонкими кружочками, посолить, поперчить и запанировать в муке", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Обжарить с обеих сторон на масле", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Отдельно обжарить мелко нарезанный лук", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Подавать к столу в горячем виде, сверху посыпать жареным луком и зеленью, украсить дольками помидора", "durationMinutes": 5}
+      ],
+      "calories": 120,
+      "proteins": 2,
+      "fats": 8,
+      "carbohydrates": 10,
+      "servings": 6
+    },
+    {
+      "title": "Тыква, запеченная с мясом",
+      "description": "Слоеная запеканка из обжаренной тыквы и мяса. Сытное осеннее блюдо.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Тыква", "quantity": 400, "unit": "г", "category": "vegetables"},
+        {"name": "Мясо", "quantity": 350, "unit": "г", "category": "meat"},
+        {"name": "Маргарин", "quantity": 60, "unit": "г", "category": "groceries"},
+        {"name": "Мука", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Жир для жаренья", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Черный молотый перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Тыкву очистить, разрезать, удалить семенное гнездо и нарезать ломтиками. Посолить, обвалять в муке и яйцах и с обеих сторон обжарить в разогретом жире", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Мясо нарезать маленькими кусочками и вместе с нарезанным луком обжарить в маргарине, добавить немного воды и поварить. Приправить солью и перцем", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "В смазанную жиром сковороду уложить слоями обжаренные ломтики тыквы, на нее — готовое мясо и сверху снова слой тыквы", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Запекать в духовке", "durationMinutes": 20}
+      ],
+      "calories": 320,
+      "proteins": 18,
+      "fats": 22,
+      "carbohydrates": 14,
+      "servings": 5
+    },
+    {
+      "title": "Цветная капуста, запеченная под сыром",
+      "description": "Отварная цветная капуста в сметане, запеченная под сырной корочкой. Простой и вкусный гарнир.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Цветная капуста", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Сыр", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сметана", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Обработанную капусту разобрать на соцветия. Отварить в подсоленной воде, откинуть на дуршлаг", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Уложить капусту на порционную сковороду, смазанную маслом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Залить сметаной, посыпать тертым сыром", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Запекать в духовке до золотистой корочки", "durationMinutes": 20}
+      ],
+      "calories": 260,
+      "proteins": 12,
+      "fats": 20,
+      "carbohydrates": 10,
+      "servings": 6
+    },
+    {
+      "title": "Цветная капуста с макаронами и мясом",
+      "description": "Сытное блюдо из цветной капусты, макарон и отварной говядины. Подается с сыром и помидорами.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Цветная капуста", "quantity": 750, "unit": "г", "category": "vegetables"},
+        {"name": "Макароны", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Говядина", "quantity": 500, "unit": "г", "category": "meat"},
+        {"name": "Тертый твердый сыр", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Помидор", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Чеснок", "quantity": 2, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Бульонный кубик", "quantity": 1, "unit": "шт", "category": "groceries"},
+        {"name": "Зелень петрушки и укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Цветную капусту разделить на соцветия, помыть. Добавить в воду бульонный кубик, посолить, поперчить. Положить капусту в бульон и варить 20 минут", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Чеснок очистить, разрезать каждый зубчик на 4 части. Положить вместе с мясом в большой чугунный горшок. Влить 1 л воды. Поставить на огонь, варить под крышкой до готовности", "durationMinutes": 30},
+        {"stepNumber": 3, "description": "Отдельно отварить до готовности макароны. Слить воду, откинуть на дуршлаг. Вынуть из горшка мясо, нарезать его кубиками", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Положить на блюдо макароны, мясо и цветную капусту, рядом — нарезанные ломтиками помидоры, сверху посыпать сыром", "durationMinutes": 5}
+      ],
+      "calories": 380,
+      "proteins": 32,
+      "fats": 14,
+      "carbohydrates": 30,
+      "servings": 4
+    },
+    {
+      "title": "Цветная капуста в кляре",
+      "description": "Хрустящие соцветия цветной капусты в сметанном кляре. Отличная горячая закуска.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Цветная капуста", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Мука", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сода", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Взбить яйца, добавить в них поочередно сметану и муку, затем соду, соль и сахар по вкусу и размешать до однородной массы", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Капусту разделить на соцветия, отварить в подсоленной воде", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Обмакивать каждое соцветие в кляр и жарить в раскаленном масле", "durationMinutes": 15}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 20,
+      "carbohydrates": 18,
+      "servings": 5
+    },
+    {
+      "title": "Капуста, запеченная с сыром",
+      "description": "Белокочанная капуста в молочном соусе, запеченная под сыром. Простой и сытный гарнир.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Белокочанная капуста", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сыр", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Молотые белые сухари", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Молочный соус", "quantity": 300, "unit": "г", "category": "dairy"},
+        {"name": "Зелень укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Капусту промыть, удалить загрязненные листья, нарезать соломкой, положить в кастрюлю, добавить горячей воды, посолить и варить до готовности", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Отварную капусту откинуть на сито, положить на смазанную маслом сковороду, залить молочным соусом, посыпать тертым сыром и молотыми сухарями, сбрызнуть маслом", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Поставить в духовку и держать там до образования золотистой корочки", "durationMinutes": 20}
+      ],
+      "calories": 250,
+      "proteins": 10,
+      "fats": 16,
+      "carbohydrates": 18,
+      "servings": 6
+    },
+    {
+      "title": "Капуста тушеная",
+      "description": "Классическая тушеная капуста с морковью и луком в томате. Идеальный гарнир к мясу.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Свежая капуста", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Уксус", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Томатное пюре", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Бульон", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Маргарин", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Пшеничная мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Лавровый лист", "quantity": 2, "unit": "шт", "category": "spices"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Капусту обмыть, разрезать на 4 части, удалить кочерыжку и нарезать соломкой, положить в кастрюлю, влить 1 стакан бульона, уксус, пассерованный томат и тушить до полуготовности", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Добавить пассерованные нарезанные соломкой морковь и лук, лавровый лист, перец, соль и тушить капусту, периодически помешивая", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "В конце тушения ввести разведенную бульоном пассерованную муку и сахар и довести до кипения", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Тушеную капусту подать, посыпав рубленой зеленью. Можно — в качестве гарнира к мясным блюдам", "durationMinutes": 5}
+      ],
+      "calories": 150,
+      "proteins": 3,
+      "fats": 10,
+      "carbohydrates": 14,
+      "servings": 7
+    },
+    {
+      "title": "Капуста жареная",
+      "description": "Обжаренная в масле отварная капуста разных видов. Быстрый и вкусный гарнир.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Отварная капуста (белокочанная, кольраби, цветная, брюссельская)", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Молотые сухари", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Зелень петрушки и укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Белокочанную капусту нарезать квадратиками, кольраби средними кубиками, положить в кипящую подсоленную воду и варить до готовности, слить воду, обсушить и жарить на сковороде со сливочным маслом", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Готовую капусту выложить на блюдо, посыпать перцем, солью, полить растопленным сливочным маслом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Цветную или брюссельскую капусту отварить в подсоленной воде до готовности, разделать на соцветия, обсушить, запанировать в сухарях и жарить на сковороде со сливочным маслом", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Готовую капусту выложить на блюдо, посыпать рубленой зеленью петрушки и укропа и полить растопленным сливочным маслом", "durationMinutes": 5}
+      ],
+      "calories": 250,
+      "proteins": 5,
+      "fats": 20,
+      "carbohydrates": 16,
+      "servings": 6
+    },
+    {
+      "title": "Репа в сметане",
+      "description": "Нежная репа, тушенная в сметане. Простой и полезный гарнир или легкое блюдо.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Репа", "quantity": 400, "unit": "г", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 80, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Зелень петрушки", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Репу промыть, очистить от кожицы и нарезать кубиками. Уложить в кастрюлю и добавить полстакана воды, сливочное масло, немного соли", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Варить на слабом огне 10-15 минут", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Затем залить репу сметаной, размешать и варить еще 10 минут", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "При подаче посыпать блюдо зеленью петрушки", "durationMinutes": 3}
+      ],
+      "calories": 120,
+      "proteins": 3,
+      "fats": 6,
+      "carbohydrates": 14,
+      "servings": 3
+    },
+    {
+      "title": "Грибы, запеченные в сметане с луком",
+      "description": "Грибы, запеченные в горшочках со сметаной и луком. Ароматное и сытное блюдо.",
+      "cookingTimeMinutes": 55,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Свежие грибы", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Чеснок", "quantity": 2, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Специи", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Грибы очистить, промыть, отварить в подсоленной воде до полуготовности, крупно нарезать", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Внутренние стенки горшочков натереть чесноком, на дно положить кусочек сливочного масла, грибы, перемешанные с нашинкованным луком", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Приправить специями, сверху залить сметаной", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Накрыть горшочки крышками и запекать в духовке до готовности", "durationMinutes": 20}
+      ],
+      "calories": 200,
+      "proteins": 8,
+      "fats": 16,
+      "carbohydrates": 10,
+      "servings": 5
+    },
+    {
+      "title": "Грибы свежие, тушенные с баклажанами",
+      "description": "Слоеная запеканка из баклажанов и грибов под сметанным соусом. Сытное овощное блюдо.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Свежие грибы", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Тонкие баклажаны", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Топленое или растительное масло", "quantity": 4, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Мука", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Баклажаны вымыть, нарезать брусочками длиной 3 см, густо посолить и оставить на 40 минут, чтобы вышла горечь, после чего обмыть водой и отжать. Обвалять в муке и слегка обжарить в масле", "durationMinutes": 50},
+        {"stepNumber": 2, "description": "Лук нарезать кружками и обжарить до золотистого цвета", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Грибы очистить, вымыть и крупно нарезать", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Уложить в форму слоями баклажаны, грибы, обжаренный лук, повторить все в той же последовательности, сверху должны быть баклажаны", "durationMinutes": 10},
+        {"stepNumber": 5, "description": "Сметану посолить, прибавить муку, размешать и вылить на баклажаны с грибами. Накрыть крышкой и поставить в духовку на средний огонь (130-140 °С), тушить до готовности", "durationMinutes": 20}
+      ],
+      "calories": 220,
+      "proteins": 7,
+      "fats": 14,
+      "carbohydrates": 16,
+      "servings": 5
+    },
+    {
+      "title": "Грибная солянка",
+      "description": "Горячая солянка из тушеной капусты с грибами и солеными огурцами. Постное и сытное блюдо.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Свежие грибы", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Капуста", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Соленый огурец", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Томат-пюре", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Уксус", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Молотые сухари", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Лавровый лист", "quantity": 2, "unit": "шт", "category": "spices"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Капусту нашинковать, потушить в масле, уксусе и небольшом количестве воды. Незадолго до готовности добавить томат-пюре, нарезанный дольками огурец, сахар, соль, специи, лавровый лист", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Грибы отварить, обжарить в масле с добавлением мелко нарезанного лука", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Половину капусты уложить ровным слоем на сковороду, на нее — грибы, сверху — оставшуюся капусту", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Посыпать сухарями и запечь в духовке", "durationMinutes": 15}
+      ],
+      "calories": 160,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 20,
+      "servings": 8
     }
   ]
 }
