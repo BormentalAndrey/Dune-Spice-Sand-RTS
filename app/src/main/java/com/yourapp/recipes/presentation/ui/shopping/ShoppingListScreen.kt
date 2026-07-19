@@ -12,12 +12,15 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.yourapp.recipes.domain.model.ShoppingItem
 import com.yourapp.recipes.presentation.viewmodel.ShoppingListViewModel
+import java.text.NumberFormat
+import java.util.Locale
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -29,6 +32,18 @@ fun ShoppingListScreen(
     var showAddDialog by remember { mutableStateOf(false) }
     var showClearDialog by remember { mutableStateOf(false) }
     val context = LocalContext.current
+    
+    // Подсчет общей суммы
+    val totalItems = itemsGrouped.values.flatten().size
+    val purchasedItems = itemsGrouped.values.flatten().count { it.isPurchased }
+    val totalPrice = itemsGrouped.values.flatten()
+        .filter { !it.isPurchased }
+        .sumOf { (it.price * it.quantity).toDouble() }
+    val purchasedPrice = itemsGrouped.values.flatten()
+        .filter { it.isPurchased }
+        .sumOf { (it.price * it.quantity).toDouble() }
+    
+    val numberFormat = remember { NumberFormat.getNumberInstance(Locale("ru")) }
     
     Scaffold(
         topBar = {
@@ -97,6 +112,57 @@ fun ShoppingListScreen(
                     .padding(paddingValues),
                 contentPadding = PaddingValues(16.dp)
             ) {
+                // Итого
+                item {
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.primaryContainer
+                        )
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(16.dp)
+                        ) {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween
+                            ) {
+                                Text("Всего продуктов:", fontWeight = FontWeight.Bold)
+                                Text("$totalItems шт.")
+                            }
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween
+                            ) {
+                                Text("Куплено:", fontWeight = FontWeight.Bold)
+                                Text("$purchasedItems шт.")
+                            }
+                            Divider(modifier = Modifier.padding(vertical = 4.dp))
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.SpaceBetween
+                            ) {
+                                Text("Осталось купить:", fontWeight = FontWeight.Bold)
+                                Text(
+                                    "${numberFormat.format(totalPrice)} ₽",
+                                    color = MaterialTheme.colorScheme.error,
+                                    fontWeight = FontWeight.Bold
+                                )
+                            }
+                            if (purchasedPrice > 0) {
+                                Row(
+                                    modifier = Modifier.fillMaxWidth(),
+                                    horizontalArrangement = Arrangement.SpaceBetween
+                                ) {
+                                    Text("Уже куплено на:", fontWeight = FontWeight.Bold)
+                                    Text("${numberFormat.format(purchasedPrice)} ₽")
+                                }
+                            }
+                        }
+                    }
+                    Spacer(modifier = Modifier.height(16.dp))
+                }
+                
                 itemsGrouped.forEach { (category, items) ->
                     item {
                         CategoryHeader(category = category, itemCount = items.size)
@@ -108,7 +174,10 @@ fun ShoppingListScreen(
                             onTogglePurchased = { isPurchased ->
                                 viewModel.toggleItemPurchased(item.id, isPurchased)
                             },
-                            onDelete = { viewModel.deleteItem(item.id) }
+                            onDelete = { viewModel.deleteItem(item.id) },
+                            onPriceChange = { newPrice ->
+                                viewModel.updateItemPrice(item.id, newPrice)
+                            }
                         )
                     }
                     
@@ -120,7 +189,6 @@ fun ShoppingListScreen(
         }
     }
     
-    // Диалог очистки купленных
     if (showClearDialog) {
         AlertDialog(
             onDismissRequest = { showClearDialog = false },
@@ -142,7 +210,6 @@ fun ShoppingListScreen(
         )
     }
     
-    // Диалог добавления элемента
     if (showAddDialog) {
         AddShoppingItemDialog(
             onDismiss = { showAddDialog = false },
@@ -195,9 +262,12 @@ fun ShoppingListItem(
     item: ShoppingItem,
     onTogglePurchased: (Boolean) -> Unit,
     onDelete: () -> Unit,
+    onPriceChange: (Float) -> Unit,
     modifier: Modifier = Modifier
 ) {
     var showDeleteConfirm by remember { mutableStateOf(false) }
+    var showPriceDialog by remember { mutableStateOf(false) }
+    var priceText by remember(item) { mutableStateOf(if (item.price > 0) item.price.toString() else "") }
     
     Card(
         modifier = modifier
@@ -240,10 +310,41 @@ fun ShoppingListItem(
                         MaterialTheme.colorScheme.onSurface
                 )
                 
-                Text(
-                    text = "${item.displayQuantity} ${item.unit}",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = "${item.displayQuantity} ${item.unit}",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    
+                    if (item.price > 0) {
+                        Text(
+                            text = "× ${item.price} ₽",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        Text(
+                            text = "= ${(item.price * item.quantity).toInt()} ₽",
+                            style = MaterialTheme.typography.bodySmall,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                }
+            }
+            
+            // Кнопка цены
+            IconButton(onClick = { showPriceDialog = true }) {
+                Icon(
+                    Icons.Default.AttachMoney,
+                    contentDescription = "Цена",
+                    tint = if (item.price > 0) 
+                        MaterialTheme.colorScheme.primary 
+                    else 
+                        MaterialTheme.colorScheme.onSurfaceVariant
                 )
             }
             
@@ -257,6 +358,7 @@ fun ShoppingListItem(
         }
     }
     
+    // Диалог удаления
     if (showDeleteConfirm) {
         AlertDialog(
             onDismissRequest = { showDeleteConfirm = false },
@@ -277,6 +379,37 @@ fun ShoppingListItem(
             }
         )
     }
+    
+    // Диалог цены
+    if (showPriceDialog) {
+        AlertDialog(
+            onDismissRequest = { showPriceDialog = false },
+            title = { Text("Цена за ${item.unit}") },
+            text = {
+                OutlinedTextField(
+                    value = priceText,
+                    onValueChange = { priceText = it },
+                    label = { Text("Цена (₽)") },
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+                    singleLine = true
+                )
+            },
+            confirmButton = {
+                TextButton(onClick = {
+                    val price = priceText.toFloatOrNull() ?: 0f
+                    onPriceChange(price)
+                    showPriceDialog = false
+                }) {
+                    Text("Сохранить")
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showPriceDialog = false }) {
+                    Text("Отмена")
+                }
+            }
+        )
+    }
 }
 
 @Composable
@@ -288,6 +421,7 @@ fun AddShoppingItemDialog(
     var quantity by remember { mutableStateOf("") }
     var unit by remember { mutableStateOf("шт") }
     var category by remember { mutableStateOf("other") }
+    var price by remember { mutableStateOf("") }
     
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -322,17 +456,29 @@ fun AddShoppingItemDialog(
                         modifier = Modifier.weight(1f)
                     )
                 }
+                
+                Spacer(modifier = Modifier.height(8.dp))
+                
+                OutlinedTextField(
+                    value = price,
+                    onValueChange = { price = it },
+                    label = { Text("Цена за ед. (₽)") },
+                    modifier = Modifier.fillMaxWidth(),
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+                )
             }
         },
         confirmButton = {
             TextButton(
                 onClick = {
                     val qty = quantity.toFloatOrNull() ?: 1f
+                    val prc = price.toFloatOrNull() ?: 0f
                     onAdd(ShoppingItem(
                         name = name,
                         quantity = qty,
                         unit = unit,
-                        category = category
+                        category = category,
+                        price = prc
                     ))
                 },
                 enabled = name.isNotBlank()
