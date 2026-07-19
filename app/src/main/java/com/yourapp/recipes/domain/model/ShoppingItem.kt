@@ -7,7 +7,8 @@ data class ShoppingItem(
     val unit: String,
     val category: String = "other",
     val isPurchased: Boolean = false,
-    val recipeId: Long? = null
+    val recipeId: Long? = null,
+    val price: Float = 0f
 ) {
     val displayQuantity: String
         get() = if (quantity == quantity.toLong().toFloat()) {
@@ -18,4 +19,7 @@ data class ShoppingItem(
     
     val displayText: String
         get() = "$displayQuantity $unit $name"
+    
+    val totalPrice: Float
+        get() = price * quantity
 }
