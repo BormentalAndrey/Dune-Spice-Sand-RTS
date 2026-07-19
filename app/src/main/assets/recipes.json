@@ -18532,6 +18532,909 @@
       "fats": 0,
       "carbohydrates": 0,
       "servings": 20
+    },
+      "title": "Безе с мороженым и малиной",
+      "description": "Эффектный десерт из воздушного безе, покрывающего шарики шоколадного и кофейного мороженого с малиной.",
+      "cookingTimeMinutes": 35,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Яичные желтки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 200, "unit": "г", "category": "spices"},
+        {"name": "Ванильный сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Яичные белки", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Крахмал", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Порошок какао", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Изюм", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Малина", "quantity": 250, "unit": "г", "category": "vegetables"},
+        {"name": "Шоколадное мороженое", "quantity": 250, "unit": "г", "category": "frozen"},
+        {"name": "Кофейное мороженое", "quantity": 250, "unit": "г", "category": "frozen"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Застелите противень бумагой. Смешайте желтки с 30 г сахара и ванильным сахаром, а в другой миске взбейте 2 белка с 30 г сахара и смешайте содержимое обеих мисок", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Смешайте муку, крахмал, какао и просейте на яичную массу. Перемешайте с изюмом. Перенесите массу на бумагу и выпекайте 15 минут при 180°С, дайте остыть", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Вырежьте 4 круга из бумаги диаметром 10 см. Нагрейте духовку до 250°С. Взбейте 3 белка с 150 г сахара", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Положите на каждый круг по 1 шарику шоколадного мороженого, сверху добавьте ягоды малины и по 1 шарику кофейного мороженого. Покройте яичным белком и запекайте 4 минуты", "durationMinutes": 5}
+      ],
+      "calories": 450,
+      "proteins": 10,
+      "fats": 18,
+      "carbohydrates": 62,
+      "servings": 4
+    },
+    {
+      "title": "Торт с мороженым",
+      "description": "Нежный торт с шоколадным коржом и ванильным мороженым под шоколадной глазурью. Напоминает конфеты «Птичье молоко».",
+      "cookingTimeMinutes": 240,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мягкий маргарин", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Шоколад", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Мука", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Сахар", "quantity": 50, "unit": "г", "category": "spices"},
+        {"name": "Разрыхлитель", "quantity": 1, "unit": "щепотка", "category": "groceries"},
+        {"name": "Ваниль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Ромовая эссенция", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Ванильное мороженое", "quantity": 500, "unit": "г", "category": "frozen"},
+        {"name": "Желатин", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Шоколад (для глазури)", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Молоко", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Маргарин (для глазури)", "quantity": 25, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Яйца взбейте с сахаром, добавьте мягкий маргарин, распущенный шоколад, разрыхлитель и муку. Все хорошо перемешайте и выпекайте в форме 24 см диаметром при температуре 180°С", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Готовое мороженое слегка разморозьте до кашеобразного состояния. Желатин залейте 100 г воды, добавьте сахар и распустите, остудите и быстро влейте в мороженое, взбейте миксером на большой скорости", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Готовый корж остудите, срежьте верхнюю корочку, сделайте бортики из бумаги или фольги, уложите корж и выложите на него мороженое, выровняйте и поставьте в холодильник для застывания примерно на 3 часа", "durationMinutes": 180},
+        {"stepNumber": 4, "description": "Для глазури на водяной бане растопите шоколад, маргарин с молоком, остудите и нанесите на верхний слой, снова поставьте торт в холодильник", "durationMinutes": 10}
+      ],
+      "calories": 420,
+      "proteins": 8,
+      "fats": 26,
+      "carbohydrates": 38,
+      "servings": 8
+    },
+    {
+      "title": "Десерт из мороженого с персиками",
+      "description": "Быстрый и красивый десерт из ванильного мороженого и консервированных персиков с клубничным и шоколадным сиропом.",
+      "cookingTimeMinutes": 10,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Ванильное мороженое", "quantity": 2, "unit": "шарика", "category": "frozen"},
+        {"name": "Консервированные персики", "quantity": 1, "unit": "баночка", "category": "groceries"},
+        {"name": "Клубничный сироп", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Шоколадный сироп", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Взбитые сливки", "quantity": 30, "unit": "г", "category": "dairy"},
+        {"name": "Шоколадные конфеты", "quantity": 2, "unit": "шт", "category": "groceries"},
+        {"name": "Свежая клубника", "quantity": 3, "unit": "шт", "category": "vegetables"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Положите один шарик мороженого в красивую креманку, персики порежьте ломтиками, положите вокруг мороженого", "durationMinutes": 3},
+        {"stepNumber": 2, "description": "Полейте клубничным сиропом. Сверху положите второй шарик, полейте шоколадным сиропом", "durationMinutes": 2},
+        {"stepNumber": 3, "description": "Украсьте взбитыми сливками, свежей клубникой, шоколадными конфетами", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 5,
+      "fats": 16,
+      "carbohydrates": 54,
+      "servings": 1
+    },
+    {
+      "title": "Мороженое-фламбе",
+      "description": "Эффектный десерт в кокосовой корзиночке с шариками мороженого, политыми горящим ликером «Куантро».",
+      "cookingTimeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Ванильное мороженое", "quantity": 50, "unit": "г", "category": "frozen"},
+        {"name": "Клубничное мороженое", "quantity": 50, "unit": "г", "category": "frozen"},
+        {"name": "Шоколадное мороженое", "quantity": 50, "unit": "г", "category": "frozen"},
+        {"name": "Ликер «Куантро»", "quantity": 50, "unit": "мл", "category": "drinks"},
+        {"name": "Кокосовая стружка", "quantity": 300, "unit": "г", "category": "groceries"},
+        {"name": "Яичные белки", "quantity": 6, "unit": "шт", "category": "dairy"},
+        {"name": "Глюкоза", "quantity": 40, "unit": "г", "category": "groceries"},
+        {"name": "Сахарная пудра", "quantity": 240, "unit": "г", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Смешайте в миске кокосовую стружку, белки, глюкозу и сахарную пудру. Разделите на 3 части, слегка раскатайте в кружки и выложите на силиконовый коврик", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Выпекайте в разогретой духовке при 180°C около 7 минут. Пока тесто еще гибкое, заверните одну сторону кружка за другую, сформировав кулек. Остудите", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Выложите корзиночки на тарелку, в каждую положите по шарику разного мороженого", "durationMinutes": 3},
+        {"stepNumber": 4, "description": "На чистую разогретую сковороду влейте «Куантро», подожгите. Когда огонь погаснет, полейте мороженое ликером", "durationMinutes": 3}
+      ],
+      "calories": 420,
+      "proteins": 8,
+      "fats": 18,
+      "carbohydrates": 58,
+      "servings": 3
+    },
+    {
+      "title": "Сорбет с черной смородиной и мятой",
+      "description": "Освежающий ягодный сорбет с мятным сиропом и лимонным соком. Подается с веточкой мяты.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сахар", "quantity": 200, "unit": "г", "category": "spices"},
+        {"name": "Кипяток", "quantity": 200, "unit": "мл", "category": "drinks"},
+        {"name": "Свежая мята", "quantity": 20, "unit": "г", "category": "vegetables"},
+        {"name": "Черная смородина", "quantity": 750, "unit": "г", "category": "vegetables"},
+        {"name": "Жидкая глюкоза", "quantity": 4, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сок лимонов", "quantity": 2, "unit": "шт", "category": "spices"},
+        {"name": "Веточки мяты для украшения", "quantity": 4, "unit": "шт", "category": "vegetables"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовьте сахарный сироп, перемешивая сахар с кипятком до полного растворения. Настаивайте мяту в сиропе до остывания (около 15 минут), затем мяту удалите", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Черную смородину тушите в подготовленном сиропе с добавлением глюкозы 5 минут до мягкости. Взбейте в кухонном комбайне и протрите через сито", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Добавьте лимонный сок и охладите. Заморозьте в мороженице до состояния густого льда, переложите в контейнер и заморозьте", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Перед подачей выдержите 10 минут при комнатной температуре и украсьте веточкой мяты", "durationMinutes": 10}
+      ],
+      "calories": 180,
+      "proteins": 2,
+      "fats": 0,
+      "carbohydrates": 44,
+      "servings": 6
+    },
+    {
+      "title": "Мороженые «пенки»",
+      "description": "Изысканный десерт из замороженного ванильно-апельсинового и шоколадного крема. Посыпается тертым шоколадом.",
+      "cookingTimeMinutes": 300,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Стручок ванили", "quantity": 0.5, "unit": "шт", "category": "spices"},
+        {"name": "Молоко", "quantity": 250, "unit": "мл", "category": "dairy"},
+        {"name": "Яичные желтки", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Жидкий мед", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Шоколад", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Ром", "quantity": 2, "unit": "ст.л.", "category": "drinks"},
+        {"name": "Сливки", "quantity": 400, "unit": "мл", "category": "dairy"},
+        {"name": "Апельсиновый ликер", "quantity": 3, "unit": "ст.л.", "category": "drinks"},
+        {"name": "Тертая цедра апельсина", "quantity": 0.5, "unit": "шт", "category": "spices"},
+        {"name": "Сахарная пудра", "quantity": 4, "unit": "ст.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Разрежьте стручок ванили, выскоблите сердцевину и вскипятите в молоке вместе с половинками стручка. Желтки взбейте с медом на горячей водяной бане, медленно влейте горячее молоко и взбивайте до загустения. Охладите на холодной водяной бане и поставьте в холодильник", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "100 г шоколада растопите с ромом. Сливки хорошо взбейте. Ванильный крем разделите пополам. Одну половину смешайте с апельсиновым ликером и цедрой, другую — с жидким, слегка остывшим шоколадом", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Вмешайте в обе части взбитые сливки, а затем одновременно вылейте в металлическую миску так, чтобы они перемешались. Замораживайте в морозильной камере около 4 часов", "durationMinutes": 240},
+        {"stepNumber": 4, "description": "Перед подачей посыпьте сахарной пудрой 8 десертных тарелок, ложкой отделите от замороженной пены шарики и выложите их на пудру. Оставшийся шоколад натрите на терке и посыпьте им «пенки»", "durationMinutes": 10}
+      ],
+      "calories": 380,
+      "proteins": 6,
+      "fats": 28,
+      "carbohydrates": 28,
+      "servings": 8
+    },
+    {
+      "title": "Мороженое с вином «Марсала»",
+      "description": "Нежный итальянский десерт из сливок, вина «Марсала» и взбитых белков. Замораживается в форме.",
+      "cookingTimeMinutes": 300,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Яйцо (белок)", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Яйцо (желток)", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сахарная пудра", "quantity": 5, "unit": "ст.л.", "category": "spices"},
+        {"name": "Вино «Марсала»", "quantity": 6, "unit": "ст.л.", "category": "drinks"},
+        {"name": "Сливки жирные", "quantity": 0.8, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Регулятор температуры морозильной камеры установите на самую низкую позицию. Желтки разотрите с сахаром до белой плотной массы. Добавьте понемногу вино, продолжая взбивать", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Поставьте смесь на водяную баню и взбивайте 5-8 минут, пока она не загустеет. Снимите с огня и оставьте остывать, помешивая", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Взбейте до крепкой пены белок и отдельно сливки. В смесь с вином сначала добавьте сливки, а затем — белок. Перемешайте", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Вылейте в форму и замораживайте в течение 4 часов. Регулятор температуры верните в нормальную позицию", "durationMinutes": 240}
+      ],
+      "calories": 300,
+      "proteins": 5,
+      "fats": 18,
+      "carbohydrates": 26,
+      "servings": 4
+    },
+    {
+      "title": "Фруктовый лед с киви и вином",
+      "description": "Освежающий фруктовый лед из киви с сухим белым вином. Легкий летний десерт.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Киви (очищенные, порезанные)", "quantity": 8, "unit": "шт", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 220, "unit": "г", "category": "spices"},
+        {"name": "Вода", "quantity": 250, "unit": "мл", "category": "drinks"},
+        {"name": "Сухое белое вино", "quantity": 250, "unit": "мл", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Взбейте киви в кухонном комбайне до образования однородной массы, пропустите смесь через сито, чтобы избавиться от семечек", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Смешайте сахар с водой в кастрюле, помешивайте на медленном огне до растворения сахара, не доводя до кипения. Затем доведите до кипения и кипятите 3 минуты, не накрывая крышкой. Снимите с огня и дайте остыть 10 минут", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Добавьте пюре из киви и вино. Перелейте в форму для морозилки, закройте и заморозьте, пока смесь не начнет затвердевать у стенок", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Перемешайте тщательно вилкой. Переложите в высокую продолговатую форму для кекса и заморозьте до затвердения", "durationMinutes": 5}
+      ],
+      "calories": 160,
+      "proteins": 1,
+      "fats": 0,
+      "carbohydrates": 36,
+      "servings": 6
+    },
+    {
+      "title": "Лед с ананасом и бананом",
+      "description": "Тропический фруктовый лед из ананаса и банана с ромом, покрытый шоколадной глазурью и кокосом.",
+      "cookingTimeMinutes": 20,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Ананас (мелко порезанный)", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Банан (порезанный)", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Ром (golden rum)", "quantity": 100, "unit": "мл", "category": "drinks"},
+        {"name": "Мед", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Шоколад (горький, растопленный)", "quantity": 200, "unit": "мл", "category": "groceries"},
+        {"name": "Кокос (сушеный)", "quantity": 4, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Взбейте в блендере ананас, банан, ром, мед и лимонный сок. Разлейте по формочкам и заморозьте", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Когда замерзнет, достаньте мороженое из формочек, окуните в растопленный шоколад и быстро посыпьте кокосом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Можно снова заморозить и подавать, когда захотите", "durationMinutes": 0}
+      ],
+      "calories": 350,
+      "proteins": 3,
+      "fats": 18,
+      "carbohydrates": 42,
+      "servings": 4
+    },
+    {
+      "title": "Торт-мороженое",
+      "description": "Быстрый десерт из бисквитной основы со смородиновым желе и мороженым, украшенный безе и какао.",
+      "cookingTimeMinutes": 20,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Белки", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 150, "unit": "г", "category": "spices"},
+        {"name": "Какао-порошок", "quantity": 1, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Испеченная бисквитная основа", "quantity": 1, "unit": "шт", "category": "bakery"},
+        {"name": "Смородиновое желе", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Мороженое", "quantity": 1000, "unit": "г", "category": "frozen"},
+        {"name": "Какао-порошок (для посыпки)", "quantity": 1, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Белок взбейте с сахаром в крепкую пену и подмешайте какао-порошок", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Из бисквита вырежьте прямоугольник размером 10х15 см, положите на жаропрочное блюдо и намажьте смородиновым желе, положите сверху слой мороженого", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "С помощью кондитерского мешка со звездчатой трубочкой оформите покрытие из взбитого белка и подсушите безе в духовке при 240°C", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Готовый десерт посыпьте какао и сразу подавайте на стол", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 8,
+      "fats": 14,
+      "carbohydrates": 56,
+      "servings": 6
+    },
+    {
+      "title": "Тропический шербет",
+      "description": "Освежающий шербет из тропических фруктов с взбитым белком. Подается с экзотическими фруктами и шоколадной крошкой.",
+      "cookingTimeMinutes": 390,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сок из тропических фруктов", "quantity": 600, "unit": "мл", "category": "drinks"},
+        {"name": "Сахар", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Яичный белок", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Шоколадная крошка", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Апельсиновая цедра", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Кусочки экзотических фруктов", "quantity": 50, "unit": "г", "category": "vegetables"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Сахар залейте 150 мл воды и 150 мл фруктового сока. Поставьте на слабый огонь, помешивайте до полного растворения сахара, прибавьте огонь и варите 5 минут до загустения. Влейте оставшийся сок и снимите с огня. Остудите", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Массу перелейте в герметичный пластиковый контейнер, поставьте на 3 часа в морозильную камеру, периодически перемешивайте вилкой", "durationMinutes": 180},
+        {"stepNumber": 3, "description": "Взбейте яичный белок до устойчивой пены. Осторожно, по ложке, добавьте его в замораживающийся сок, поставьте в морозильную камеру еще на 3 часа", "durationMinutes": 180},
+        {"stepNumber": 4, "description": "Перед подачей подержите шербет 10 минут при комнатной температуре. Добавьте к порциям экзотические фрукты, цедру или посыпьте шоколадной крошкой", "durationMinutes": 10}
+      ],
+      "calories": 180,
+      "proteins": 1,
+      "fats": 2,
+      "carbohydrates": 42,
+      "servings": 6
+    },
+    {
+      "title": "Лимонный шербет",
+      "description": "Простой и освежающий лимонный шербет. Требует периодического перемешивания при заморозке.",
+      "cookingTimeMinutes": 300,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сахар", "quantity": 2, "unit": "стакан", "category": "spices"},
+        {"name": "Вода", "quantity": 1, "unit": "стакан", "category": "drinks"},
+        {"name": "Лимонный сок", "quantity": 2, "unit": "стакан", "category": "spices"},
+        {"name": "Тертая цедра лимона", "quantity": 1, "unit": "ст.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В кастрюле на слабом огне сварите сахарный сироп из стакана воды и 2 стаканов сахара. Помешивайте, пока сахар полностью не растворится. Снимите с огня и добавьте в сироп лимонный сок", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Перемешайте и вылейте в пластиковый контейнер для замораживания", "durationMinutes": 2},
+        {"stepNumber": 3, "description": "Поставьте емкость с шербетом в морозильную камеру на 4 часа. Тщательно перемешивайте массу каждые 30 минут", "durationMinutes": 240},
+        {"stepNumber": 4, "description": "При подаче посыпьте порции шербета тертой лимонной цедрой", "durationMinutes": 2}
+      ],
+      "calories": 220,
+      "proteins": 0,
+      "fats": 0,
+      "carbohydrates": 58,
+      "servings": 6
+    },
+    {
+      "title": "Замороженный фруктовый йогурт",
+      "description": "Простой и полезный десерт из домашнего йогурта с фруктами и медом. Замораживается в формочках.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Домашний йогурт", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Фрукты (по вкусу, свежие или замороженные)", "quantity": 1, "unit": "стакан", "category": "vegetables"},
+        {"name": "Мед", "quantity": 0.25, "unit": "стакан", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Измельчите фрукты в блендере. Добавьте йогурт и мед", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Разложите йогурт по формочкам и уберите в морозилку на час", "durationMinutes": 60},
+        {"stepNumber": 3, "description": "Перед тем как извлечь десерт из формочек, опустите дно формочек на несколько секунд в горячую воду и переверните на тарелку. Украсьте кусочками фруктов", "durationMinutes": 5}
+      ],
+      "calories": 150,
+      "proteins": 6,
+      "fats": 4,
+      "carbohydrates": 24,
+      "servings": 4
+    },
+    {
+      "title": "Охлажденный йогурт с ликером Irish Cream",
+      "description": "Нежный десерт из йогурта с шоколадом и ликером Бейлис. Воздушный и ароматный.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Вода", "quantity": 2, "unit": "стакан", "category": "drinks"},
+        {"name": "Желатин", "quantity": 1, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Шоколад", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Молоко", "quantity": 0.75, "unit": "стакан", "category": "dairy"},
+        {"name": "Кукурузный сироп (светлый)", "quantity": 0.25, "unit": "стакан", "category": "groceries"},
+        {"name": "Сахар", "quantity": 0.25, "unit": "стакан", "category": "spices"},
+        {"name": "Ликер Bailey's Irish Cream", "quantity": 3, "unit": "ст.л.", "category": "drinks"},
+        {"name": "Йогурт", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Яичный белок", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Вода (для взбивания)", "quantity": 0.33, "unit": "стакан", "category": "drinks"},
+        {"name": "Сухое молоко", "quantity": 0.33, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В небольшом сотейнике залейте желатин 2 столовыми ложками воды, оставьте набухать 1-2 минуты. Растворите желатин при небольшом нагреве", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "В другом сотейнике вскипятите молоко, добавьте кусочки шоколада, кукурузный сироп и сахар. Размешивая, растопите шоколад. Добавьте желатин. Остудите. Добавьте ликер и йогурт", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Взбейте яичный белок вместе с третью стакана воды и сухим молоком. Добавьте в йогурт и размешайте. Переложите смесь в контейнер и уберите в морозилку", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Пока йогурт замораживается, несколько раз перемешивайте его, чтобы он замерз однородно", "durationMinutes": 240}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 14,
+      "carbohydrates": 30,
+      "servings": 4
+    },
+    {
+      "title": "Замороженный йогурт с черникой и бананом",
+      "description": "Полезный и вкусный десерт из йогурта с черникой, бананом и апельсиновым соком.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Черника", "quantity": 2, "unit": "стакан", "category": "vegetables"},
+        {"name": "Банан", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 0.75, "unit": "стакан", "category": "spices"},
+        {"name": "Апельсиновый сок", "quantity": 0.5, "unit": "стакан", "category": "drinks"},
+        {"name": "Сливочный йогурт", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Ванильный экстракт", "quantity": 1, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В блендере смешайте все ингредиенты. Переложите получившуюся массу в контейнер и уберите в морозилку", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Несколько раз перемешайте, чтобы йогурт замерз однородно. Перед сервировкой йогурт надо немного разморозить", "durationMinutes": 240}
+      ],
+      "calories": 200,
+      "proteins": 5,
+      "fats": 3,
+      "carbohydrates": 40,
+      "servings": 6
+    },
+    {
+      "title": "Замороженный сливовый йогурт",
+      "description": "Ароматный десерт из сливового пюре с корицей и йогуртом. Замораживается в формочках.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Йогурт", "quantity": 1000, "unit": "мл", "category": "dairy"},
+        {"name": "Слива (нарезанная кусочками)", "quantity": 450, "unit": "г", "category": "vegetables"},
+        {"name": "Корица", "quantity": 1, "unit": "палочка", "category": "spices"},
+        {"name": "Сахар", "quantity": 0.75, "unit": "стакан", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В сотейнике перемешайте сливу с сахаром, положите палочку корицы и добавьте полстакана воды. Доведите до кипения, уменьшите огонь и варите около 10 минут. Снимите с огня, уберите корицу", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "В процессоре измельчите сливу. Эту массу протрите через сито. Смешайте сливовое пюре с йогуртом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Разложите сливовый йогурт по формочкам и уберите в холодильник на 2-3 часа", "durationMinutes": 180},
+        {"stepNumber": 4, "description": "Готовый замороженный йогурт подайте в формочках, в которых он замораживался", "durationMinutes": 0}
+      ],
+      "calories": 180,
+      "proteins": 5,
+      "fats": 3,
+      "carbohydrates": 36,
+      "servings": 6
+    },
+    {
+      "title": "Замороженный йогурт с апельсиновым соком и фруктами",
+      "description": "Воздушный десерт из йогурта с фруктами и апельсиновым сиропом со взбитыми белками.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сахар", "quantity": 0.66, "unit": "стакан", "category": "spices"},
+        {"name": "Апельсиновый сок", "quantity": 0.5, "unit": "стакан", "category": "drinks"},
+        {"name": "Фрукты (по вкусу, нарезанные)", "quantity": 2, "unit": "стакан", "category": "vegetables"},
+        {"name": "Лимонный сок", "quantity": 2, "unit": "ч.л.", "category": "spices"},
+        {"name": "Йогурт", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Яйцо (белки)", "quantity": 2, "unit": "шт", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В сотейнике залейте апельсиновым соком сахар и проварите около 10 минут. Снимите с плиты и дайте остыть", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "В блендер поместите кусочки фруктов, влейте лимонный сок и приготовьте пюре. Добавьте туда же йогурт и пюрируйте все вместе. Влейте апельсиновый сироп, размешайте", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Уберите смесь в холодильник на 2 часа. Затем по одному примешайте взбитые белки и разложите йогуртовую массу по формочкам. Уберите в холодильник на час", "durationMinutes": 180}
+      ],
+      "calories": 160,
+      "proteins": 5,
+      "fats": 2,
+      "carbohydrates": 32,
+      "servings": 4
+    },
+    {
+      "title": "Замороженный йогурт с черникой, бананом и медом",
+      "description": "Полезный десерт из черники и банана с йогуртом и медом. Замораживается со взбитыми белками.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Черника", "quantity": 250, "unit": "г", "category": "vegetables"},
+        {"name": "Мед (жидкий)", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Коричневый сахар", "quantity": 30, "unit": "г", "category": "spices"},
+        {"name": "Банан", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Йогурт", "quantity": 150, "unit": "мл", "category": "dairy"},
+        {"name": "Яйцо (белок)", "quantity": 2, "unit": "шт", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Положите чернику в блендер и измельчите. Добавьте мед и коричневый сахар. Разомните спелый банан и добавьте к чернике. Влейте йогурт", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Переложите в контейнер и уберите в холодильник на 1-2 часа", "durationMinutes": 120},
+        {"stepNumber": 3, "description": "Через 2 часа переложите смесь в большую миску и хорошо взбейте. Отдельно взбейте белки в устойчивую пену, примешайте взбитые белки и уберите смесь в холодильник на 2 или более часа", "durationMinutes": 120}
+      ],
+      "calories": 180,
+      "proteins": 6,
+      "fats": 2,
+      "carbohydrates": 36,
+      "servings": 4
+    },
+    {
+      "title": "Замороженный йогурт с шоколадом",
+      "description": "Нежный замороженный йогурт с шоколадными струйками. Легкий и вкусный десерт.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сахар", "quantity": 0.75, "unit": "стакан", "category": "spices"},
+        {"name": "Кукурузный крахмал", "quantity": 2, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Молоко", "quantity": 350, "unit": "мл", "category": "dairy"},
+        {"name": "Ванильный экстракт", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Йогурт", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Шоколад (кусочки)", "quantity": 60, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В сотейнике смешайте сахар с крахмалом, влейте молоко. Доведите до кипения, уменьшите огонь и варите, пока смесь не загустеет. Снимите с плиты и остудите до теплого состояния", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Добавьте йогурт и ванильный экстракт. Уберите в холодильник", "durationMinutes": 120},
+        {"stepNumber": 3, "description": "Растопите шоколад и, пока он теплый, влейте тонкой струйкой в охлажденный йогурт. Размешайте и опять уберите в морозилку до полного охлаждения", "durationMinutes": 120}
+      ],
+      "calories": 240,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 38,
+      "servings": 4
+    },
+    {
+      "title": "Охлажденный йогурт с ревенем",
+      "description": "Освежающий десерт из тушеного ревеня с йогуртом и апельсиновым соком. Нежный и кисло-сладкий.",
+      "cookingTimeMinutes": 300,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Ревень (очищенный, тушеный)", "quantity": 2, "unit": "стакан", "category": "vegetables"},
+        {"name": "Йогурт", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Сахар", "quantity": 3, "unit": "ст.л.", "category": "spices"},
+        {"name": "Апельсиновый сок", "quantity": 2, "unit": "ст.л.", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В процессоре измельчите кусочки тушеного ревеня. Добавьте йогурт, сахар и апельсиновый сок", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Накройте пленкой и уберите в холодильник на 3-4 часа, пока смесь не станет плотной", "durationMinutes": 240},
+        {"stepNumber": 3, "description": "Переложите в блендер, измельчите и снова уберите в холодильник как минимум на 1 час. Разложите по креманкам и подайте на стол", "durationMinutes": 60}
+      ],
+      "calories": 100,
+      "proteins": 3,
+      "fats": 1,
+      "carbohydrates": 22,
+      "servings": 4
+    },
+    {
+      "title": "Охлажденный йогурт с нектаринами",
+      "description": "Нежный йогуртовый десерт с медовыми нектаринами и яблочным соком. Замораживается в формочках.",
+      "cookingTimeMinutes": 180,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Нектарин (нарезанный)", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Вода", "quantity": 1, "unit": "стакан", "category": "drinks"},
+        {"name": "Мед", "quantity": 0.25, "unit": "стакан", "category": "groceries"},
+        {"name": "Лимонный сок", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Ваниль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Яблочный сок", "quantity": 0.25, "unit": "стакан", "category": "drinks"},
+        {"name": "Йогурт", "quantity": 1, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В сотейнике залейте нектарины водой и добавьте мед. Накройте крышкой и варите на небольшом огне, пока нектарины не станут мягкими. Снимите с плиты, остудите", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Переложите нектарины в блендер. Измельчите, добавьте ваниль, лимонный и яблочный соки. Уберите смесь в холодильник примерно на 1 час", "durationMinutes": 60},
+        {"stepNumber": 3, "description": "Добавьте в эту смесь йогурт, хорошо размешайте, разложите по формочкам и уберите в холодильник, пока йогурт не затвердеет", "durationMinutes": 120}
+      ],
+      "calories": 160,
+      "proteins": 4,
+      "fats": 1,
+      "carbohydrates": 36,
+      "servings": 6
+    },
+    {
+      "title": "Йогурт с замороженным соком",
+      "description": "Простой десерт-лед из йогурта и фруктового сока на палочке. Замораживается в формочках.",
+      "cookingTimeMinutes": 180,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Йогурт", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Замороженный фруктовый сок", "quantity": 0.75, "unit": "стакан", "category": "drinks"},
+        {"name": "Молоко", "quantity": 0.75, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В большой миске смешайте йогурт, фруктовый сок и молоко", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Переложите смесь в формочки, в центр каждой поставьте деревянную палочку. Замораживайте до затвердения, примерно 2-3 часа", "durationMinutes": 180},
+        {"stepNumber": 3, "description": "Сервируйте свежими фруктами и листиками мяты", "durationMinutes": 3}
+      ],
+      "calories": 120,
+      "proteins": 5,
+      "fats": 3,
+      "carbohydrates": 20,
+      "servings": 6
+    },
+    {
+      "title": "Йогуртовый лед с бананом и медом",
+      "description": "Настоящий замороженный десерт из бананов, йогурта и сливок с медом. Взбивается несколько раз для воздушности.",
+      "cookingTimeMinutes": 300,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Спелые очищенные бананы", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Сок лимона", "quantity": 1, "unit": "шт", "category": "spices"},
+        {"name": "Натуральный биойогурт", "quantity": 450, "unit": "мл", "category": "dairy"},
+        {"name": "Мед", "quantity": 4, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Жирные сливки", "quantity": 450, "unit": "мл", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Разомните вилкой бананы с лимонным соком, добавьте йогурт и мед", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Взбейте сливки. Добавьте йогуртовую смесь, перелейте в невысокий контейнер и поместите в морозильную камеру", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Полузамерзшую массу переложите в миску и взбейте. Снова уберите в морозильную камеру до того же состояния. Снова взбейте, верните в морозильную камеру и замораживайте до затвердения", "durationMinutes": 240},
+        {"stepNumber": 4, "description": "Перед подачей на стол выдержите 20 минут при комнатной температуре. Полейте медом и подавайте с печеньем", "durationMinutes": 20}
+      ],
+      "calories": 320,
+      "proteins": 6,
+      "fats": 22,
+      "carbohydrates": 28,
+      "servings": 6
+    },
+    {
+      "title": "Кулфи из сока апельсина и киви",
+      "description": "Экзотический замороженный десерт из сока апельсина и киви со сгущенным молоком и кокосовыми сливками.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сок из апельсина и киви", "quantity": 430, "unit": "мл", "category": "drinks"},
+        {"name": "Сгущенное молоко", "quantity": 400, "unit": "мл", "category": "dairy"},
+        {"name": "Кокосовые сливки", "quantity": 200, "unit": "мл", "category": "groceries"},
+        {"name": "Мелкий сахарный песок", "quantity": 75, "unit": "г", "category": "spices"},
+        {"name": "Кусочки съедобной золотой фольги", "quantity": 1, "unit": "по вкусу", "category": "other"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Смешайте все компоненты в большой емкости, доведите до кипения при постоянном помешивании до растворения сахара, после чего варите 5 минут, пока масса не загустеет. Остудите", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Жидкость разлейте по формочкам и поставьте в холодильник на 3 часа или до полного застывания", "durationMinutes": 180},
+        {"stepNumber": 3, "description": "Перед подачей к столу подержите формочки при комнатной температуре 10 минут, опустите на несколько секунд в горячую воду и переверните на порционные тарелки. Украсьте кусочками съедобной золотой фольги", "durationMinutes": 15}
+      ],
+      "calories": 350,
+      "proteins": 6,
+      "fats": 14,
+      "carbohydrates": 50,
+      "servings": 6
+    },
+    {
+      "title": "Вафли с мороженым",
+      "description": "Быстрый десерт из домашних вафель с шариками мороженого и шоколадным соусом.",
+      "cookingTimeMinutes": 10,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Домашние вафли", "quantity": 2, "unit": "шт", "category": "bakery"},
+        {"name": "Мороженое", "quantity": 200, "unit": "г", "category": "frozen"},
+        {"name": "Шоколадный соус", "quantity": 2, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Возьмите домашние вафли, положите сверху несколько шариков мороженого", "durationMinutes": 3},
+        {"stepNumber": 2, "description": "Полейте шоколадным соусом. Можно использовать любой другой соус, шоколадную крошку, поджаренные орешки или варенье", "durationMinutes": 3}
+      ],
+      "calories": 320,
+      "proteins": 5,
+      "fats": 16,
+      "carbohydrates": 40,
+      "servings": 1
+    },
+    {
+      "title": "Пирожные с мороженым",
+      "description": "Сандвичи из печенья с мороженым, обвалянные в орехах или шоколаде. Быстрый и эффектный десерт.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Круглое плоское печенье", "quantity": 16, "unit": "шт", "category": "bakery"},
+        {"name": "Мороженое разных сортов", "quantity": 300, "unit": "г", "category": "frozen"},
+        {"name": "Измельченные грецкие орехи или арахис, темный шоколад или кондитерские присыпки", "quantity": 100, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Чуть подтаявшее мороженое положите на печенье, накройте вторым и положите в морозилку на 30 минут", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Прокатайте печенье в измельченных грецких орехах, или арахисе, или темном шоколаде, или в кондитерских присыпках и сразу же подавайте на стол", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 5,
+      "fats": 16,
+      "carbohydrates": 32,
+      "servings": 8
+    },
+    {
+      "title": "Сандвич с мороженым",
+      "description": "Сандвичи из печенья с мороженым, наполовину покрытые шоколадной глазурью и посыпкой.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Клубничное или другое мороженое", "quantity": 200, "unit": "г", "category": "frozen"},
+        {"name": "Большое круглое печенье", "quantity": 8, "unit": "шт", "category": "bakery"},
+        {"name": "Шоколад", "quantity": 125, "unit": "г", "category": "groceries"},
+        {"name": "Посыпка для торта", "quantity": 2, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Достаньте мороженое из морозилки за 10 минут до использования. Между двумя печеньями положите пару шариков мороженого, подровняйте по краям и положите на противень, накрытый пергаментом. Поставьте в морозилку на 30 минут", "durationMinutes": 35},
+        {"stepNumber": 2, "description": "Растопите шоколад на водяной бане, дайте слегка остыть. Сандвичи опускайте в шоколад так, чтобы покрывалась только половина, украшайте посыпкой и возвращайте на противень", "durationMinutes": 10}
+      ],
+      "calories": 350,
+      "proteins": 5,
+      "fats": 20,
+      "carbohydrates": 40,
+      "servings": 4
+    },
+    {
+      "title": "Буше «Сюрприз»",
+      "description": "Шарики мороженого в шоколадной глазури. Простой, но эффектный десерт для особого случая.",
+      "cookingTimeMinutes": 140,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мороженое разных сортов", "quantity": 400, "unit": "г", "category": "frozen"},
+        {"name": "Шоколад", "quantity": 400, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Небольшие креманки для мороженого и круглую ложку положите в морозилку на 10 минут. Сформируйте шарики из мороженого, выложите их в холодную креманку. Наполненную креманку поместите в морозилку на 2 часа", "durationMinutes": 130},
+        {"stepNumber": 2, "description": "Положите шоколад в кастрюлю и поставьте на водяную баню для размягчения, помешивайте. В остывший, но еще жидкий шоколад быстро обмакните шарики мороженого, снова сложите их на охлажденные креманки и поставьте в морозильную камеру до застывания", "durationMinutes": 10}
+      ],
+      "calories": 450,
+      "proteins": 6,
+      "fats": 28,
+      "carbohydrates": 46,
+      "servings": 4
+    },
+    {
+      "title": "Десерт халифа",
+      "description": "Восточный десерт из слоеного теста с медово-кунжутной смесью и шариками орехового, фисташкового и ванильного мороженого.",
+      "cookingTimeMinutes": 25,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Слоеное тесто", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Ореховое мороженое", "quantity": 4, "unit": "шарика", "category": "frozen"},
+        {"name": "Фисташковое мороженое", "quantity": 4, "unit": "шарика", "category": "frozen"},
+        {"name": "Ванильное мороженое", "quantity": 4, "unit": "шарика", "category": "frozen"},
+        {"name": "Семена кунжута", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Мед", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 4, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Молотая корица", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Кунжут обжарьте на сухой сковороде, добавьте мед и немного корицы", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Тесто раскатайте в 4 коржа диаметром 12-14 см, обжарьте их на масле с обеих сторон и остудите", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Готовые коржи смажьте медово-кунжутной смесью, сверху разложите шарики мороженого и посыпьте корицей", "durationMinutes": 5}
+      ],
+      "calories": 380,
+      "proteins": 6,
+      "fats": 24,
+      "carbohydrates": 36,
+      "servings": 4
+    },
+    {
+      "title": "Десерт «Романтика»",
+      "description": "Слоеный десерт из мороженого, свежих фруктов и шоколада. Подается в вазочке со взбитыми сливками.",
+      "cookingTimeMinutes": 15,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мороженое", "quantity": 300, "unit": "г", "category": "frozen"},
+        {"name": "Красное яблоко", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Киви", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Апельсин", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Темный шоколад", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Взбитые сливки", "quantity": 40, "unit": "г", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очистите яблоко, киви и апельсин, нарежьте ломтиками. Растопите шоколад на водяной бане", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "В вазочку положите часть мороженого, полейте частью шоколада, разложите ломтики яблока, снова часть мороженого, часть шоколада, киви. Вновь положите мороженое, полейте частью шоколада, разложите ломтики апельсина", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Сверху выпустите взбитые сливки и оформите их шоколадом", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 5,
+      "fats": 18,
+      "carbohydrates": 50,
+      "servings": 2
+    },
+    {
+      "title": "Персики с шоколадным мороженым по-кардинальски",
+      "description": "Изысканный десерт из персиков со смородиновым желе и шоколадным мороженым. Украшается взбитыми сливками и орехами.",
+      "cookingTimeMinutes": 20,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Шоколадное мороженое", "quantity": 400, "unit": "г", "category": "frozen"},
+        {"name": "Сливки", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Сахарная пудра", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Персики", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Смородинное желе", "quantity": 4, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Грецкие орехи (очищенные)", "quantity": 4, "unit": "шт", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Персики погрузите на 1 минуту в кипяток, а затем переложите в холодную воду. Снимите кожицу, разрежьте вдоль пополам, выньте косточки, положите в углубление смородиновое желе и сложите вместе обе половины", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Мороженое положите в хрустальную плоскую мороженицу, на него — персики", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Украсьте взбитыми с сахарной пудрой сливками и посыпьте дроблеными орехами", "durationMinutes": 5}
+      ],
+      "calories": 350,
+      "proteins": 6,
+      "fats": 22,
+      "carbohydrates": 34,
+      "servings": 4
+    },
+    {
+      "title": "Десерт-мороженое из личи",
+      "description": "Экзотическое мороженое из личи с ананасовым и лимонным соком. Нежный и ароматный.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Личи", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 250, "unit": "г", "category": "spices"},
+        {"name": "Ананасовый сок", "quantity": 0.5, "unit": "л", "category": "drinks"},
+        {"name": "Лайм или лимон (сок)", "quantity": 5, "unit": "шт", "category": "spices"},
+        {"name": "Желатин", "quantity": 1, "unit": "пластинка", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очистите личи, порежьте пополам и выньте косточки. Замочите желатин в холодной воде на 10 минут, отожмите", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Нагрейте небольшое количество лимонного сока и растворите желатин с сахаром. Смешайте личи с ананасовым и лимонным соками", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Добавьте сахарный сироп и желатин. Поместите смесь в машину для приготовления мороженого и приготовьте десерт-мороженое", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 3,
+      "fats": 1,
+      "carbohydrates": 66,
+      "servings": 6
+    },
+    {
+      "title": "Крем из мороженого",
+      "description": "Нежный воздушный крем из мороженого с яйцами и желатином. Можно добавить шоколад или ягоды.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 75, "unit": "г", "category": "spices"},
+        {"name": "Молоко", "quantity": 400, "unit": "мл", "category": "dairy"},
+        {"name": "Ванилин", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Сливочное мороженое", "quantity": 400, "unit": "г", "category": "frozen"},
+        {"name": "Желатин", "quantity": 20, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Яйца взбейте с сахаром и нагрейте, помешивая, до растворения сахара, добавьте кипяченое молоко, ванилин и приготовленный желатин", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Когда масса остынет, добавьте мороженое, взбейте, поставьте в холодильник", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "К молочно-яичной смеси можно добавить 100 г тертого шоколада или 100 г размятых ягод", "durationMinutes": 240}
+      ],
+      "calories": 250,
+      "proteins": 7,
+      "fats": 14,
+      "carbohydrates": 24,
+      "servings": 4
+    },
+    {
+      "title": "Кисель клюквенный с мороженым и сливками",
+      "description": "Простой русский десерт: охлажденный клюквенный кисель подается с шариком сливочного мороженого и сливками.",
+      "cookingTimeMinutes": 10,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Готовый клюквенный кисель", "quantity": 2, "unit": "стакан", "category": "drinks"},
+        {"name": "Сливки", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное мороженое", "quantity": 200, "unit": "г", "category": "frozen"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Клюквенный кисель разлейте в стаканы и охладите", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Отдельно подавайте в вазочке сливки и мороженое", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 3,
+      "fats": 18,
+      "carbohydrates": 28,
+      "servings": 2
+    },
+    {
+      "title": "Малиновый лед с йогуртом",
+      "description": "Освежающий замороженный десерт из малины и греческого йогурта. Несколько раз взбивается для воздушной текстуры.",
+      "cookingTimeMinutes": 300,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Замороженная малина", "quantity": 200, "unit": "г", "category": "frozen"},
+        {"name": "Греческий йогурт", "quantity": 300, "unit": "г", "category": "dairy"},
+        {"name": "Сок лимона", "quantity": 0.5, "unit": "шт", "category": "spices"},
+        {"name": "Коричневый сахар", "quantity": 50, "unit": "г", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Разморозьте малину в течение 15 минут. Переложите в кухонный комбайн, взбейте в пюре. Добавьте йогурт, лимонный сок и сахар, взбейте снова", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Переложите смесь в невысокий контейнер для замораживания. Заморозьте на 1,5 часа", "durationMinutes": 90},
+        {"stepNumber": 3, "description": "Достаньте из морозильной камеры, взбейте лед электрическим миксером в однородную массу. Заморозьте снова на 1 час", "durationMinutes": 60},
+        {"stepNumber": 4, "description": "Снова достаньте, взбейте снова. Заморозьте снова на 1-2 часа, пока лед не затвердеет полностью. Переложите в холодильник за 30 минут до подачи", "durationMinutes": 90}
+      ],
+      "calories": 180,
+      "proteins": 7,
+      "fats": 5,
+      "carbohydrates": 28,
+      "servings": 4
+    },
+    {
+      "title": "Английский пудинг с мороженым",
+      "description": "Теплый бисквитный пудинг с мороженым, запеченный на водяной бане. Подается горячим или настоявшимся.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Яйца (для теста)", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 0.5, "unit": "стакан", "category": "spices"},
+        {"name": "Разрыхлитель", "quantity": 1, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Мука", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Молоко", "quantity": 7, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Мороженое", "quantity": 600, "unit": "г", "category": "frozen"},
+        {"name": "Яйца (для заливки)", "quantity": 2, "unit": "шт", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Взбейте все составляющие для теста. Вылейте на противень, застеленный бумагой для выпечки или смазанный маслом и припорошенный мукой. Выпекайте при температуре 200-220°C до золотистого цвета", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Корж выньте из духовки и поломайте на кусочки. Талое мороженое взбейте с яйцами. Перемешайте кусочки бисквита и мороженое", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Форму изнутри увлажните, насыпьте немного сахара и повращайте ее, чтобы сахар покрыл всю поверхность. Выложите бисквитную смесь в форму", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Поставьте форму в более широкую термостойкую посуду, налейте кипяток на две трети высоты формы. Поставьте в духовку, нагретую до 170-180°C, на 45-60 минут до зарумянивания. Подавайте горячим или дайте настояться несколько часов", "durationMinutes": 60}
+      ],
+      "calories": 380,
+      "proteins": 8,
+      "fats": 18,
+      "carbohydrates": 46,
+      "servings": 6
     }
   ]
 }
