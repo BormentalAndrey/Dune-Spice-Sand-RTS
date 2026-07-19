@@ -2,10 +2,6 @@ package com.yourapp.recipes.data.local.database.entity
 
 import androidx.room.*
 
-/**
- * Сущность элемента списка покупок.
- * Может быть создана из рецепта или добавлена вручную.
- */
 @Entity(
     tableName = "shopping_items",
     indices = [
@@ -34,6 +30,9 @@ data class ShoppingItemEntity(
     
     @ColumnInfo(name = "recipe_id")
     val recipeId: Long? = null,
+    
+    @ColumnInfo(name = "price")
+    val price: Float = 0f,
     
     @ColumnInfo(name = "date_added")
     val dateAdded: Long = System.currentTimeMillis()
