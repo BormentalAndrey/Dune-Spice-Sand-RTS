@@ -53,6 +53,10 @@ class ShoppingListRepositoryImpl @Inject constructor(
         shoppingListDao.updatePurchasedStatus(itemId, isPurchased)
     }
     
+    override suspend fun updateItemPrice(itemId: Long, price: Float) {
+        shoppingListDao.updateItemPrice(itemId, price)
+    }
+    
     override suspend fun deleteItem(itemId: Long) {
         shoppingListDao.deleteItem(
             ShoppingItemEntity(
@@ -74,7 +78,6 @@ class ShoppingListRepositoryImpl @Inject constructor(
     
     override suspend fun generateFromMealPlan(recipeIds: List<Long>, servings: Map<Long, Int>) {
         // Логика генерации списка покупок из плана питания
-        // Будет реализована позже
     }
     
     private fun ShoppingItemEntity.toDomain(): ShoppingItem {
@@ -85,7 +88,8 @@ class ShoppingListRepositoryImpl @Inject constructor(
             unit = unit,
             category = category,
             isPurchased = isPurchased,
-            recipeId = recipeId
+            recipeId = recipeId,
+            price = price
         )
     }
     
@@ -97,7 +101,8 @@ class ShoppingListRepositoryImpl @Inject constructor(
             unit = unit,
             category = category,
             isPurchased = isPurchased,
-            recipeId = recipeId
+            recipeId = recipeId,
+            price = price
         )
     }
 }
