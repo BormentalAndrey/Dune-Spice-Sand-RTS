@@ -28,6 +28,9 @@ interface ShoppingListDao {
     @Query("UPDATE shopping_items SET is_purchased = :isPurchased WHERE id = :itemId")
     suspend fun updatePurchasedStatus(itemId: Long, isPurchased: Boolean)
     
+    @Query("UPDATE shopping_items SET price = :price WHERE id = :itemId")
+    suspend fun updateItemPrice(itemId: Long, price: Float)
+    
     @Query("UPDATE shopping_items SET is_purchased = 0")
     suspend fun resetAllItems()
     
