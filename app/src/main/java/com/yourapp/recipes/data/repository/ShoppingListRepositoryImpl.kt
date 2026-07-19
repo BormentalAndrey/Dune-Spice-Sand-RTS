@@ -1,5 +1,6 @@
 package com.yourapp.recipes.data.repository
 
+import com.yourapp.recipes.data.local.dao.CategorySpending
 import com.yourapp.recipes.data.local.dao.ShoppingListDao
 import com.yourapp.recipes.data.local.database.entity.ShoppingItemEntity
 import com.yourapp.recipes.domain.model.Ingredient
@@ -7,6 +8,7 @@ import com.yourapp.recipes.domain.model.ShoppingItem
 import com.yourapp.recipes.domain.repository.ShoppingListRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import java.util.*
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -23,9 +25,20 @@ class ShoppingListRepositoryImpl @Inject constructor(
     
     override fun getItemsGroupedByCategory(): Flow<Map<String, List<ShoppingItem>>> {
         return shoppingListDao.getAllItems().map { entities ->
-            entities.map { it.toDomain() }
-                .groupBy { it.category }
+            entities.map { it.toDomain() }.groupBy { it.category }
         }
+    }
+    
+    override fun getTotalRemainingPrice(): Flow<Float> {
+        return shoppingListDao.getTotalRemainingPrice()
+    }
+    
+    override fun getTotalSpentSince(startDate: Long): Flow<Float> {
+        return shoppingListDao.getTotalSpentSince(startDate)
+    }
+    
+    override fun getSpendingByCategory(startDate: Long): Flow<List<CategorySpending>> {
+        return shoppingListDao.getSpendingByCategory(startDate)
     }
     
     override suspend fun addItem(item: ShoppingItem) {
@@ -50,7 +63,8 @@ class ShoppingListRepositoryImpl @Inject constructor(
     }
     
     override suspend fun updatePurchasedStatus(itemId: Long, isPurchased: Boolean) {
-        shoppingListDao.updatePurchasedStatus(itemId, isPurchased)
+        val purchaseDate = if (isPurchased) System.currentTimeMillis() else null
+        shoppingListDao.updatePurchasedStatus(itemId, isPurchased, purchaseDate ?: 0L)
     }
     
     override suspend fun updateItemPrice(itemId: Long, price: Float) {
@@ -59,12 +73,7 @@ class ShoppingListRepositoryImpl @Inject constructor(
     
     override suspend fun deleteItem(itemId: Long) {
         shoppingListDao.deleteItem(
-            ShoppingItemEntity(
-                id = itemId,
-                name = "",
-                quantity = 0f,
-                unit = ""
-            )
+            ShoppingItemEntity(id = itemId, name = "", quantity = 0f, unit = "")
         )
     }
     
@@ -89,7 +98,8 @@ class ShoppingListRepositoryImpl @Inject constructor(
             category = category,
             isPurchased = isPurchased,
             recipeId = recipeId,
-            price = price
+            price = price,
+            purchaseDate = purchaseDate
         )
     }
     
@@ -102,7 +112,8 @@ class ShoppingListRepositoryImpl @Inject constructor(
             category = category,
             isPurchased = isPurchased,
             recipeId = recipeId,
-            price = price
+            price = price,
+            purchaseDate = purchaseDate
         )
     }
 }
