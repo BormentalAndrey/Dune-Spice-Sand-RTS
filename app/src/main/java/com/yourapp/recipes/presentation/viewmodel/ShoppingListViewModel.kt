@@ -26,6 +26,12 @@ class ShoppingListViewModel @Inject constructor(
         }
     }
     
+    fun updateItemPrice(itemId: Long, price: Float) {
+        viewModelScope.launch {
+            shoppingListRepository.updateItemPrice(itemId, price)
+        }
+    }
+    
     fun deleteItem(itemId: Long) {
         viewModelScope.launch {
             shoppingListRepository.deleteItem(itemId)
@@ -48,13 +54,34 @@ class ShoppingListViewModel @Inject constructor(
         val items = itemsGroupedByCategory.value
         val sb = StringBuilder()
         sb.appendLine("📝 Список покупок")
-        sb.appendLine("=" .repeat(30))
+        sb.appendLine("=".repeat(30))
+        
+        var totalPrice = 0f
+        var totalItems = 0
+        var purchasedItems = 0
+        var purchasedPrice = 0f
         
         items.forEach { (category, items) ->
             sb.appendLine("\n${getCategoryEmoji(category)} $category:")
             items.filter { !it.isPurchased }.forEach { item ->
-                sb.appendLine("  ☐ ${item.displayText}")
+                val itemTotal = item.price * item.quantity
+                val priceStr = if (item.price > 0) " - ${String.format("%.0f", itemTotal)} ₽" else ""
+                sb.appendLine("  ☐ ${item.displayText}$priceStr")
+                totalPrice += itemTotal
+                totalItems++
             }
+            items.filter { it.isPurchased }.forEach { item ->
+                purchasedItems++
+                purchasedPrice += item.price * item.quantity
+            }
+        }
+        
+        sb.appendLine("\n" + "=".repeat(30))
+        sb.appendLine("Всего продуктов: $totalItems шт.")
+        sb.appendLine("Куплено: $purchasedItems шт.")
+        sb.appendLine("Осталось купить на: ${String.format("%.0f", totalPrice)} ₽")
+        if (purchasedPrice > 0) {
+            sb.appendLine("Уже куплено на: ${String.format("%.0f", purchasedPrice)} ₽")
         }
         
         return sb.toString()
