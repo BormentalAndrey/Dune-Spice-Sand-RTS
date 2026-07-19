@@ -18201,6 +18201,337 @@
       "fats": 20,
       "carbohydrates": 42,
       "servings": 6
+    },
+    {
+      "title": "Латте",
+      "description": "Классический итальянский кофейный напиток на основе эспрессо и горячего молока с мягким вкусом. Идеален для добавления сиропов и специй.",
+      "cookingTimeMinutes": 10,
+      "difficulty": "EASY",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Эспрессо", "quantity": 1, "unit": "порция", "category": "drinks"},
+        {"name": "Молоко", "quantity": 200, "unit": "мл", "category": "dairy"},
+        {"name": "Сахар, ваниль, карамель", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовьте одну порцию эспрессо в большую чашку", "durationMinutes": 2},
+        {"stepNumber": 2, "description": "В отдельной емкости взбейте молоко до образования пышной пены", "durationMinutes": 3},
+        {"stepNumber": 3, "description": "Аккуратно налейте горячее молоко в чашку с эспрессо, начиная с краёв чашки и двигаясь к центру", "durationMinutes": 1},
+        {"stepNumber": 4, "description": "Добавьте сироп или специи по вкусу", "durationMinutes": 0}
+      ],
+      "calories": 120,
+      "proteins": 6,
+      "fats": 5,
+      "carbohydrates": 10,
+      "servings": 1
+    },
+    {
+      "title": "Капучино",
+      "description": "Итальянский кофейный напиток, названный в честь капуцинских монахов. Идеальное сочетание эспрессо, горячего молока и пышной пены.",
+      "cookingTimeMinutes": 10,
+      "difficulty": "EASY",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Эспрессо", "quantity": 1, "unit": "порция", "category": "drinks"},
+        {"name": "Молоко", "quantity": 100, "unit": "мл", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовьте одну порцию эспрессо в кружку или специальную чашку для капучино", "durationMinutes": 2},
+        {"stepNumber": 2, "description": "Взбейте молоко до образования пышной и мягкой пены, используя молочник и паровую трубку кофемашины", "durationMinutes": 3},
+        {"stepNumber": 3, "description": "Аккуратно налейте взбитое молоко в чашку с эспрессо, сперва добавляя молоко, а затем — молочную пену", "durationMinutes": 1},
+        {"stepNumber": 4, "description": "Подавайте сразу, пока пена не осядет", "durationMinutes": 0}
+      ],
+      "calories": 70,
+      "proteins": 3,
+      "fats": 3,
+      "carbohydrates": 5,
+      "servings": 1
+    },
+    {
+      "title": "Аффогато",
+      "description": "Изысканный итальянский десерт, в котором горячий эспрессо сочетается с холодным ванильным мороженым. Контраст температур и вкусов.",
+      "cookingTimeMinutes": 5,
+      "difficulty": "EASY",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Эспрессо", "quantity": 1, "unit": "порция", "category": "drinks"},
+        {"name": "Ванильное мороженое", "quantity": 1, "unit": "шарик", "category": "frozen"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Поместите шарик ванильного мороженого в маленькую, предварительно охлажденную десертную чашку или бокал", "durationMinutes": 1},
+        {"stepNumber": 2, "description": "Непосредственно перед подачей приготовьте эспрессо", "durationMinutes": 2},
+        {"stepNumber": 3, "description": "Аккуратно вылейте горячий эспрессо поверх мороженого", "durationMinutes": 1},
+        {"stepNumber": 4, "description": "Подавайте сразу, пока мороженое не начало таять, создавая удивительное сочетание вкусов и температур", "durationMinutes": 0}
+      ],
+      "calories": 150,
+      "proteins": 3,
+      "fats": 7,
+      "carbohydrates": 18,
+      "servings": 1
+    },
+    {
+      "title": "Кортадо",
+      "description": "Испанский кофейный напиток, гармонично сочетающий эспрессо и небольшое количество горячего молока. Молоко «разрезает» крепость кофе.",
+      "cookingTimeMinutes": 5,
+      "difficulty": "EASY",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Эспрессо", "quantity": 1, "unit": "порция", "category": "drinks"},
+        {"name": "Молоко", "quantity": 50, "unit": "мл", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовьте одну порцию эспрессо в эспрессо-чашке", "durationMinutes": 2},
+        {"stepNumber": 2, "description": "Вспеньте молоко до теплого состояния с небольшим количеством пены", "durationMinutes": 2},
+        {"stepNumber": 3, "description": "Аккуратно добавьте вспененное молоко в эспрессо, стремясь к равному соотношению молока и кофе", "durationMinutes": 1},
+        {"stepNumber": 4, "description": "Подавайте сразу, наслаждаясь балансом вкусов", "durationMinutes": 0}
+      ],
+      "calories": 40,
+      "proteins": 2,
+      "fats": 2,
+      "carbohydrates": 3,
+      "servings": 1
+    },
+    {
+      "title": "Макиато",
+      "description": "Итальянский кофейный напиток — эспрессо с небольшим количеством молочной пены на вершине. Идеален для тех, кто ценит крепость кофе.",
+      "cookingTimeMinutes": 5,
+      "difficulty": "EASY",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Эспрессо", "quantity": 1, "unit": "порция", "category": "drinks"},
+        {"name": "Вспененное молоко", "quantity": 30, "unit": "мл", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовьте одну порцию эспрессо в маленькую чашку", "durationMinutes": 2},
+        {"stepNumber": 2, "description": "Взбейте небольшое количество молока до образования мягкой пены", "durationMinutes": 2},
+        {"stepNumber": 3, "description": "Аккуратно добавьте чайную ложку молочной пены поверх эспрессо", "durationMinutes": 1},
+        {"stepNumber": 4, "description": "Подавайте напиток, позволяя легкому молочному вкусу дополнить крепость кофе", "durationMinutes": 0}
+      ],
+      "calories": 15,
+      "proteins": 1,
+      "fats": 1,
+      "carbohydrates": 1,
+      "servings": 1
+    },
+    {
+      "title": "Мокка Латте",
+      "description": "Вариация традиционного латте с добавлением шоколада. Объединяет богатство эспрессо, сладость шоколада и нежность молока.",
+      "cookingTimeMinutes": 10,
+      "difficulty": "EASY",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Эспрессо", "quantity": 1, "unit": "порция", "category": "drinks"},
+        {"name": "Молоко", "quantity": 150, "unit": "мл", "category": "dairy"},
+        {"name": "Шоколадный сироп", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Взбитые сливки для украшения", "quantity": 20, "unit": "г", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Взбейте молоко до получения пышной пены", "durationMinutes": 3},
+        {"stepNumber": 2, "description": "Заварите порцию эспрессо в большую чашку", "durationMinutes": 2},
+        {"stepNumber": 3, "description": "Добавьте шоколадный сироп к эспрессо и хорошо перемешайте", "durationMinutes": 1},
+        {"stepNumber": 4, "description": "Медленно добавьте горячее молоко к смеси эспрессо и шоколада, аккуратно перемешивая", "durationMinutes": 1},
+        {"stepNumber": 5, "description": "Украсьте взбитыми сливками сверху и посыпьте какао-порошком или шоколадной стружкой", "durationMinutes": 1}
+      ],
+      "calories": 200,
+      "proteins": 7,
+      "fats": 9,
+      "carbohydrates": 24,
+      "servings": 1
+    },
+    {
+      "title": "Эспрессо Тоник",
+      "description": "Освежающий летний напиток, сочетающий горечь эспрессо и тонизирующий вкус тоника. Популярная альтернатива горячему кофе.",
+      "cookingTimeMinutes": 5,
+      "difficulty": "EASY",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Эспрессо", "quantity": 1, "unit": "порция", "category": "drinks"},
+        {"name": "Холодный тоник", "quantity": 200, "unit": "мл", "category": "drinks"},
+        {"name": "Кубики льда", "quantity": 5, "unit": "шт", "category": "frozen"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Наполните высокий стакан кубиками льда до половины", "durationMinutes": 1},
+        {"stepNumber": 2, "description": "Медленно налейте холодный тоник в стакан с льдом", "durationMinutes": 1},
+        {"stepNumber": 3, "description": "Заварите порцию эспрессо", "durationMinutes": 2},
+        {"stepNumber": 4, "description": "Аккуратно вылейте горячий эспрессо в стакан с тоником. Эспрессо образует красивый узор в напитке", "durationMinutes": 1},
+        {"stepNumber": 5, "description": "Перемешайте напиток длинной ложкой и наслаждайтесь его уникальным вкусом", "durationMinutes": 0}
+      ],
+      "calories": 40,
+      "proteins": 0,
+      "fats": 0,
+      "carbohydrates": 10,
+      "servings": 1
+    },
+    {
+      "title": "Эспрессо с мятой",
+      "description": "Освежающий вариант кофейного напитка, сочетающий ароматный эспрессо с прохладной мятой. Ощущение свежести и новизны.",
+      "cookingTimeMinutes": 5,
+      "difficulty": "EASY",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Эспрессо", "quantity": 1, "unit": "порция", "category": "drinks"},
+        {"name": "Свежая мята", "quantity": 5, "unit": "листиков", "category": "vegetables"},
+        {"name": "Сахар или мятный сироп", "quantity": 1, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Поместите листья мяты и сахар (или сироп) в чашку", "durationMinutes": 1},
+        {"stepNumber": 2, "description": "Заварите порцию эспрессо прямо в чашку, настаивая кофе на мяте", "durationMinutes": 2},
+        {"stepNumber": 3, "description": "Перемешайте, чтобы сахар полностью растворился и мята раскрыла свой аромат", "durationMinutes": 1},
+        {"stepNumber": 4, "description": "Дайте напитку немного остыть и украсьте свежими листьями мяты перед подачей", "durationMinutes": 1}
+      ],
+      "calories": 20,
+      "proteins": 0,
+      "fats": 0,
+      "carbohydrates": 5,
+      "servings": 1
+    },
+    {
+      "title": "Тирамису с эспрессо",
+      "description": "Классический итальянский десерт, чье название переводится как «подними меня вверх». Сочетание маскарпоне, печенья, пропитанного кофе, и какао.",
+      "cookingTimeMinutes": 300,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Яичные желтки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 75, "unit": "г", "category": "spices"},
+        {"name": "Маскарпоне", "quantity": 250, "unit": "г", "category": "dairy"},
+        {"name": "Сильный эспрессо, охлаждённый", "quantity": 1, "unit": "стакан", "category": "drinks"},
+        {"name": "Печенье леди фингер", "quantity": 200, "unit": "г", "category": "bakery"},
+        {"name": "Какао-порошок для посыпки", "quantity": 2, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В миске взбейте желтки с сахаром до светлого крема", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Добавьте маскарпоне к яично-сахарной смеси и аккуратно перемешайте до однородной консистенции", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Погрузите каждое печенье леди фингер в охлаждённый эспрессо на несколько секунд, чтобы оно впитало кофе, но не стало слишком мягким. Выкладывайте печенья в один слой на дно формы", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Сверху на печенье равномерно распределите половину крема из маскарпоне. Повторите слои печенья и крема", "durationMinutes": 5},
+        {"stepNumber": 5, "description": "Поставьте десерт в холодильник минимум на 4 часа, а лучше на ночь", "durationMinutes": 240},
+        {"stepNumber": 6, "description": "Перед подачей присыпьте тирамису какао-порошком", "durationMinutes": 1}
+      ],
+      "calories": 350,
+      "proteins": 8,
+      "fats": 22,
+      "carbohydrates": 30,
+      "servings": 6
+    },
+    {
+      "title": "Кофейный панна котта с карамелью",
+      "description": "Лёгкий и элегантный итальянский десерт из сливок с добавлением эспрессо. Подается с карамельным соусом.",
+      "cookingTimeMinutes": 300,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сливки 33-35%", "quantity": 500, "unit": "мл", "category": "dairy"},
+        {"name": "Сильный эспрессо", "quantity": 100, "unit": "мл", "category": "drinks"},
+        {"name": "Сахар", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Желатин", "quantity": 2, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Вода", "quantity": 50, "unit": "мл", "category": "drinks"},
+        {"name": "Карамельный соус для подачи", "quantity": 50, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Желатин залейте 50 мл холодной воды и оставьте на 5-10 минут для набухания", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "В кастрюле смешайте сливки, эспрессо и сахар. Нагрейте на медленном огне, пока сахар полностью не растворится, но не доводите до кипения", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Добавьте набухший желатин в горячую сливочно-кофейную смесь и перемешайте до полного растворения желатина", "durationMinutes": 2},
+        {"stepNumber": 4, "description": "Разлейте смесь по формочкам и оставьте остывать до комнатной температуры. Затем перенесите в холодильник и оставьте застывать минимум на 4 часа, лучше на ночь", "durationMinutes": 240},
+        {"stepNumber": 5, "description": "Перед подачей аккуратно окуните дно формочки на несколько секунд в горячую воду, чтобы панна котта легче отделилась. Переверните формочку на тарелку и аккуратно вытолкните десерт", "durationMinutes": 5},
+        {"stepNumber": 6, "description": "Полейте панна котту карамельным соусом. Можно украсить свежими ягодами или мятой", "durationMinutes": 2}
+      ],
+      "calories": 380,
+      "proteins": 4,
+      "fats": 34,
+      "carbohydrates": 18,
+      "servings": 4
+    },
+    {
+      "title": "Самогон из яблок",
+      "description": "Домашний яблочный самогон из натурального сока методом двойной перегонки. Ароматный и мягкий напиток.",
+      "cookingTimeMinutes": 20160,
+      "difficulty": "HARD",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Яблоки", "quantity": 25, "unit": "кг", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 2000, "unit": "г", "category": "groceries"},
+        {"name": "Спиртовые дрожжи", "quantity": 30, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Яблоки перебрать, помыть, удалить все гнилые участки, разрезать на крупные дольки, удалить сердцевину с косточками. С помощью соковыжималки выжать сок", "durationMinutes": 60},
+        {"stepNumber": 2, "description": "Влить сок в емкость для брожения, добавить сахар, хорошо перемешать до полного растворения (количество сахара регулируйте по вкусу — если яблоки кислые, используйте больше сахара)", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Сухие дрожжи развести теплой (32-35 °С) водой (300 мл), добавить столовую ложку с горкой сахара и оставить в тепле на 30-60 минут до появления пены. Влить активированные дрожжи в яблочный сок. Закрыть емкость гидрозатвором и держать в теплом месте", "durationMinutes": 40},
+        {"stepNumber": 4, "description": "Брага будет готова примерно через 2 недели. Следить за выходом газа из гидрозатвора — когда он прекратится, брожение окончено. Перегнать брагу способом двойной перегонки", "durationMinutes": 20000}
+      ],
+      "calories": 0,
+      "proteins": 0,
+      "fats": 0,
+      "carbohydrates": 0,
+      "servings": 20
+    },
+    {
+      "title": "Самогон из виноградного сока",
+      "description": "Домашний самогон из виноградного сока. Можно использовать как свежевыжатый, так и покупной сок без консервантов.",
+      "cookingTimeMinutes": 14600,
+      "difficulty": "HARD",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Виноградный сок", "quantity": 4000, "unit": "мл", "category": "drinks"},
+        {"name": "Вода", "quantity": 6000, "unit": "мл", "category": "drinks"},
+        {"name": "Сахар", "quantity": 1000, "unit": "г", "category": "groceries"},
+        {"name": "Спиртовые дрожжи", "quantity": 30, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Влить сок в емкость для брожения, разбавить водой, всыпать и размешать сахар до полного растворения. Подготовить и активировать дрожжи, смешать с соком. Закрыть емкость гидрозатвором и держать в теплом месте", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Виноградная брага будет готова примерно через 10 дней. Следить за выходом газа из гидрозатвора, чтобы определить момент окончания брожения. Перегнать брагу способом двойной перегонки", "durationMinutes": 14500}
+      ],
+      "calories": 0,
+      "proteins": 0,
+      "fats": 0,
+      "carbohydrates": 0,
+      "servings": 20
+    },
+    {
+      "title": "Самогон из березового сока",
+      "description": "Ароматный самогон на основе натурального березового сока с добавлением листьев смородины. Традиционный русский напиток.",
+      "cookingTimeMinutes": 14500,
+      "difficulty": "HARD",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Натуральный березовый сок", "quantity": 10000, "unit": "мл", "category": "drinks"},
+        {"name": "Сахар", "quantity": 2500, "unit": "г", "category": "groceries"},
+        {"name": "Сухие спиртовые дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Свежие листья смородины", "quantity": 1, "unit": "горсть", "category": "vegetables"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовить брагу, добавив в березовый сок сахар, активированные дрожжи и листья смородины для аромата. Закрыть емкость гидрозатвором", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Брага в теплом месте будет бродить не менее 10 дней. Следить за выходом газа из гидрозатвора для определения окончания брожения", "durationMinutes": 14400},
+        {"stepNumber": 3, "description": "Перегнать брагу способом двойной перегонки", "durationMinutes": 120}
+      ],
+      "calories": 0,
+      "proteins": 0,
+      "fats": 0,
+      "carbohydrates": 0,
+      "servings": 20
+    },
+    {
+      "title": "Самогон из рябины",
+      "description": "Ароматный самогон из рябины, собранной после первых заморозков. С изюмом для дополнительного вкуса.",
+      "cookingTimeMinutes": 20160,
+      "difficulty": "HARD",
+      "category": "DRINK",
+      "ingredients": [
+        {"name": "Рябина", "quantity": 4000, "unit": "г", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 4000, "unit": "г", "category": "groceries"},
+        {"name": "Вода", "quantity": 10000, "unit": "мл", "category": "drinks"},
+        {"name": "Спиртовые дрожжи", "quantity": 40, "unit": "г", "category": "groceries"},
+        {"name": "Изюм", "quantity": 100, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Собрать рябину после первых заморозков, снять ягоды с веточек, хорошо размять и выложить в емкость для брожения вместе с немытым изюмом. Добавить сахар и воду, хорошо перемешать до растворения сахара", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Подготовить и активировать дрожжи, влить в сусло, перемешать. Закрыть емкость гидрозатвором. Держать в тепле до окончания брожения, изредка встряхивая емкость", "durationMinutes": 40},
+        {"stepNumber": 3, "description": "Готовую рябиновую брагу процедить и перегнать способом двойной перегонки", "durationMinutes": 20000}
+      ],
+      "calories": 0,
+      "proteins": 0,
+      "fats": 0,
+      "carbohydrates": 0,
+      "servings": 20
     }
   ]
 }
