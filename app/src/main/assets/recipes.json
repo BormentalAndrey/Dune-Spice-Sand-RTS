@@ -15147,6 +15147,944 @@
       "fats": 10,
       "carbohydrates": 32,
       "servings": 4
+    },
+    {
+      "title": "Блинчики «Скороспелые»",
+      "description": "Быстрые блинчики на воде без дрожжей, с разрыхлителем. Подаются с маслом или сметаной, могут использоваться для начинок.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Разрыхлитель", "quantity": 0.5, "unit": "пакета", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Вода", "quantity": 3.5, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Взбить яйца с сахаром, разрыхлителем, мукой и солью, добавить 2 стакана теплой воды, размешать тесто до однородности, влить остальную воду и размешать", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Выпекать блинчики с обеих сторон на хорошо разогретой сковороде, смазанной растительным маслом", "durationMinutes": 25},
+        {"stepNumber": 3, "description": "Можно делать блинчики с начинкой или подать к ним растопленное сливочное масло или сметану", "durationMinutes": 5}
+      ],
+      "calories": 220,
+      "proteins": 8,
+      "fats": 8,
+      "carbohydrates": 30,
+      "servings": 6
+    },
+    {
+      "title": "Блины заварные",
+      "description": "Тонкие заварные блины на кефире с кипятком. Кружевные и нежные.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 7, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сода", "quantity": 0.75, "unit": "ч.л.", "category": "spices"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сахар", "quantity": 2, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Кефир", "quantity": 1.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Кефир взбить с яйцом, сахаром, солью, добавить муку, размешать тесто до однородности", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "В чашку положить соду и залить ее крутым кипятком (3/4 стакана) и сразу вылить в тесто, размешать. При необходимости добавить еще кипятка до нужной консистенции", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Выпекать блины с обеих сторон на сковороде, смазанной растительным маслом", "durationMinutes": 20}
+      ],
+      "calories": 180,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 22,
+      "servings": 4
+    },
+    {
+      "title": "Блинчики на сметане",
+      "description": "Нежные блинчики на сметане. Подаются с конфитюром или вареньем.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 1.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Сметана", "quantity": 300, "unit": "г", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Конфитюр или варенье", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 0.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Яйца смешать с сахаром, солью и сметаной, всыпать муку, размешать, чтобы не было комков. Если тесто густое, добавить немного молока или воды", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Обжарить блинчики с обеих сторон", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "К блинам подать конфитюр или варенье", "durationMinutes": 3}
+      ],
+      "calories": 320,
+      "proteins": 8,
+      "fats": 20,
+      "carbohydrates": 28,
+      "servings": 5
+    },
+    {
+      "title": "Блины дрожжевые на сметане",
+      "description": "Пышные блины из смеси гречневой и пшеничной муки на сметане. Изысканный вкус.",
+      "cookingTimeMinutes": 100,
+      "difficulty": "HARD",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Гречневая мука", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Пшеничная мука", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Сметана", "quantity": 1.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Яичные белки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Сливочное масло", "quantity": 80, "unit": "г", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Молоко", "quantity": 1, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Вылить в кастрюлю стакан теплой воды, размешать в ней дрожжи, добавить всю гречневую муку, размешать и поставить опару в теплое место", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Пока опара подходит, выложить в кастрюлю сметану, всыпать всю пшеничную муку и замесить негустое тесто", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Охлажденные яичные белки взбить, добавить их и размягченное сливочное масло в тесто и перемешать", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Когда опара подойдет, выложить ее в кастрюлю с тестом из пшеничной муки. Добавить стакан теплого молока с растворенной в нем солью, сахаром и хорошо взбить тесто", "durationMinutes": 15},
+        {"stepNumber": 5, "description": "Выпекать блины обычным способом", "durationMinutes": 20}
+      ],
+      "calories": 350,
+      "proteins": 10,
+      "fats": 22,
+      "carbohydrates": 30,
+      "servings": 5
+    },
+    {
+      "title": "Блины с припеком",
+      "description": "Дрожжевые блины с припеком из семги, яиц и зеленого лука. Сытное и праздничное блюдо.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "HARD",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 400, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 20, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 2, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 2.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Семга или сельдь", "quantity": 150, "unit": "г", "category": "fish"},
+        {"name": "Яйца (для припека)", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Зеленый лук", "quantity": 1, "unit": "пучок", "category": "vegetables"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В половине стакана теплого молока растворить дрожжи, смешать их с мукой до густоты сметаны, дать опаре подойти", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Желтки смешать с сахаром, солью и оставшимся подогретым молоком, постепенно вылить в опару, хорошо размешать и дать еще раз подойти. Перед выпечкой добавить взбитые в пену белки, осторожно вымешать", "durationMinutes": 30},
+        {"stepNumber": 3, "description": "Приготовить припек: сварить вкрутую яйца, измельчить и добавить к ним мелко нарезанный зеленый лук, мелко нарезанные кусочки семги или сельди", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "На разогретую и смазанную маслом сковороду положить ложку припека и вылить сверху порцию теста. Далее блин перевернуть и поджаривать другую сторону", "durationMinutes": 20}
+      ],
+      "calories": 380,
+      "proteins": 16,
+      "fats": 20,
+      "carbohydrates": 34,
+      "servings": 6
+    },
+    {
+      "title": "Блины «Воскресные»",
+      "description": "Простые дрожжевые блины на молоке. Тесто подходит дважды, блины получаются пышными.",
+      "cookingTimeMinutes": 180,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 4, "unit": "стакан", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 25, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сахар", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 1.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из муки, 3 стаканов подогретой воды и дрожжей замесить тесто и оставить подходить часа на два", "durationMinutes": 120},
+        {"stepNumber": 2, "description": "Вскипятить молоко и медленно влить его в тесто, положить яйца, соль, сахар, растительное масло, перемешать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Поставить в теплое место на 20-30 минут, чтобы тесто подошло", "durationMinutes": 30},
+        {"stepNumber": 4, "description": "Жарить блины на хорошо разогретой сковороде, не смазывая ее маслом", "durationMinutes": 15}
+      ],
+      "calories": 280,
+      "proteins": 10,
+      "fats": 8,
+      "carbohydrates": 42,
+      "servings": 6
+    },
+    {
+      "title": "Блины с лимонной цедрой",
+      "description": "Ароматные тонкие блины с лимонной цедрой. Подаются со сметаной или вареньем.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Растопленное сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Цедра лимона", "quantity": 1, "unit": "шт", "category": "spices"},
+        {"name": "Сахар", "quantity": 3, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 3, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Желтки растереть с сахаром, солью и лимонной цедрой, добавить растопленное сливочное масло, муку, постепенно влить молоко", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "В конце прибавить взбитые в пену белки", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Выпекать на смазанной маслом сковороде", "durationMinutes": 20}
+      ],
+      "calories": 280,
+      "proteins": 10,
+      "fats": 14,
+      "carbohydrates": 30,
+      "servings": 5
+    },
+    {
+      "title": "Блины «Царские»",
+      "description": "Роскошные блины на сливках с большим количеством яиц и масла. Подаются с икрой или красной рыбой.",
+      "cookingTimeMinutes": 110,
+      "difficulty": "HARD",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Пшеничная мука (для опары)", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Молоко", "quantity": 500, "unit": "мл", "category": "dairy"},
+        {"name": "Мука (для теста)", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 6, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "30%-ные сливки", "quantity": 300, "unit": "мл", "category": "dairy"},
+        {"name": "Икра, лососина или семга", "quantity": 100, "unit": "г", "category": "fish"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовить опару из теплого молока, дрожжей и муки. Дать опаре выбродиться", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Когда опара поднимется, добавить растертые в однородную массу 6 желтков с 200 г сливочного масла, солью и сахаром", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Добавить просеянную через сито муку, перемешать тесто, поставить в теплое место для брожения на 40 минут", "durationMinutes": 40},
+        {"stepNumber": 4, "description": "Когда тесто поднимется вновь, ввести порознь взбитые в крепкую пену белки и сливки. Перемешать тесто сверху вниз и выпекать блины", "durationMinutes": 15},
+        {"stepNumber": 5, "description": "Подавать с икрой, лососиной или семгой", "durationMinutes": 3}
+      ],
+      "calories": 450,
+      "proteins": 14,
+      "fats": 28,
+      "carbohydrates": 36,
+      "servings": 8
+    },
+    {
+      "title": "Блинчики крупяные",
+      "description": "Блины из каши (ячневой, перловой, рисовой) на молоке со сметаной. Сытное и необычное блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Крупа (ячневая, перловая, рисовая)", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сметана", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Молоко", "quantity": 4, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из крупы сварить на молоке кашу, остудить и протереть ее через сито", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Добавить в кашу растертые с солью и сахаром яичные желтки, сливочное масло, молоко и сметану. Все хорошо размешать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Выпекать блины на масле", "durationMinutes": 20}
+      ],
+      "calories": 300,
+      "proteins": 10,
+      "fats": 16,
+      "carbohydrates": 30,
+      "servings": 5
+    },
+    {
+      "title": "Блины «Монастырские»",
+      "description": "Гречневые блины из заварной опары с большим количеством взбитых белков. Традиционный монастырский рецепт.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "HARD",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Гречневая мука (для опары)", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Молоко (для опары)", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Гречневая мука (для теста)", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Пшеничная мука", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Белки", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 3, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Гречневую муку заварить, залив кипящим молоком так, чтобы оно едва покрыло муку, выдержать некоторое время, растереть в однородную массу, остудить", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Ввести разведенные в воде дрожжи и дать опаре подняться", "durationMinutes": 30},
+        {"stepNumber": 3, "description": "Отдельно постепенно развести теплым молоком гречневую и пшеничную муку, растереть в однородную массу", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Когда первая опара поднимется, развести ее второй порцией теста, вмешать сырое яйцо, соль, а перед выпечкой — взбитые белки и выпекать блины", "durationMinutes": 25}
+      ],
+      "calories": 260,
+      "proteins": 12,
+      "fats": 4,
+      "carbohydrates": 44,
+      "servings": 5
+    },
+    {
+      "title": "Блины овсяные",
+      "description": "Полезные блины из овсяных хлопьев с пшеничной мукой. Подаются с вареньем.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Овсяные хлопья", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Пшеничная мука", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сливки", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 3, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В миске смешать овсяные хлопья и пшеничную муку, влить теплое молоко с растворенными в нем дрожжами, поставить в теплое место", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "В готовое тесто добавить растертые с сахаром и солью желтки, растопленное сливочное масло и теплые сливки, размешать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Отдельно взбить белки и аккуратно ввести в тесто. Печь на смазанной растительным маслом сковороде", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "К блинам подать варенье", "durationMinutes": 5}
+      ],
+      "calories": 320,
+      "proteins": 10,
+      "fats": 18,
+      "carbohydrates": 32,
+      "servings": 5
+    },
+    {
+      "title": "Блины гречневые «Красные»",
+      "description": "Тонкие гречневые блины на молоке с яйцами и маслом. «Красные» — значит красивые, румяные.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Гречневая мука", "quantity": 4, "unit": "стакан", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 25, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Растопленное сливочное масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Молоко", "quantity": 4, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Замесить тесто из муки, 3 стаканов теплого молока и дрожжей. Когда поднимется, влить смесь из 1 стакана теплого молока и желтков, добавить растопленное сливочное масло, соль, сахар, вымесить, дать подняться", "durationMinutes": 40},
+        {"stepNumber": 2, "description": "Незадолго до выпечки в тесто добавить один за другим белки", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Блины пекутся более тонкими, чем обычно", "durationMinutes": 20}
+      ],
+      "calories": 350,
+      "proteins": 12,
+      "fats": 16,
+      "carbohydrates": 40,
+      "servings": 6
+    },
+    {
+      "title": "Блины гречнево-пшеничные",
+      "description": "Блины из смеси двух видов муки. Пышные, с хрустящей кромкой. Подаются со сметаной и вареньем.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Гречневая мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Пшеничная мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Варенье", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Подсолнечное или топленое масло", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 4, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Гречневую муку развести в одном стакане холодного молока и заварить 2 стаканами кипящего, остудить до теплого состояния, положить дрожжи, разведенные в небольшом количестве теплого молока, пшеничную муку, долить оставшееся молоко и дать тесту подойти", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Добавить сливочное масло, растертые с сахаром желтки, взбитые в пену белки, дать подойти и сразу же выпекать", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Подавать с растопленным сливочным маслом, сметаной, вареньем", "durationMinutes": 5}
+      ],
+      "calories": 380,
+      "proteins": 12,
+      "fats": 18,
+      "carbohydrates": 44,
+      "servings": 6
+    },
+    {
+      "title": "Блины гречневые заварные",
+      "description": "Гречневые блины из заварного теста. Нежные и кружевные.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Гречневая мука", "quantity": 4, "unit": "стакан", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 25, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 2.5, "unit": "стакан", "category": "drinks"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Всыпать в кастрюлю два стакана муки, залить ее двумя стаканами кипятка, хорошо размешать", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Когда тесто остынет до комнатной температуры, развести в половине стакана теплой воды дрожжи и влить их в опару. Опару взбить, накрыть полотенцем и поставить подходить", "durationMinutes": 25},
+        {"stepNumber": 3, "description": "Когда опара увеличится в объеме в 2-3 раза, добавить в нее оставшуюся муку, молоко, соль, снова взбить и поставить в теплое место", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Выпекать блины обычным способом", "durationMinutes": 20}
+      ],
+      "calories": 240,
+      "proteins": 8,
+      "fats": 4,
+      "carbohydrates": 42,
+      "servings": 5
+    },
+    {
+      "title": "Блины манные",
+      "description": "Нежные блины с добавлением манной каши. Подаются со сметаной.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Манная крупа", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Яичные желтки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ч.л.", "category": "dairy"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 3, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Вскипятить стакан молока, всыпать манную крупу и сварить манную кашу, остудить ее", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Из двух стаканов молока, муки, желтков, сахара и соли замесить тесто, смешать его с остывшей манной кашей, хорошо вымесить", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Блины печь на смазанных сливочным маслом небольших сковородках. К блинам подать сметану", "durationMinutes": 20}
+      ],
+      "calories": 240,
+      "proteins": 8,
+      "fats": 10,
+      "carbohydrates": 30,
+      "servings": 4
+    },
+    {
+      "title": "Блины капустные",
+      "description": "Оригинальные блины с тушеной капустой в тесте. Сытное и необычное блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Яичный желток", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Капуста", "quantity": 1, "unit": "кочан", "category": "vegetables"},
+        {"name": "Жир", "quantity": 60, "unit": "г", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Молоко", "quantity": 200, "unit": "мл", "category": "dairy"},
+        {"name": "Вода", "quantity": 200, "unit": "мл", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Кочан капусты нашинковать, посолить и дать постоять", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "В 60 г горячего жира всыпать немного сахара и подогреть до коричневого оттенка. Добавить хорошо отжатую капусту, заправить ее молотым черным перцем и тушить до коричневого цвета", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Приготовить жидкое тесто, добавить к нему тушеную капусту и выпекать блины", "durationMinutes": 20}
+      ],
+      "calories": 280,
+      "proteins": 10,
+      "fats": 14,
+      "carbohydrates": 30,
+      "servings": 5
+    },
+    {
+      "title": "Блинчики с кабачками",
+      "description": "Овощные блинчики из кабачкового пюре на простокваше. Нежные и полезные.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 1000, "unit": "г", "category": "groceries"},
+        {"name": "Кабачки", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Уксус", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Сода", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Простокваша", "quantity": 200, "unit": "мл", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Свежие кабачки нарезать дольками и сварить в небольшом количестве кипятка, затем пропустить через мясорубку или протереть через сито", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "В полученное овощное пюре добавить яйца, положить соль, сахар, уксус и простоквашу", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Всыпать муку, смешанную с содой, и хорошо вымесить", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Печь блинчики на горячей сковороде", "durationMinutes": 20}
+      ],
+      "calories": 250,
+      "proteins": 8,
+      "fats": 6,
+      "carbohydrates": 42,
+      "servings": 6
+    },
+    {
+      "title": "Блины с грибами",
+      "description": "Блины с грибной начинкой внутри. Грибы запекаются прямо в тесте.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Жир для жарки", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Свежие или сушеные грибы", "quantity": 300, "unit": "г", "category": "vegetables"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Грибы отварные мелко нашинковать, свежие грибы тушить в собственном соку до полного выпаривания сока", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Из муки, молока, яиц и соли замесить блинное тесто", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "На сковороду с горячим жиром положить ложкой блинное тесто и на каждый блин, в еще не пропекшееся тесто добавить ложку грибов. Блины обжаривать с двух сторон, пока они не подрумянятся", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "К горячим блинам подать сметану", "durationMinutes": 3}
+      ],
+      "calories": 280,
+      "proteins": 10,
+      "fats": 14,
+      "carbohydrates": 30,
+      "servings": 5
+    },
+    {
+      "title": "Блинчики с грибной начинкой",
+      "description": "Тонкие блинчики, фаршированные грибами в томатно-молочном соусе. Сытное горячее блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Мука", "quantity": 1.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Растительное масло", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Молоко", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Вода", "quantity": 1, "unit": "стакан", "category": "drinks"},
+        {"name": "Сушеные грибы", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Вареное яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Желтки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Зелень укропа или петрушки", "quantity": 1, "unit": "ст.л.", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Мука (для соуса)", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Томат-пюре", "quantity": 2, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из перечисленных продуктов приготовить тесто и испечь блинчики", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Приготовить соус: муку и сливочное масло растереть на сковороде, влить стакан горячего молока, посолить, добавить томат-пюре и проварить до загустения", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Добавить 2 желтка и смешать с отваренными и нарезанными грибами и рубленым яйцом. На медленном огне довести начинку до загустения, приправить солью, перцем, зеленью, охладить", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Завернуть по одной ложке начинки в блинчик конвертом, обжарить в масле, положить на блюдо", "durationMinutes": 10}
+      ],
+      "calories": 320,
+      "proteins": 12,
+      "fats": 16,
+      "carbohydrates": 34,
+      "servings": 5
+    },
+    {
+      "title": "Блинчики с овощами",
+      "description": "Овощные блинчики с начинкой из брокколи, моркови и китайской капусты, запеченные под сыром.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Морковь", "quantity": 250, "unit": "г", "category": "vegetables"},
+        {"name": "Брокколи", "quantity": 250, "unit": "г", "category": "vegetables"},
+        {"name": "Китайская капуста", "quantity": 200, "unit": "г", "category": "vegetables"},
+        {"name": "Мука", "quantity": 125, "unit": "г", "category": "groceries"},
+        {"name": "Сыр", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сельдерей", "quantity": 2, "unit": "стебля", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Чеснок", "quantity": 2, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Топленое масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Паприка", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Молоко", "quantity": 0.25, "unit": "л", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Смешать яйца, молоко и муку, посолить, поперчить. Испечь блинчики", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Китайскую капусту и сельдерей очистить, нарезать соломкой. Морковь нарезать тонкими брусочками. Брокколи разделить на головки. Чеснок и лук очистить, мелко нарубить", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Растопить масло в сковороде, потушить лук и чеснок, добавить овощи, тушить 10 минут. Посолить, приправить перцем и паприкой", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Переложить слоями блины и овощи. Сверху посыпать сыром и запечь", "durationMinutes": 10}
+      ],
+      "calories": 300,
+      "proteins": 12,
+      "fats": 18,
+      "carbohydrates": 26,
+      "servings": 4
+    },
+    {
+      "title": "Блинчики с яблоками и сыром",
+      "description": "Десертные блинчики с мягким сыром и яблоками в медово-лимонном сиропе.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Мягкий сыр", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Яблоки", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Лимонный сок", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Мед", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Листики мяты", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Сахарная пудра", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Корица", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 1, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Просеять муку, добавить молоко, яйца, сахар и соль, хорошо перемешать и поместить в холодильник на 10 минут", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Почистить яблоки, удалить сердцевину и нарезать тонкой соломкой. Смешать лимонный сок, мед, корицу и полить яблочные дольки", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Испечь блины, намазать их мягким сыром. На одну половину каждого блина выложить яблочную соломку, накрыть второй половиной и посыпать сверху сахарной пудрой. Украсить листиками мяты", "durationMinutes": 20}
+      ],
+      "calories": 350,
+      "proteins": 10,
+      "fats": 12,
+      "carbohydrates": 52,
+      "servings": 5
+    },
+    {
+      "title": "Блинчики с повидлом",
+      "description": "Тонкие хрустящие блинчики на газированной воде с фруктовым повидлом. Обильно посыпаются сахарной пудрой.",
+      "cookingTimeMinutes": 110,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Фруктовое повидло", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Смалец", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Сахарная пудра", "quantity": 50, "unit": "г", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Газированная или обыкновенная вода", "quantity": 800, "unit": "г", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Взбить яйца, ввести в пену газированную или обыкновенную воду, соль, сахар, муку и поставить массу на 1 час в теплое место", "durationMinutes": 60},
+        {"stepNumber": 2, "description": "Растопить смалец, налить его на сковороду, довести до кипения и слить в кастрюлю с тестом", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Маленьким черпаком налить тесто на сковороду и, быстро поворачивая, разлить тесто равномерным тонким слоем. Блинчики выпекать с обеих сторон", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Каждый блинчик намазать фруктовым повидлом, скатать в трубочку, обильно посыпать сахарной пудрой", "durationMinutes": 10}
+      ],
+      "calories": 380,
+      "proteins": 8,
+      "fats": 14,
+      "carbohydrates": 56,
+      "servings": 6
+    },
+    {
+      "title": "Блинчики с медом (сахаром)",
+      "description": "Классические сладкие блинчики на желтках со взбитыми белками. Подаются с медом или сахаром.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Мед", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 3, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Смешать полстакана молока, 3 яичных желтка, сахар, соль, помешивая, всыпать муку. Добавить 2 ст. ложки разогретого сливочного масла и вымешать в однородную массу", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Затем развести молоком и добавить взбитые в пену яичные белки", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Выпекать на смазанной маслом сковороде. Не снимая со сковороды, блинчик сложить вчетверо, переложить в отдельную посуду", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Подавать на стол в горячем виде с медом или сахаром", "durationMinutes": 3}
+      ],
+      "calories": 300,
+      "proteins": 10,
+      "fats": 12,
+      "carbohydrates": 38,
+      "servings": 5
+    },
+    {
+      "title": "Блинчики с яблоками",
+      "description": "Блинчики с тертыми яблоками в тесте. Посыпаются орехами с сахарной пудрой.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 450, "unit": "г", "category": "groceries"},
+        {"name": "Яблоки", "quantity": 700, "unit": "г", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Орехи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Смалец или подсолнечное масло", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Сахарная пудра", "quantity": 30, "unit": "г", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 400, "unit": "мл", "category": "dairy"},
+        {"name": "Газированная вода", "quantity": 200, "unit": "мл", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Муку до гладкости вымешать с яйцами и небольшим количеством молока, после чего влить оставшееся молоко, газированную воду и размешать", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Яблоки очистить от кожицы и натереть на крупной терке. Слегка отжать яблочную массу и вмешать в блинное тесто", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Горячие блинчики посыпать молотыми орехами с сахарной пудрой", "durationMinutes": 20}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 14,
+      "carbohydrates": 34,
+      "servings": 5
+    },
+    {
+      "title": "Блинчики с клубникой",
+      "description": "Пышные блинчики с целыми ягодами клубники в тесте. Посыпаются ванильной сахарной пудрой.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 450, "unit": "г", "category": "groceries"},
+        {"name": "Ягоды клубники", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Разрыхлитель", "quantity": 1, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Ванильная сахарная пудра", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Растительное масло", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Отдельно взбить в густую пену белки с солью, по одному вмешать желтки. Постепенно добавить муку, смешанную с разрыхлителем. Осторожно перемешать сверху вниз", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Добавить ягоды клубники или земляники, жарить на масле", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Готовые блинчики сверху посыпать ванильной сахарной пудрой", "durationMinutes": 5}
+      ],
+      "calories": 340,
+      "proteins": 8,
+      "fats": 18,
+      "carbohydrates": 38,
+      "servings": 5
+    },
+    {
+      "title": "Оладьи с яблоками",
+      "description": "Пышные дрожжевые оладьи с кусочками свежих яблок. Сладкие и ароматные.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 3, "unit": "стакан", "category": "groceries"},
+        {"name": "Яблоки", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Дрожжи", "quantity": 20, "unit": "г", "category": "groceries"},
+        {"name": "Топленое или растительное масло", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Сахар", "quantity": 0.5, "unit": "стакан", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 2.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Замесить опару из стакана муки, теплого молока и дрожжей, поставить в теплое место и дать дважды подойти", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "В готовую опару добавить оставшуюся муку, растертые с сахаром и солью яйца. Все хорошо перемешать и соединить с мелко нарезанными яблоками", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Жарить, как обычные оладьи", "durationMinutes": 15}
+      ],
+      "calories": 350,
+      "proteins": 8,
+      "fats": 16,
+      "carbohydrates": 46,
+      "servings": 6
+    },
+    {
+      "title": "Оладьи на дрожжах",
+      "description": "Пышные дрожжевые оладьи. Подаются с медом, вареньем или джемом.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 3, "unit": "стакан", "category": "groceries"},
+        {"name": "Растительное масло для жарки", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Мед, варенье или джем", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из муки, теплого молока и дрожжей замесить тесто и поставить для подъема, после чего добавить яйца, взбитые с сахаром, солью, 1 ст. ложку растительного масла. Тесто перемешать и вторично дать подняться", "durationMinutes": 50},
+        {"stepNumber": 2, "description": "Далее, не размешивая, брать тесто смоченной в воде ложкой и жарить на умеренном огне в разогретом масле", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "К оладьям подать мед, варенье или джем", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 10,
+      "fats": 20,
+      "carbohydrates": 42,
+      "servings": 5
+    },
+    {
+      "title": "Оладьи с морковью",
+      "description": "Полезные оладьи из сырой тертой моркови. Подаются со сметаной.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 1.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Сырая морковь", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Топленое масло", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Морковь, хорошо очищенную и вымытую, натереть на мелкой терке и добавить яйца, муку, соль", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Все тщательно перемешать и жарить на масле", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "К оладьям подать сметану", "durationMinutes": 3}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 18,
+      "carbohydrates": 24,
+      "servings": 4
+    },
+    {
+      "title": "Оладьи с клубникой",
+      "description": "Нежные оладьи с целыми ягодами клубники. Посыпаются ванильной сахарной пудрой.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Ягоды клубники", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Разрыхлитель", "quantity": 1, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Ванильная сахарная пудра", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Отдельно взбить в густую пену белки с солью, по одному вмешать желтки, постепенно добавить муку, смешанную с разрыхлителем и сахаром. Осторожно перемешать сверху вниз", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Добавить ягоды клубники, жарить, как дрожжевые оладьи", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Готовые оладьи сверху посыпать ванильной сахарной пудрой", "durationMinutes": 5}
+      ],
+      "calories": 360,
+      "proteins": 8,
+      "fats": 20,
+      "carbohydrates": 38,
+      "servings": 5
+    },
+    {
+      "title": "Курник (I)",
+      "description": "Классический русский слоеный пирог с курицей, рисом и грибами. Парадное блюдо.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Слоеное тесто", "quantity": 700, "unit": "г", "category": "groceries"},
+        {"name": "Курица", "quantity": 1, "unit": "шт", "category": "meat"},
+        {"name": "Белые грибы или лук", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Рис", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Соус", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Рубленая зелень петрушки", "quantity": 1, "unit": "ст.л.", "category": "vegetables"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Курицу отварить до готовности, мясо отделить от костей, нарезать ломтиками, заправить соусом", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Рис отварить, промыть, заправить маслом, добавить одно рубленое вареное яйцо, зелень петрушки", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Грибы или лук потушить в масле и заправить тем же соусом", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Из 2/3 теста раскатать круглую лепешку, положить ее в смазанную маслом высокую форму так, чтобы края теста были несколько больше формы", "durationMinutes": 5},
+        {"stepNumber": 5, "description": "На тесто выложить слоями начинку: рис, нарезанные кружками вареные яйца, курицу, грибы или лук, затем снова рис, яйца", "durationMinutes": 10},
+        {"stepNumber": 6, "description": "Из оставшегося теста раскатать лепешку, прикрыть ею купол пирога, сделать сверху фигурное отверстие для выхода пара. Смазать желтком и выпекать в горячей духовке до зарумянивания", "durationMinutes": 25}
+      ],
+      "calories": 450,
+      "proteins": 24,
+      "fats": 28,
+      "carbohydrates": 28,
+      "servings": 8
+    },
+    {
+      "title": "Курник (II)",
+      "description": "Курник из сдобного теста с курицей, рисом и грибами. Подается с куриным бульоном.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Желтки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Вода", "quantity": 0.75, "unit": "стакан", "category": "drinks"},
+        {"name": "Курица", "quantity": 1, "unit": "шт", "category": "meat"},
+        {"name": "Рис", "quantity": 0.75, "unit": "стакан", "category": "groceries"},
+        {"name": "Шампиньоны или белые грибы", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Яйца (для начинки)", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Специи", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из муки, воды, 2 желтков, масла и соли приготовить сдобное крутое тесто, раскатать его на две круглые лепешки", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Приготовить начинку: сваренный в соленой воде рис смешать с рублеными грибами, измельченными яйцами", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Курицу сварить в воде с солью и специями, остудить, отделить мякоть и нарезать тонкими ломтиками", "durationMinutes": 30},
+        {"stepNumber": 4, "description": "Большую лепешку положить в смазанную маслом форму и укладывать на нее слоями начинку, чередуя с ломтиками птицы, до тех пор, пока форма не наполнится", "durationMinutes": 10},
+        {"stepNumber": 5, "description": "Накрыть сверху меньшей лепешкой и защепить края (в виде купола). Сделать отверстие, смазать яйцом и выпекать 30-45 минут", "durationMinutes": 35},
+        {"stepNumber": 6, "description": "Отдельно в соуснике подать бульон, в котором варилась курица", "durationMinutes": 5}
+      ],
+      "calories": 480,
+      "proteins": 26,
+      "fats": 30,
+      "carbohydrates": 30,
+      "servings": 8
+    },
+    {
+      "title": "Соус для курника",
+      "description": "Нежный сливочный соус на курином бульоне с желтками. Идеален для курника.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Желтки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Крепкий куриный бульон", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливки", "quantity": 0.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Масло растереть с мукой, разбавить куриным бульоном, соединить со сливками", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Массу проварить на паровой бане до загустения", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "При непрерывном помешивании заправить желтками, растертыми с маслом. Готовый соус не рекомендуется подогревать", "durationMinutes": 5}
+      ],
+      "calories": 120,
+      "proteins": 2,
+      "fats": 10,
+      "carbohydrates": 4,
+      "servings": 6
+    },
+    {
+      "title": "Курник грибной",
+      "description": "Постный пирог с грибной начинкой из слоеного или сдобного теста.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 50, "unit": "г", "category": "dairy"},
+        {"name": "Сметана", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Грибы (лисички или другие)", "quantity": 400, "unit": "г", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зелень укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовить тесто из муки, масла, сметаны, яйца и соли. Раскатать в две лепешки", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Грибы отварить, обжарить с луком, приправить солью, перцем, зеленью", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "На одну лепешку выложить начинку, накрыть второй, защипать края, сделать проколы для выхода пара", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Выпекать в духовке до готовности", "durationMinutes": 20}
+      ],
+      "calories": 320,
+      "proteins": 8,
+      "fats": 20,
+      "carbohydrates": 28,
+      "servings": 6
     }
   ]
 }
