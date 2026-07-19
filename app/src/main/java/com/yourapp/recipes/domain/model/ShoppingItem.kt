@@ -8,7 +8,8 @@ data class ShoppingItem(
     val category: String = "other",
     val isPurchased: Boolean = false,
     val recipeId: Long? = null,
-    val price: Float = 0f
+    val price: Float = 0f,
+    val purchaseDate: Long? = null
 ) {
     val displayQuantity: String
         get() = if (quantity == quantity.toLong().toFloat()) {
