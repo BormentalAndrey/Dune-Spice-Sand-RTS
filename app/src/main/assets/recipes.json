@@ -13533,6 +13533,1620 @@
       "fats": 8,
       "carbohydrates": 20,
       "servings": 8
+    },
+    {
+      "title": "Баклажаны, запеченные с сыром",
+      "description": "Быстрая и простая закуска из баклажанов, запеченных под майонезом с сыром и чесноком.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "SNACK",
+      "ingredients": [
+        {"name": "Баклажаны", "quantity": 6, "unit": "шт", "category": "vegetables"},
+        {"name": "Сыр", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Майонез", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Чеснок", "quantity": 4, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Натереть сыр на терке, чеснок измельчить", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Баклажаны вымыть и разрезать поперек", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "На разрезы положить немного чеснока, посолить, полить майонезом и посыпать сыром", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Положить на противень, смазанный маслом, и поставить в разогретую духовку на 15-20 минут", "durationMinutes": 20}
+      ],
+      "calories": 220,
+      "proteins": 8,
+      "fats": 18,
+      "carbohydrates": 8,
+      "servings": 6
+    },
+    {
+      "title": "Овощи, тушенные с мясом",
+      "description": "Сытное блюдо из свинины с рисом и овощами, запеченное в горшочке под сметаной.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Сладкий перец", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Помидоры", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Картофель", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Свинина", "quantity": 500, "unit": "г", "category": "meat"},
+        {"name": "Рис", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Жир", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Мясной соус", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Красный молотый перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Нарезанные мясо и лук потушить в большом количестве жира", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Перец, помидоры, картофель и рис смешать с солью и красным молотым перцем", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Положить в глиняный горшок слой овощей, сверху — слой мяса, а затем опять слой овощей", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Полить мясным соусом и сметаной, а затем жарить в духовке в течение 1 часа", "durationMinutes": 60}
+      ],
+      "calories": 480,
+      "proteins": 28,
+      "fats": 30,
+      "carbohydrates": 26,
+      "servings": 5
+    },
+    {
+      "title": "Запеканка мясная с овощами",
+      "description": "Слоеная запеканка из говяжьего фарша с картофелем и капустой под томатным соусом.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Говядина", "quantity": 500, "unit": "г", "category": "meat"},
+        {"name": "Картофель", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Свежая капуста", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сухари", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Томатный соус", "quantity": 1.5, "unit": "стакан", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очищенный лук нарезать соломкой, спассеровать на сливочном масле. Добавить пропущенное через мясорубку мясо, сметану, соль и размешать", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Картофель, морковь, капусту очистить, нарезать соломкой и отварить в подсоленной воде", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Подготовленное мясо уложить в кастрюлю слоями вместе со смешанными вареными овощами", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Залить томатным соусом, посыпать сухарями. Запечь в духовке до готовности", "durationMinutes": 15}
+      ],
+      "calories": 350,
+      "proteins": 24,
+      "fats": 20,
+      "carbohydrates": 20,
+      "servings": 5
+    },
+    {
+      "title": "Запеканка из кукурузы",
+      "description": "Простая и вкусная запеканка из отварного картофеля и кукурузы, запеченная с сыром.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Початки кукурузы", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Картофель", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Сыр", "quantity": 50, "unit": "г", "category": "dairy"},
+        {"name": "Майонез", "quantity": 4, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зеленый лук", "quantity": 1, "unit": "ст.л.", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Кукурузу и картофель отварить в подсоленной воде, охладить", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Картофель очистить, порезать тонкими ломтиками. С кукурузных початков снять зерна. Сыр мелко натереть", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "В глубокой керамической посуде смешать картофель и кукурузу, сверху посыпать сыром и полить майонезом", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Запечь в духовке до румяной корочки. Подавать в этой же посуде, посыпав зеленым луком", "durationMinutes": 15}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 16,
+      "carbohydrates": 28,
+      "servings": 4
+    },
+    {
+      "title": "Запеканка картофельная с грибами",
+      "description": "Сытная картофельная запеканка с грибами, залитая молочно-яичной смесью.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Отварной картофель", "quantity": 12, "unit": "шт", "category": "vegetables"},
+        {"name": "Свежие грибы", "quantity": 400, "unit": "г", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 60, "unit": "г", "category": "dairy"},
+        {"name": "Маргарин", "quantity": 40, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Тмин", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Молоко", "quantity": 500, "unit": "г", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Лук, отваренные грибы нашинковать соломкой, обжарить на масле, добавить тмин и тушить в течение 10 минут", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Картофель отварить в мундире, очистить и нарезать соломкой", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "На противень, смазанный маслом, уложить слой картофеля, посолить. Затем положить слой тушеных грибов. Слои картофеля и грибов чередовать, верхним должен быть слой картофеля", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Залить молоком, смешанным с яйцами и солью. Запекать в духовке до готовности", "durationMinutes": 20}
+      ],
+      "calories": 320,
+      "proteins": 10,
+      "fats": 16,
+      "carbohydrates": 34,
+      "servings": 6
+    },
+    {
+      "title": "Запеканка из фасоли с морковью",
+      "description": "Нежная запеканка из фасолевого пюре с морковью, запеченная в горшочках под сметаной.",
+      "cookingTimeMinutes": 130,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Фасоль", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Морковь", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Молотые сухари", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сметана", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Фасоль варить до мягкости в течение 1,5-2 часов, пропустить через мясорубку", "durationMinutes": 100},
+        {"stepNumber": 2, "description": "Морковь очистить, мелко нарезать, потушить до мягкости", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Смешать морковь с фасолевым пюре, добавить сырые яйца, масло, сахар, соль и перемешать", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Полученную массу выложить в горшочки, смазанные маслом и посыпанные сухарями, полить сметаной. Запекать 10-15 минут", "durationMinutes": 15},
+        {"stepNumber": 5, "description": "Отдельно подать сметану", "durationMinutes": 0}
+      ],
+      "calories": 250,
+      "proteins": 10,
+      "fats": 14,
+      "carbohydrates": 22,
+      "servings": 7
+    },
+    {
+      "title": "Запеканка из кабачков с сыром",
+      "description": "Яркая овощная запеканка из цуккини, сладкого перца и помидоров с хрустящими гренками и сыром.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Цуккини", "quantity": 800, "unit": "г", "category": "vegetables"},
+        {"name": "Сладкий красный и желтый перец", "quantity": 350, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Помидоры", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Бульонный концентрат", "quantity": 1, "unit": "кубик", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сыр", "quantity": 125, "unit": "г", "category": "dairy"},
+        {"name": "Булочки", "quantity": 2, "unit": "шт", "category": "bakery"},
+        {"name": "Чеснок", "quantity": 2, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Специи для овощей", "quantity": 10, "unit": "г", "category": "spices"},
+        {"name": "Тимьян", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Душица", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Перец и цуккини нарезать кусочками и жарить около 10 минут в 2 ст. ложках сливочного масла", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Лук и чеснок крупно нарубить, помидоры мелко нарезать. Сделать из них пюре и добавить к обжаренным овощам. Добавить бульонный концентрат, приправить специями и тушить около 5 минут", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Булочки нарезать кубиками и обжарить в оставшемся сливочном масле", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Заполнить овощной смесью жаропрочную форму, посыпать сверху гренками, кубиками сыра и поставить на 3 минуты в нагретую духовку, запекать до расплавления сыра", "durationMinutes": 5}
+      ],
+      "calories": 320,
+      "proteins": 10,
+      "fats": 20,
+      "carbohydrates": 26,
+      "servings": 4
+    },
+    {
+      "title": "Картофельная запеканка с сыром",
+      "description": "Слоеная запеканка из картофеля с яично-сырной заливкой. Простое и сытное блюдо.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 1500, "unit": "г", "category": "vegetables"},
+        {"name": "Молоко", "quantity": 1.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Сыр", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сметана", "quantity": 125, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Чеснок", "quantity": 2, "unit": "зубчика", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очищенный картофель нарезать тонкими ломтиками", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Молоко, сметану, яйца и часть тертого сыра взбить венчиком", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "В форму для запекания, смазанную смесью сливочного масла и тертого чеснока, уложить слоями картофель, пересыпая каждый слой солью и перцем", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Залить приготовленной массой, посыпать оставшимся сыром, положить сверху несколько кусочков масла. Запекать в духовке до готовности", "durationMinutes": 20}
+      ],
+      "calories": 350,
+      "proteins": 14,
+      "fats": 20,
+      "carbohydrates": 30,
+      "servings": 5
+    },
+    {
+      "title": "Овощное рагу",
+      "description": "Классическое овощное рагу из картофеля, фасоли, капусты и репы в томатном соусе.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Стручковая фасоль", "quantity": 150, "unit": "г", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Репа", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Цветная капуста", "quantity": 0.5, "unit": "кочана", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Помидоры", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Гвоздика", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Корица", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очищенные, вымытые овощи нарезать крупными кубиками или дольками. Морковь, репу тушить, капусту и фасоль отварить, картофель и лук обжарить в масле", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Отдельно поджарить муку, развести отваром от овощей, добавить мелко нарезанные помидоры и прокипятить", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Приготовленным соусом залить овощи, сложенные в одну кастрюлю, добавить соль, пряности и тушить 15-20 минут", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Посыпать зеленью петрушки", "durationMinutes": 3}
+      ],
+      "calories": 200,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 28,
+      "servings": 7
+    },
+    {
+      "title": "Картофельное рагу",
+      "description": "Сладковатое рагу из картофеля с сухофруктами и яблоками. Необычное постное блюдо.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Капуста", "quantity": 200, "unit": "г", "category": "vegetables"},
+        {"name": "Курага", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Изюм", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Чернослив (без косточек)", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Луковицы", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Помидоры", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Яблоки", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Чеснок", "quantity": 5, "unit": "зубчиков", "category": "vegetables"},
+        {"name": "Зелень укропа и петрушки", "quantity": 2, "unit": "ст.л.", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очищенный картофель крупно нарезать, капусту нашинковать, помидоры и яблоки очистить и мелко нарезать кубиками, морковь крупно натереть, чеснок нарезать, лук нашинковать соломкой и обжарить. Все продукты перемешать", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Добавить промытые курагу, изюм, чернослив. Посолить, поперчить, влить стакан воды, масло и тушить 30-35 минут", "durationMinutes": 30}
+      ],
+      "calories": 280,
+      "proteins": 6,
+      "fats": 6,
+      "carbohydrates": 54,
+      "servings": 4
+    },
+    {
+      "title": "Картофель отварной",
+      "description": "Простой отварной картофель, который подается с маслом, сметаной и солеными грибами. Классический гарнир.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Соленые или маринованные грибы", "quantity": 150, "unit": "г", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Зелень петрушки", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Картофель очистить и промыть, опустить в подсоленную воду и отварить до готовности", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Слить воду, картофель обсушить", "durationMinutes": 3},
+        {"stepNumber": 3, "description": "Подать картофель на блюде, посыпав зеленью петрушки. Отдельно подать сливочное масло, сметану, соленые или маринованные грибы", "durationMinutes": 5}
+      ],
+      "calories": 300,
+      "proteins": 6,
+      "fats": 22,
+      "carbohydrates": 24,
+      "servings": 4
+    },
+    {
+      "title": "Картофель отварной с луком и грибами",
+      "description": "Отварной картофель с жареными белыми грибами и луком. Ароматный и сытный гарнир.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 800, "unit": "г", "category": "vegetables"},
+        {"name": "Жареные белые грибы (шампиньоны)", "quantity": 150, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Зелень укропа", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Картофель очистить и промыть, опустить в подсоленную воду, отварить до готовности. Слить воду, картофель обсушить", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Лук очистить, мелко нарезать, обжарить. Свежие белые грибы мелко нарубить и обжарить. В готовые грибы добавить обжаренный лук и обжарить еще раз все вместе", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "При подаче на стол отварной картофель выложить на блюдо, сверху — жареные грибы с луком, полить растопленным сливочным маслом, посыпать рубленой зеленью", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 12,
+      "carbohydrates": 36,
+      "servings": 4
+    },
+    {
+      "title": "Картофель жареный с грибами",
+      "description": "Хрустящий жареный картофель с лесными грибами. Классическое русское блюдо.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 10, "unit": "шт", "category": "vegetables"},
+        {"name": "Свежие или сушеные грибы", "quantity": 300, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Зелень укропа или петрушки", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очищенный картофель нарезать брусочками, обжарить на масле до образования золотистой корочки", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Подготовленные грибы и репчатый лук обжарить отдельно и соединить с картофелем, посолить", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Поставить в духовку и довести до готовности", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Украсить зеленью", "durationMinutes": 3}
+      ],
+      "calories": 320,
+      "proteins": 8,
+      "fats": 12,
+      "carbohydrates": 44,
+      "servings": 5
+    },
+    {
+      "title": "Картофель в сметанной заливке",
+      "description": "Картофель, тушенный с луком и запеченный в сметане. Простое и нежное блюдо.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 6, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 80, "unit": "г", "category": "dairy"},
+        {"name": "Сметана", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Зелень петрушки, укроп", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Черный молотый перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Нарезать лук кольцами и спассеровать на масле. Картофель очистить, нарезать кружочками, перемешать с луком", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Добавить 3-4 ст. ложки воды, соль, перец и тушить почти до готовности", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Затем залить картофель подсоленной сметаной и запечь в духовке", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Перед подачей посыпать зеленью", "durationMinutes": 3}
+      ],
+      "calories": 300,
+      "proteins": 6,
+      "fats": 18,
+      "carbohydrates": 32,
+      "servings": 3
+    },
+    {
+      "title": "Картофель с курицей и сыром",
+      "description": "Запеченный на гриле картофель с курицей под сыром и сметаной. Быстрое и эффектное блюдо.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Вареный картофель", "quantity": 8, "unit": "шт", "category": "vegetables"},
+        {"name": "Вареная курица", "quantity": 1, "unit": "шт", "category": "meat"},
+        {"name": "Сметана", "quantity": 160, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 40, "unit": "г", "category": "dairy"},
+        {"name": "Тертый сыр", "quantity": 4, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Красный молотый перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Зелень петрушки", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "С курицы снять кожу, отделить мякоть от костей", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Картофель разрезать пополам и поместить на смазанную маслом фольгу срезом вверх", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Сверху разложить кусочки масла, нарезанную ломтиками мякоть курицы, посолить, поперчить, посыпать тертым сыром, полить сметаной", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Края фольги соединить и жарить картофель на гриле 20 минут", "durationMinutes": 20},
+        {"stepNumber": 5, "description": "Подавать горячим, развернув фольгу и посыпав рубленой зеленью", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 26,
+      "fats": 22,
+      "carbohydrates": 22,
+      "servings": 4
+    },
+    {
+      "title": "Картофель, тушенный с бараниной",
+      "description": "Сытное блюдо из картофеля и баранины, тушенное в духовке с овощами.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 10, "unit": "шт", "category": "vegetables"},
+        {"name": "Баранина", "quantity": 600, "unit": "г", "category": "meat"},
+        {"name": "Морковь", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Томат-пюре (или помидоры)", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Бульон или вода", "quantity": 200, "unit": "мл", "category": "groceries"},
+        {"name": "Жир", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Укроп", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Картофель и морковь очистить, промыть, нарезать кубиками и обжарить на жире. Отдельно обжарить с луком нарезанную на куски баранину", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Все смешать, добавить немного бульона или воды, томат-пюре, соль, специи", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Тушить в духовке до готовности", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Перед подачей на стол украсить зеленью", "durationMinutes": 3}
+      ],
+      "calories": 420,
+      "proteins": 24,
+      "fats": 26,
+      "carbohydrates": 26,
+      "servings": 5
+    },
+    {
+      "title": "Картофель с чесноком и сыром",
+      "description": "Запеченный в молоке и сливках картофель с сыром и чесноком. Нежное и ароматное блюдо.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Российский сыр", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Молоко", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "20%-ные сливки", "quantity": 6, "unit": "ч.л.", "category": "dairy"},
+        {"name": "Чеснок", "quantity": 1, "unit": "зубчик", "category": "vegetables"},
+        {"name": "Черный молотый перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Натереть дно широкой кастрюли чесноком", "durationMinutes": 2},
+        {"stepNumber": 2, "description": "Картофель очистить, нарезать кусочками и выложить на дно кастрюли так, чтобы кусочки не лежали друг на друге. Приправить солью, перцем, посыпать нарезанным чесноком", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Залить сначала молоко, а затем сливки. Картофель должен быть весь покрыт", "durationMinutes": 3},
+        {"stepNumber": 4, "description": "Сверху посыпать тертым сыром", "durationMinutes": 5},
+        {"stepNumber": 5, "description": "Запекать в духовке 20-25 минут", "durationMinutes": 25}
+      ],
+      "calories": 320,
+      "proteins": 14,
+      "fats": 20,
+      "carbohydrates": 22,
+      "servings": 3
+    },
+    {
+      "title": "Картофель, тушенный в сметане",
+      "description": "Быстрый и нежный картофель, тушенный в сметане с луком. Простой гарнир.",
+      "cookingTimeMinutes": 35,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Сметана", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 40, "unit": "г", "category": "dairy"},
+        {"name": "Зелень петрушки", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Очищенный картофель нарезать соломкой, уложить в кастрюлю, посолить, добавить сливочное масло, тушить 15 минут", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Выложить на картофель лук, нарезанный полукольцами, все залить сметаной", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Готовить под закрытой крышкой еще 7 минут", "durationMinutes": 7},
+        {"stepNumber": 4, "description": "Украсить зеленью петрушки", "durationMinutes": 3}
+      ],
+      "calories": 280,
+      "proteins": 6,
+      "fats": 16,
+      "carbohydrates": 28,
+      "servings": 3
+    },
+    {
+      "title": "Картофель с зеленым горошком в сметане",
+      "description": "Овощное рагу из картофеля и моркови с зеленым горошком в сметанном соусе.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Консервированный зеленый горошек", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сметана", "quantity": 4, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Мука", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Лавровый лист", "quantity": 1, "unit": "шт", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Смешать нарезанный кубиками картофель, натертую морковь и мелко нашинкованный лук", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Добавить воду, масло, тушить почти до готовности", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Затем добавить зеленый горошек, лавровый лист, сахар и соль", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Размешать муку с водой и сметаной, залить этим соусом овощи. Запечь в духовке", "durationMinutes": 15}
+      ],
+      "calories": 250,
+      "proteins": 7,
+      "fats": 12,
+      "carbohydrates": 30,
+      "servings": 2
+    },
+    {
+      "title": "Картофельные пирожки с грибами",
+      "description": "Картофельные котлеты с грибной начинкой, обжаренные в сухарях. Сытное постное блюдо.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Сухие грибы", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Толченые сухари", "quantity": 0.33, "unit": "стакан", "category": "groceries"},
+        {"name": "Крахмал", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 4, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Томат-пюре для соуса", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Картофель отварить, пропустить через мясорубку, добавить крахмал, соль", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Для фарша грибы сварить, мелко нарезать и поджарить в масле. Добавить спассерованный лук, соль, перец и перемешать", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Подготовленную картофельную массу разделать в виде небольших лепешек, на середину положить грибной фарш, соединить края", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Обвалять в сухарях и обжарить на масле", "durationMinutes": 10},
+        {"stepNumber": 5, "description": "Можно подать грибной соус, приготовленный на грибном отваре с добавлением томата-пюре", "durationMinutes": 5}
+      ],
+      "calories": 300,
+      "proteins": 8,
+      "fats": 12,
+      "carbohydrates": 40,
+      "servings": 5
+    },
+    {
+      "title": "Картофельные котлеты с квашеной капустой",
+      "description": "Оригинальные картофельные котлеты с добавлением квашеной капусты. Хрустящие и сочные.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Квашеная капуста", "quantity": 400, "unit": "г", "category": "vegetables"},
+        {"name": "Толченые сухари", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Жир", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Картофель отварить в мундире, очистить и пропустить через мясорубку", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Добавить квашеную капусту, обжаренный лук, яйцо, перец, соль, перемешать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Из смеси сформовать котлеты, обвалять в сухарях", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Жарить на разогретом жире до румяной корочки", "durationMinutes": 10}
+      ],
+      "calories": 220,
+      "proteins": 6,
+      "fats": 10,
+      "carbohydrates": 28,
+      "servings": 5
+    },
+    {
+      "title": "Картофельный рулет",
+      "description": "Запеченный картофельный рулет с начинкой из квашеной капусты и мясного фарша.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Картофель", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Квашеная капуста", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Мясной фарш", "quantity": 300, "unit": "г", "category": "meat"},
+        {"name": "Сырые яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Крахмал", "quantity": 60, "unit": "г", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Картофель очистить, отварить, пропустить через мясорубку, вбить 2 яйца, всыпать крахмал, соль и вымесить", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Капусту потушить", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Из картофельной массы сформовать лепешку, на нее положить тушеную капусту, фарш, свернуть рулетиком", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Рулет уложить на противень и смазать взбитым яйцом. Запекать 10-15 минут. Нарезать ломтиками", "durationMinutes": 15}
+      ],
+      "calories": 350,
+      "proteins": 16,
+      "fats": 16,
+      "carbohydrates": 36,
+      "servings": 7
+    },
+    {
+      "title": "Каша рисовая с яблоками",
+      "description": "Сладкая рисовая каша с яблоками и ванилином, запеченная в духовке. Нежный десерт.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Яблоки", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Рис", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Молоко", "quantity": 3.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Ванилин", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Промытый рис варить 5-8 минут, потом откинуть на дуршлаг", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Затем переложить в кипящее молоко и варить на слабом огне почти до готовности", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Добавить соль, нарезанные дольками яблоки, сливочное масло, яйцо, взбитое с сахаром, ванилин, перемешать", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Запечь в духовке", "durationMinutes": 15}
+      ],
+      "calories": 320,
+      "proteins": 8,
+      "fats": 8,
+      "carbohydrates": 56,
+      "servings": 5
+    },
+    {
+      "title": "Каша рисовая с помидорами и луком",
+      "description": "Рассчитанный рис, обжаренный с луком и помидорами. Быстрый и вкусный гарнир.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Рис", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Лук", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Помидоры", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Укроп", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Промытый рис всыпать в кипящую подсоленную воду и сварить до готовности. Готовый рис откинуть на дуршлаг и дать воде стечь", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "На сковороду с растительным маслом выложить репчатый лук и слегка обжарить", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Затем добавить нарезанные ломтиками помидоры и потушить еще 2-3 минуты", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "На сковороду выложить рис, перемешать с луком и помидорами", "durationMinutes": 3},
+        {"stepNumber": 5, "description": "Посыпать мелко нарезанным укропом", "durationMinutes": 2}
+      ],
+      "calories": 280,
+      "proteins": 5,
+      "fats": 10,
+      "carbohydrates": 42,
+      "servings": 5
+    },
+    {
+      "title": "Рис с изюмом и цукатами",
+      "description": "Сладкое блюдо из рассыпчатого риса с медом, изюмом и орехами. Украшается цукатами.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Рис", "quantity": 300, "unit": "г", "category": "groceries"},
+        {"name": "Мед", "quantity": 80, "unit": "г", "category": "groceries"},
+        {"name": "Изюм", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Цукаты", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Орехи или семена тыквы", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Вода", "quantity": 600, "unit": "мл", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Сварить рассыпчатый рис", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Добавить изюм, поджаренные и измельченные орехи или семена тыквы, мед и перемешать", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Выложить массу горкой в салатник. Сверху украсить изюмом, цукатами, посыпать орехами", "durationMinutes": 5}
+      ],
+      "calories": 400,
+      "proteins": 8,
+      "fats": 10,
+      "carbohydrates": 74,
+      "servings": 4
+    },
+    {
+      "title": "Каша рисовая с изюмом",
+      "description": "Простая рисовая каша с изюмом, томленная на паровой бане. Постное блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Рис", "quantity": 400, "unit": "г", "category": "groceries"},
+        {"name": "Сушеный изюм без косточек", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Масло", "quantity": 50, "unit": "г", "category": "dairy"},
+        {"name": "Соль", "quantity": 10, "unit": "г", "category": "spices"},
+        {"name": "Вода", "quantity": 2000, "unit": "мл", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Предварительно изюм перебрать и замочить на ночь", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Рис варить до полуготовности в подсоленной воде. Затем откинуть на дуршлаг, промыть горячей водой", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Добавить тщательно вымытый изюм", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "20 минут варить на паровой бане или упревать в духовке", "durationMinutes": 20}
+      ],
+      "calories": 350,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 66,
+      "servings": 5
+    },
+    {
+      "title": "Каша рисовая молочная",
+      "description": "Классическая молочная рисовая каша, томленная на водяной бане. Нежная и сладкая.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Рис", "quantity": 1.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 4.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Вода", "quantity": 3, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Перебрать и промыть рис в нескольких водах", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Засыпать крупу в кипящую воду и варить 5-8 минут, откинуть на дуршлаг и дать стечь воде", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Переложить рис в кастрюлю, залить горячим молоком, добавить сахар, соль и варить на небольшом огне 10-15 минут", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Накрыть кастрюлю крышкой и поставить для упревания на водяную баню. Готовую кашу полить растопленным сливочным маслом", "durationMinutes": 15}
+      ],
+      "calories": 320,
+      "proteins": 8,
+      "fats": 10,
+      "carbohydrates": 50,
+      "servings": 5
+    },
+    {
+      "title": "Каша рисовая с тыквой",
+      "description": "Сладкая рисовая каша с тыквой и изюмом, томленная в молоке. Осеннее блюдо.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Тыква", "quantity": 700, "unit": "г", "category": "vegetables"},
+        {"name": "Молоко", "quantity": 4, "unit": "стакан", "category": "dairy"},
+        {"name": "Рис", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Изюм", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Тыкву очистить от кожуры, нарезать кусочками и опустить в кипящее молоко", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Рис перебрать, промыть и добавить к тыкве вместе с сахаром и солью", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Варить кашу на очень медленном огне; когда молоко полностью впитается, добавить изюм, осторожно перемешать, положить сливочное масло и поставить кашу в духовку на 10 минут", "durationMinutes": 25}
+      ],
+      "calories": 350,
+      "proteins": 10,
+      "fats": 8,
+      "carbohydrates": 62,
+      "servings": 4
+    },
+    {
+      "title": "Рисовый крупеник",
+      "description": "Запеканка из риса с отварными кореньями и грибами. Сытное постное блюдо.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Рис", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Корень моркови", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Корень петрушки", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Корень сельдерея", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Свежие грибы", "quantity": 4, "unit": "шт", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 4, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Рубленая зелень петрушки", "quantity": 3, "unit": "ст.л.", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Сварить в подсоленой воде рассыпчатый рис. Смешать с мелко нарезанными отварными кореньями, отварными нашинкованными грибами, зеленью и маслом", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Уложить в смазанную маслом форму, полить растопленным маслом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Запекать в горячей духовке, не накрывая крышкой, до румяной корочки", "durationMinutes": 15}
+      ],
+      "calories": 280,
+      "proteins": 5,
+      "fats": 14,
+      "carbohydrates": 34,
+      "servings": 5
+    },
+    {
+      "title": "Гречневик",
+      "description": "Слоеная запеканка из гречневой каши с рублеными яйцами. Сытное и простое блюдо.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Гречневая крупа", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Кипяток", "quantity": 4, "unit": "стакан", "category": "drinks"},
+        {"name": "Вареные яйца", "quantity": 6, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 4, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сухари", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из гречневой крупы сварить вязкую кашу, вмешать в нее масло и остудить", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "На дно смазанной маслом и посыпанной сухарями формы уложить слой каши. Затем выложить слой рубленых яиц, покрыть слоем каши и так, чередуя, наполнить всю форму", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Посыпать сверху сухарями, сбрызнуть растопленным маслом и выдержать 15 минут в горячей духовке", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Подавать горячим с охлажденным сливочным маслом", "durationMinutes": 3}
+      ],
+      "calories": 350,
+      "proteins": 14,
+      "fats": 18,
+      "carbohydrates": 36,
+      "servings": 7
+    },
+    {
+      "title": "Каша гречневая рассыпчатая",
+      "description": "Рассыпчатая гречневая каша с чесноком и зеленью. Простой и ароматный гарнир.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Гречневая крупа", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Масло", "quantity": 20, "unit": "г", "category": "dairy"},
+        {"name": "Чеснок", "quantity": 2, "unit": "дольки", "category": "vegetables"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 2, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Крупу хорошо промыть и замочить в холодной воде на 3-4 часа. Затем поставить на огонь", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Когда каша закипит, варить ее на слабом огне до готовности", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "После этого посыпать мелко нарезанным чесноком, добавить масло и перемешать", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Сверху посыпать зеленью", "durationMinutes": 3}
+      ],
+      "calories": 250,
+      "proteins": 8,
+      "fats": 6,
+      "carbohydrates": 44,
+      "servings": 4
+    },
+    {
+      "title": "Каша гречневая молочная с кабачками",
+      "description": "Нежная молочная гречневая каша с кабачками. Полезное и вкусное блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Кабачки", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Молоко", "quantity": 4, "unit": "стакан", "category": "dairy"},
+        {"name": "Гречневая крупа", "quantity": 1.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Поджарить на сливочном масле гречневую крупу. Очищенные кабачки нарезать кусочками, положить в кастрюлю с молоком и варить до мягкости", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Всыпать поджаренную крупу в молоко с кабачками, размешать и довести до кипения, после чего добавить масло, сахар, соль", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Перемешать кашу, закрыть крышкой и поставить в духовку на 30 минут", "durationMinutes": 30},
+        {"stepNumber": 4, "description": "Подавать с растопленным сливочным маслом", "durationMinutes": 3}
+      ],
+      "calories": 350,
+      "proteins": 12,
+      "fats": 14,
+      "carbohydrates": 48,
+      "servings": 4
+    },
+    {
+      "title": "Каша гречневая с грибами",
+      "description": "Ароматная гречневая каша на грибном бульоне с луком и кореньями. Постное и сытное блюдо.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Гречневая крупа", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Грибной бульон", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Сушеные грибы", "quantity": 5, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковицы", "quantity": 2, "unit": "шт", "category": "vegetables"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Морковь", "quantity": 0.5, "unit": "шт", "category": "vegetables"},
+        {"name": "Петрушка", "quantity": 0.5, "unit": "корня", "category": "vegetables"},
+        {"name": "Сельдерей", "quantity": 0.5, "unit": "корня", "category": "vegetables"},
+        {"name": "Специи", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Сварить грибной бульон из сушеных грибов с кореньями, специями и солью. Грибы мелко нарубить, бульон процедить", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Залить бульоном слегка обжаренную крупу", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Добавить грибы, нашинкованный поджаренный на масле лук, перемешать, вскипятить и поставить в горячую духовку на 1 час", "durationMinutes": 60},
+        {"stepNumber": 4, "description": "Отдельно подать сливочное масло", "durationMinutes": 0}
+      ],
+      "calories": 300,
+      "proteins": 10,
+      "fats": 12,
+      "carbohydrates": 40,
+      "servings": 6
+    },
+    {
+      "title": "Каша гречневая с изюмом",
+      "description": "Сладкая гречневая каша с изюмом и яйцами, запеченная в духовке. Необычный вариант гречки.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Гречневая крупа", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Изюм", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Сахар или фруктовый сироп", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Вода или молоко", "quantity": 2.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Подготовленную крупу вымыть, залить водой или молоком, добавить масло, соль, варить 15 минут", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Затем смешать со взбитыми яйцами, подсушить в теплом месте и протереть через сито", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Добавить вымытый изюм, перемешать и поставить на 30 минут в горячую духовку", "durationMinutes": 30},
+        {"stepNumber": 4, "description": "Подавая, посыпать сахаром или полить фруктовым сиропом по желанию", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 12,
+      "fats": 10,
+      "carbohydrates": 64,
+      "servings": 5
+    },
+    {
+      "title": "Каша ячневая",
+      "description": "Рассыпчатая ячневая каша из предварительно обжаренной крупы. Подается с маслом и зеленью.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Ячневая крупа", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Растительное масло", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 2, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Крупу предварительно поджарить на сухой сковороде", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Затем засыпать ее в кипящую подсоленную воду и варить до загустения", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "После этого снять кастрюлю с огня и укутать. Через 30-40 минут каша готова", "durationMinutes": 35},
+        {"stepNumber": 4, "description": "Подавать с растительным маслом и зеленью", "durationMinutes": 3}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 10,
+      "carbohydrates": 40,
+      "servings": 4
+    },
+    {
+      "title": "Пшенная каша с черносливом и грецкими орехами",
+      "description": "Сладкая пшенная каша с черносливом и орехами. Полезный и вкусный завтрак.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Пшено", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Чернослив", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Ядра грецких орехов", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Вода", "quantity": 2, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Чернослив вымыть, удалить косточки, а мякоть мелко нарезать. Положить в кастрюлю, залить холодной водой и варить на слабом огне 5-7 минут", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Затем всыпать подготовленное пшено, добавить сахар, соль и варить кашу до готовности", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "За 5-7 минут до окончания варки положить в кашу мелко нарезанные ядра орехов", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Горячую кашу приправить сливочным маслом", "durationMinutes": 3}
+      ],
+      "calories": 360,
+      "proteins": 8,
+      "fats": 14,
+      "carbohydrates": 54,
+      "servings": 4
+    },
+    {
+      "title": "Каша ячневая молочная",
+      "description": "Запеченная ячневая каша на молоке с яйцами и сметаной. Подается со сливками.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Ячневая крупа", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Молоко", "quantity": 3, "unit": "стакан", "category": "dairy"},
+        {"name": "Сметана", "quantity": 0.5, "unit": "стакан", "category": "dairy"},
+        {"name": "Яйца", "quantity": 6, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сливки", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Молоко вскипятить, всыпать в него крупу", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Добавить масло, варить до загустения", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Вмешать еще масло, сырые яйца, сметану, соль и поставить на 30-40 минут в горячую духовку упревать", "durationMinutes": 40},
+        {"stepNumber": 4, "description": "Подавать можно со сливками и сахаром", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 14,
+      "fats": 22,
+      "carbohydrates": 34,
+      "servings": 6
+    },
+    {
+      "title": "Каша пшенная с тыквой",
+      "description": "Золотистая пшенная каша с тыквой. Простое, сытное и полезное блюдо.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Тыква", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Пшено", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Масло", "quantity": 40, "unit": "г", "category": "dairy"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Свежую тыкву очистить от кожицы и зерен, мелко нарезать или натереть на крупной терке. Положить в кастрюлю с горячей подсоленной водой и варить 5 минут", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Затем всыпать подготовленное пшено и варить на слабом огне", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Когда каша загустеет, укутать кастрюлю и настаивать 30 минут", "durationMinutes": 30},
+        {"stepNumber": 4, "description": "Подавать с маслом и зеленью", "durationMinutes": 3}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 10,
+      "carbohydrates": 42,
+      "servings": 5
+    },
+    {
+      "title": "Каша овсяная",
+      "description": "Классическая овсяная каша на молоке. Густая и сытная.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Овсяные хлопья", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Соль", "quantity": 2, "unit": "ч.л.", "category": "spices"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Вода", "quantity": 3, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Крупу залить водой и варить на слабом огне до вываривания воды и полного загустения каши", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Затем в два приема налить горячее молоко и, продолжая помешивать, варить до загустения, посолить", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Готовую кашу заправить маслом", "durationMinutes": 3}
+      ],
+      "calories": 300,
+      "proteins": 8,
+      "fats": 16,
+      "carbohydrates": 34,
+      "servings": 4
+    },
+    {
+      "title": "Каша манная с ягодами",
+      "description": "Быстрая манная каша со свежими ягодами. Нежный и сладкий завтрак.",
+      "cookingTimeMinutes": 15,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Манная крупа", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Ягоды", "quantity": 200, "unit": "г", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 0.25, "unit": "стакан", "category": "spices"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Молоко", "quantity": 1000, "unit": "мл", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Молоко вскипятить, всыпать тонкой струйкой манную крупу и варить на медленном огне, постоянно помешивая", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Затем в кашу добавить сахар и сливочное масло", "durationMinutes": 3},
+        {"stepNumber": 3, "description": "В готовую кашу положить ягоды, накрыть крышкой и оставить на 5 минут упревать", "durationMinutes": 5}
+      ],
+      "calories": 320,
+      "proteins": 10,
+      "fats": 12,
+      "carbohydrates": 44,
+      "servings": 5
+    },
+    {
+      "title": "Каша с фасолью и овощами",
+      "description": "Сытная каша из крупы с фасолью, перцем и помидорами. Полноценное вегетарианское блюдо.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "category": "LUNCH",
+      "ingredients": [
+        {"name": "Фасоль", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Перловая, пшеничная или пшенная крупа", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Болгарский перец", "quantity": 200, "unit": "г", "category": "vegetables"},
+        {"name": "Свежие помидоры", "quantity": 150, "unit": "г", "category": "vegetables"},
+        {"name": "Морковь", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Репчатый лук", "quantity": 80, "unit": "г", "category": "vegetables"},
+        {"name": "Коренья петрушки", "quantity": 20, "unit": "г", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 60, "unit": "г", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Крупу и фасоль отварить", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Репчатый лук, морковь и корень петрушки нарезать мелкими кубиками и слегка спассеровать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Все смешать, добавить нарезанный кусочками болгарский перец, воду, посолить и тушить 10-15 минут", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "В конце тушения добавить нарезанные ломтиками помидоры", "durationMinutes": 3}
+      ],
+      "calories": 350,
+      "proteins": 14,
+      "fats": 10,
+      "carbohydrates": 54,
+      "servings": 5
+    },
+    {
+      "title": "Каша из бобовых с мясом и овощами",
+      "description": "Сытное блюдо из фасоли и гороха с мясом и овощами. Заправляется сметаной и хреном.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "EASY",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Фасоль", "quantity": 300, "unit": "г", "category": "groceries"},
+        {"name": "Горох", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сметана", "quantity": 400, "unit": "г", "category": "dairy"},
+        {"name": "Отварное мясо", "quantity": 100, "unit": "г", "category": "meat"},
+        {"name": "Морковь", "quantity": 50, "unit": "г", "category": "vegetables"},
+        {"name": "Картофель", "quantity": 50, "unit": "г", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Готовый хрен", "quantity": 20, "unit": "г", "category": "spices"},
+        {"name": "Измельченные яблоки", "quantity": 3, "unit": "шт", "category": "vegetables"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Зелень", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Фасоль, горох, морковь, картофель потушить в духовке", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Сваренные вкрутую яйца мелко нарубить, мясо мелко нарезать", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Все компоненты положить в большую кастрюлю, посыпать перцем, посолить по вкусу, добавить хрен", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Блюдо перемешать и выложить в салатницу. Подавая на стол, залить сметаной. Украсить зеленью", "durationMinutes": 5}
+      ],
+      "calories": 380,
+      "proteins": 22,
+      "fats": 18,
+      "carbohydrates": 34,
+      "servings": 4
+    },
+    {
+      "title": "Запеканка из каши с тыквой",
+      "description": "Сладкая запеканка из пшенной или рисовой каши с тыквой. Нежный десерт или завтрак.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Очищенная тыква", "quantity": 800, "unit": "г", "category": "vegetables"},
+        {"name": "Пшено или рис", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Молоко", "quantity": 4, "unit": "стакан", "category": "dairy"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Сухари", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло (в кашу)", "quantity": 4, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сливочное масло (для смазывания)", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Сварить пшенную или рисовую кашу-размазню на молоке", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Смешать с натертой тыквой, растопленным маслом, сахаром, взбитыми яйцами и посолить", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Выложить массу в смазанную маслом и посыпанную сухарями форму", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Поставить в горячую духовку на 40 минут, вынуть, дать постоять под крышкой 10 минут", "durationMinutes": 50},
+        {"stepNumber": 5, "description": "Отдельно подать сливочное масло", "durationMinutes": 0}
+      ],
+      "calories": 380,
+      "proteins": 12,
+      "fats": 20,
+      "carbohydrates": 42,
+      "servings": 5
+    },
+    {
+      "title": "Запеканка из риса с колбасой",
+      "description": "Порционные рисовые запеканки с обжаренной копченой колбасой и сметаной.",
+      "cookingTimeMinutes": 45,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Рис", "quantity": 300, "unit": "г", "category": "groceries"},
+        {"name": "Сливки", "quantity": 250, "unit": "г", "category": "dairy"},
+        {"name": "Копченая колбаса", "quantity": 200, "unit": "г", "category": "meat"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 40, "unit": "г", "category": "dairy"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Зелень петрушки", "quantity": 1, "unit": "пучок", "category": "vegetables"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 500, "unit": "мл", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Промытый рис сварить в подсоленной кипящей воде; отцедить, залить сливками и, плотно закрыв, дать набухнуть. Затем в рисовую кашу вбить яйцо, перемешать", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Выложить в подготовленные формочки. Запекать в духовке 10-15 минут. Готовые рисовые запеканочки выложить на разделочную доску и охладить", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Колбасу нарезать кружочками и обжарить в масле", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Рисовые запеканочки выложить на блюдо, заправить густой сметаной, положить ломтики колбасы, украсить зеленью", "durationMinutes": 5}
+      ],
+      "calories": 420,
+      "proteins": 14,
+      "fats": 28,
+      "carbohydrates": 30,
+      "servings": 4
+    },
+    {
+      "title": "Драчена с сыром",
+      "description": "Воздушная запеканка из белого хлеба с сыром. Быстрое и вкусное блюдо на завтрак.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Пшеничный хлеб", "quantity": 200, "unit": "г", "category": "bakery"},
+        {"name": "Молоко", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Сыр", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 6, "unit": "шт", "category": "dairy"},
+        {"name": "Топленое или сливочное масло", "quantity": 1, "unit": "ст.л.", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "С черствого хлеба срезать корки. Мякиш нарезать мелкими кубиками и залить горячим молоком", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Когда хлеб набухнет, добавить немного натертого сыра, желтки и все перемешать", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Перед запеканием ввести взбитый в густую пену белок", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Положить массу ровным слоем на смазанную маслом сковороду, посыпать оставшимся сыром, сбрызнуть маслом и запечь в духовке. Готовую горячую драчену полить маслом и тут же подать", "durationMinutes": 15}
+      ],
+      "calories": 280,
+      "proteins": 16,
+      "fats": 18,
+      "carbohydrates": 16,
+      "servings": 3
+    },
+    {
+      "title": "Драчена творожная",
+      "description": "Сладкая творожная запеканка, запеченная с яйцом и сахаром. Подается со сметаной или вареньем.",
+      "cookingTimeMinutes": 35,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Творог", "quantity": 500, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Панировочные сухари", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Яйца (для смазывания)", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сметана или варенье", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 0.66, "unit": "стакан", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Творог протереть, смешать с растертыми желтками, растопленным маслом, взбитыми в густую пену белками и посолить", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Полученную массу выложить слоем на смазанную маслом и посыпанную сухарями сковороду", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Смазать яйцом, посыпать сахаром и выпекать в горячей духовке 20 минут", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Отдельно можно подать сметану, растопленное масло и варенье", "durationMinutes": 0}
+      ],
+      "calories": 350,
+      "proteins": 22,
+      "fats": 22,
+      "carbohydrates": 18,
+      "servings": 5
+    },
+    {
+      "title": "Сырники «Нежные»",
+      "description": "Очень нежные сырники, тушенные в сладкой сметане после обжаривания. Тают во рту.",
+      "cookingTimeMinutes": 55,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Творог", "quantity": 500, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Мука", "quantity": 5, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 1, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Молоко подогреть и залить им творог. Дать постоять. Добавить соль и сахар, вбить яйца и, подсыпая муку, вымешать тесто", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Дать тесту настояться около 30 минут и разделать сырники", "durationMinutes": 30},
+        {"stepNumber": 3, "description": "Жарить в хорошо разогретом растительном масле, подрумянивая с обеих сторон", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Готовые сырники уложить в кастрюлю, залить подслащенной сметаной и немного потушить", "durationMinutes": 5}
+      ],
+      "calories": 380,
+      "proteins": 22,
+      "fats": 24,
+      "carbohydrates": 20,
+      "servings": 5
+    },
+    {
+      "title": "Сырники ванильные",
+      "description": "Классические сладкие сырники с ванилином. Обжариваются в масле и подаются с вареньем.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Творог", "quantity": 500, "unit": "г", "category": "dairy"},
+        {"name": "Пшеничная мука", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Варенье", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Ванилин", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Творог протереть через сито. Добавить 150 г просеянной муки, сахар, соль, ванилин, яйцо. Все хорошо перемешать", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Из подготовленной творожной массы сформировать биточки. Обвалять их в муке", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Обжарить на сливочном масле с обеих сторон", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Готовые сырники уложить на тарелку, полить вареньем", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 22,
+      "fats": 18,
+      "carbohydrates": 34,
+      "servings": 4
+    },
+    {
+      "title": "Сырники со сметаной",
+      "description": "Классические творожные сырники, жаренные на сковороде. Подаются со сметаной.",
+      "cookingTimeMinutes": 25,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Творог", "quantity": 300, "unit": "г", "category": "dairy"},
+        {"name": "Мука", "quantity": 0.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 3, "unit": "ст.л.", "category": "spices"},
+        {"name": "Растительное масло", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Смешать творог, яйцо, сахар. Добавить муку и хорошо размешать", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Смоченной в воде столовой ложкой набрать творожную массу, обвалять со всех сторон в муке и сформировать круглый или овальный биточек", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Жарить сырники с двух сторон на растительном масле на разогретой сковороде", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Подавать сырники со сметаной", "durationMinutes": 3}
+      ],
+      "calories": 320,
+      "proteins": 18,
+      "fats": 20,
+      "carbohydrates": 18,
+      "servings": 4
+    },
+    {
+      "title": "Пельмени «Сибирские»",
+      "description": "Классические сибирские пельмени из смеси свинины и говядины. Подаются с маслом, уксусом или сметаной.",
+      "cookingTimeMinutes": 100,
+      "difficulty": "HARD",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Уксус или сметана", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 0.75, "unit": "стакан", "category": "drinks"},
+        {"name": "Жирная свинина", "quantity": 230, "unit": "г", "category": "meat"},
+        {"name": "Говядина", "quantity": 200, "unit": "г", "category": "meat"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода или молоко", "quantity": 0.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Муку насыпать горкой, сделать воронку, добавить все необходимые продукты и замесить крутое тесто, дать постоять 20-30 минут", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Затем нарезать на мелкие куски, раскатать в жгут толщиной около 2 см, нарезать поперек на кусочки и каждый раскатать в кружок-сочень", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Мясо, лук пропустить через мясорубку. Полученную массу развести водой и заправить солью, перцем", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "На одну половинку сочня положить начинку, закрыть второй половинкой, края прижать, а углы пельменя соединить", "durationMinutes": 15},
+        {"stepNumber": 5, "description": "Варить пельмени в кипящей подсоленной воде 2-3 минут после закипания", "durationMinutes": 5},
+        {"stepNumber": 6, "description": "Подавать с маслом, уксусом или сметаной", "durationMinutes": 3}
+      ],
+      "calories": 450,
+      "proteins": 24,
+      "fats": 22,
+      "carbohydrates": 40,
+      "servings": 7
+    },
+    {
+      "title": "Пельмени рыбные",
+      "description": "Нежные пельмени из рыбного фарша со сливками. Деликатесное горячее блюдо.",
+      "cookingTimeMinutes": 100,
+      "difficulty": "HARD",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Мука", "quantity": 330, "unit": "г", "category": "groceries"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 0.5, "unit": "стакан", "category": "drinks"},
+        {"name": "Филе судака или щуки", "quantity": 400, "unit": "г", "category": "fish"},
+        {"name": "Яйцо (для начинки)", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Перец", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Сливки или молоко", "quantity": 0.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Судака или щуку почистить, промыть, снять кожу. Мясо пропустить через мясорубку вместе с луком, посолить, посыпать перцем, ввести яйцо и молоко или сливки", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Пельменное тесто раскатать в тонкий пласт, вырезать тонким стаканом кружочки", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "На кружочки положить начинку и по краям защипать", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Варить пельмени в подсоленной воде 10 минут небольшими партиями. Когда будут готовы, выложить на блюдо", "durationMinutes": 15}
+      ],
+      "calories": 350,
+      "proteins": 22,
+      "fats": 10,
+      "carbohydrates": 42,
+      "servings": 5
+    },
+    {
+      "title": "Вареники с творогом",
+      "description": "Классические украинские вареники с творожной начинкой. Подаются со сметаной.",
+      "cookingTimeMinutes": 105,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Мука", "quantity": 3, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Белок", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 0.66, "unit": "стакан", "category": "drinks"},
+        {"name": "Протертый творог", "quantity": 3, "unit": "стакан", "category": "dairy"},
+        {"name": "Яйца (для начинки)", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Сметана (для начинки)", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из муки, воды, яиц и соли вымесить крутое тесто, раскатать в очень тонкий пласт и вырезать из него ромбики или кружки", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Для начинки: отжатый творог протереть через сито, растереть с яйцами, сметаной, добавить сахар, соль и перемешать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "В серединки теста уложить начинку. Накрыть таким же вырезанным тестом и, смазывая белком края, защипать кругом, выложить на посыпанные мукой формы и выдержать под салфеткой 15 минут", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Опускать вареники небольшими порциями в кипящую соленую воду и варить 5-10 минут", "durationMinutes": 10},
+        {"stepNumber": 5, "description": "Подавая, полить вареники горячей сметаной или подать ее отдельно", "durationMinutes": 3}
+      ],
+      "calories": 450,
+      "proteins": 24,
+      "fats": 18,
+      "carbohydrates": 50,
+      "servings": 7
+    },
+    {
+      "title": "Вареники с фасолью и грибами",
+      "description": "Сытные постные вареники с начинкой из фасоли и грибов. Оригинальное и вкусное блюдо.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Мука", "quantity": 3, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Вода", "quantity": 0.5, "unit": "стакан", "category": "drinks"},
+        {"name": "Фасоль", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Лук", "quantity": 100, "unit": "г", "category": "vegetables"},
+        {"name": "Сушеные грибы", "quantity": 60, "unit": "г", "category": "vegetables"},
+        {"name": "Топленое сало", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Яйцо (для начинки)", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Молотый красный перец", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Предварительно замоченную фасоль отварить, протереть через сито или пропустить через мясорубку", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Добавить мелко нарезанный поджаренный на сале лук, тонко нарезанные отваренные грибы, красный перец, соль", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Замесить тесто, сформовать вареники с подготовленной начинкой и отварить их", "durationMinutes": 30}
+      ],
+      "calories": 380,
+      "proteins": 18,
+      "fats": 12,
+      "carbohydrates": 54,
+      "servings": 7
+    },
+    {
+      "title": "Блинчики тонкие",
+      "description": "Базовый рецепт тонких блинчиков на молоке и воде. Поджариваются с одной стороны.",
+      "cookingTimeMinutes": 40,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Вода", "quantity": 1, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Яйца взбить с солью и сахаром, развести стаканом молока, всыпать муку, тщательно вымешать, постепенно добавляя остальное молоко и воду, размешать до однородной консистенции (без комочков)", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Блинчики поджарить лишь с одной стороны и сложить поджаренной стороной кверху", "durationMinutes": 20}
+      ],
+      "calories": 200,
+      "proteins": 8,
+      "fats": 6,
+      "carbohydrates": 30,
+      "servings": 6
+    },
+    {
+      "title": "Блинчики молочные с сахаром",
+      "description": "Сладкие молочные блинчики на желтках со взбитыми белками. Подаются со сметаной и сахаром.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Мука", "quantity": 1.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 0.5, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Молоко", "quantity": 2.5, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Желтки смешать с молоком, прибавить сахар, соль, разогретое сливочное масло и вымешать тесто так, чтобы не было комков. Размешивая, постепенно влить остальное молоко и взбитые яичные белки", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Выпекать блинчики на разогретой сковороде, смазанной растительным маслом, на среднем огне. Переворачивать широким ножом или лопаткой", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Готовые блинчики выложить на блюдо, посыпать сахаром, сложить вдвое, потом вчетверо. Подавать со сметаной", "durationMinutes": 5}
+      ],
+      "calories": 280,
+      "proteins": 10,
+      "fats": 12,
+      "carbohydrates": 34,
+      "servings": 6
+    },
+    {
+      "title": "Блины дрожжевые",
+      "description": "Классические русские дрожжевые блины. Пышные, кружевные, подаются с маслом, сметаной и вареньем.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "HARD",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 25, "unit": "г", "category": "groceries"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Варенье", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Молоко", "quantity": 3, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В стакане теплого молока развести дрожжи, смешать с 250 г муки и поставить опару в теплое место для подъема на 40-45 минут", "durationMinutes": 45},
+        {"stepNumber": 2, "description": "В готовую опару положить сахар, соль, яичный желток, растопленное сливочное масло, перемешать и постепенно добавлять муку, вымешивая. Порциями прибавить остальное теплое молоко, размешать до однородной массы и поставить в теплое место подходить", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Поднявшееся тесто обмять, еще раз дать подойти. Снова обмять, добавить взбитый в крепкую пену белок, осторожно перемешать", "durationMinutes": 30},
+        {"stepNumber": 4, "description": "Сразу выпекать блины на растительном масле. Подавать с растопленным сливочным маслом, сметаной, вареньем", "durationMinutes": 20}
+      ],
+      "calories": 350,
+      "proteins": 10,
+      "fats": 14,
+      "carbohydrates": 48,
+      "servings": 6
+    },
+    {
+      "title": "Блинчики на дрожжах",
+      "description": "Пышные дрожжевые блинчики, жаренные на сковороде. Подаются с медом или вареньем.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 3, "unit": "стакан", "category": "groceries"},
+        {"name": "Растительное масло для жарки", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Мед, варенье или джем", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из муки, теплого молока и дрожжей замесить тесто и поставить для подъема, после чего добавить яйца, взбитые с сахаром, солью, 1 ст. ложку растительного масла", "durationMinutes": 30},
+        {"stepNumber": 2, "description": "Тесто хорошо перемешать и вторично дать ему подняться", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Далее, не размешивая, брать тесто смоченной в воде ложкой и жарить на умеренном огне в разогретом масле", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Подавать с медом, вареньем или джемом", "durationMinutes": 3}
+      ],
+      "calories": 380,
+      "proteins": 10,
+      "fats": 20,
+      "carbohydrates": 42,
+      "servings": 6
+    },
+    {
+      "title": "Блинчики «Скороспелые»",
+      "description": "Быстрые блинчики без дрожжей. Замешиваются за считанные минуты.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "BREAKFAST",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 3, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Яйца взбить с сахаром и солью, добавить молоко и муку, тщательно перемешать до однородности", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Влить растительное масло, еще раз перемешать", "durationMinutes": 2},
+        {"stepNumber": 3, "description": "Жарить блинчики на разогретой сковороде, смазанной маслом, с двух сторон до золотистого цвета", "durationMinutes": 20}
+      ],
+      "calories": 250,
+      "proteins": 8,
+      "fats": 10,
+      "carbohydrates": 32,
+      "servings": 4
     }
   ]
 }
