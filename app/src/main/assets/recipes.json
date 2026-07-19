@@ -17312,6 +17312,895 @@
       "fats": 16,
       "carbohydrates": 40,
       "servings": 8
+    },
+    {
+      "title": "Пирог с черешней",
+      "description": "Нежный бисквитный пирог с черешней и орехами. Воздушное тесто и сочная ягодная начинка.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 0.33, "unit": "стакан", "category": "groceries"},
+        {"name": "Черешня без косточек", "quantity": 2, "unit": "стакан", "category": "vegetables"},
+        {"name": "Сахарная пудра", "quantity": 1, "unit": "стакан", "category": "spices"},
+        {"name": "Сливочное масло", "quantity": 80, "unit": "г", "category": "dairy"},
+        {"name": "Орехи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Молоко", "quantity": 0.75, "unit": "стакан", "category": "dairy"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Ванилин", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сода", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Уксус", "quantity": 0.5, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Масло, желтки, ванилин и пудру взбить в пену", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Добавить теплое молоко и взбитые белки, соду, погашенную уксусом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Затем всыпать муку и вымешать тесто", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Противень смазать маслом, выложить тесто, сверху разложить черешню, посыпать измельченными орехами", "durationMinutes": 5},
+        {"stepNumber": 5, "description": "Выпекать в духовке 25-30 минут", "durationMinutes": 30}
+      ],
+      "calories": 280,
+      "proteins": 6,
+      "fats": 14,
+      "carbohydrates": 34,
+      "servings": 6
+    },
+    {
+      "title": "Пирог с черникой",
+      "description": "Дрожжевой пирог с черникой и ажурным переплетом из теста. Красивый и сочный.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Желтки", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сладкий чай", "quantity": 2, "unit": "ст.л.", "category": "drinks"},
+        {"name": "Молоко", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Черника", "quantity": 1000, "unit": "г", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Панировочные сухари", "quantity": 3, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Раскатать приготовленное на опаре тесто в виде овальной лепешки толщиной 1 см, перенести на противень, разровнять, проколоть вилкой по всей поверхности", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Сверху насыпать ровным слоем сухари, на них положить чернику, смешанную с сахаром", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Поверх ягод сделать переплет из теста, нарезанного гофрированным ножом тонкими ажурными полосками, загнуть бортик", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Переплет и бортик тщательно смазать чаем. Выпекать при температуре 180-200 °С до готовности", "durationMinutes": 25}
+      ],
+      "calories": 280,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 48,
+      "servings": 8
+    },
+    {
+      "title": "Пирог с маковой начинкой",
+      "description": "Песочный пирог с толстым слоем маковой начинки. Нежный и ароматный.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло или маргарин", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Желток", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сметана", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахарная пудра", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Яйца", "quantity": 8, "unit": "шт", "category": "dairy"},
+        {"name": "Желток (для начинки)", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Растертый мак", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Сахарная пудра (для начинки)", "quantity": 1.2, "unit": "стакан", "category": "spices"},
+        {"name": "Панировочные сухари или толченое печенье", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Лимонная цедра", "quantity": 1, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растереть масло или маргарин с сахарной пудрой и желтком, добавить сметану, всыпать муку, щепотку соли и замесить тесто", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Тесто разделить на две части, каждую раскатать в пласт толщиной 1 см", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Для начинки белки взбить в пену, добавить сахарную пудру и хорошо размешанные желтки, затем всыпать растертый мак, сухари или печенье, измельченную лимонную цедру, все перемешать", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Один пласт переложить на противень, выложить начинку, разровнять, накрыть вторым пластом, проколоть вилкой и смазать желтком", "durationMinutes": 5},
+        {"stepNumber": 5, "description": "Выпекать в прогретой духовке на среднем огне 30 минут", "durationMinutes": 30}
+      ],
+      "calories": 380,
+      "proteins": 12,
+      "fats": 22,
+      "carbohydrates": 36,
+      "servings": 8
+    },
+    {
+      "title": "Пирог песочный фруктовый",
+      "description": "Песочная корзина с консервированными фруктами, залитая желе. Праздничный десерт.",
+      "cookingTimeMinutes": 100,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Консервированные фрукты (яблоки, сливы, персики) или свежие ягоды", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Масло", "quantity": 250, "unit": "г", "category": "dairy"},
+        {"name": "Желтки", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Фруктовое желе", "quantity": 1, "unit": "упаковка", "category": "groceries"},
+        {"name": "Сахар", "quantity": 200, "unit": "г", "category": "spices"},
+        {"name": "Соль", "quantity": 0.5, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовленное песочное тесто раскатать в пласт толщиной 1-1,5 см, обрезать в круг по форме", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Положить тесто в форму, обрезки скатать в жгутик, уложить по краям круглого пласта и смазать яйцом", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Выпечь тесто при температуре 230-250 °С до золотистого цвета", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "В выпеченный и остывший пирог до бортиков уложить свежие или консервированные фрукты и залить сверху охлажденным желе", "durationMinutes": 10}
+      ],
+      "calories": 350,
+      "proteins": 5,
+      "fats": 20,
+      "carbohydrates": 40,
+      "servings": 8
+    },
+    {
+      "title": "Пирог песочный с красной смородиной и орехами",
+      "description": "Песочный пирог с воздушным белково-ягодным суфле и орехами. Легкий и изысканный.",
+      "cookingTimeMinutes": 140,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Маргарин", "quantity": 125, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 75, "unit": "г", "category": "spices"},
+        {"name": "Яйца", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Мука", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Разрыхлитель", "quantity": 0.5, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Ванилин", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сухари", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Красная смородина", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Орехи", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Взбитые с сахаром белки", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Корица", "quantity": 0.5, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растереть мягкое сливочное масло с сахаром, добавить, последовательно растирая по одному, 3 желтка, муку, смешанную с разрыхлителем. Скатать тесто в шар и поставить на холод на 50-60 минут", "durationMinutes": 60},
+        {"stepNumber": 2, "description": "Круглую форму посыпать сухарями, раскатать по ее размеру пласт теста, уложить, сформировав бортики высотой не менее 5 см", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Взбить 5 яичных белков со 150-200 г сахара до пушистой плотной белой массы", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Смешать две трети белковой массы с ягодами, корицей и выложить в форму. Оставшуюся треть смешать с измельченными грецкими орехами и выложить сверху, разровнять", "durationMinutes": 10},
+        {"stepNumber": 5, "description": "Выпекать пирог в духовке при температуре 130-150 °С около 1 часа", "durationMinutes": 60}
+      ],
+      "calories": 320,
+      "proteins": 8,
+      "fats": 18,
+      "carbohydrates": 34,
+      "servings": 8
+    },
+    {
+      "title": "Пирог песочный с творогом и маком",
+      "description": "Необычный пирог с концентрическими кругами из творожной и маковой начинок. Очень красивый в разрезе.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 120, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 80, "unit": "г", "category": "spices"},
+        {"name": "Ванильный сахар", "quantity": 1, "unit": "пакетик", "category": "spices"},
+        {"name": "Желток", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Корица", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Творог", "quantity": 250, "unit": "г", "category": "dairy"},
+        {"name": "Яйцо (для творожной начинки)", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Крахмал", "quantity": 1, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Сахар (для творожной начинки)", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Молоко", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Цедра лимона или ваниль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Мак", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Яйцо (для маковой начинки)", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Молотые ванильные сухари", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Сахар (для маковой начинки)", "quantity": 50, "unit": "г", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из указанных продуктов замесить тесто, две трети его уложить в круглую форму, сделав бортик в 1 см. Поставить в холодильник на 20 минут", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Форму вынуть и по краю бортика через кондитерский мешок выложить кольцом половину творожной начинки, рядом выложить маковую, чередуя до центра", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Отложенную треть теста натереть на крупной терке над начинкой", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Выпекать в духовке при температуре 190 °С в течение 35 минут", "durationMinutes": 35}
+      ],
+      "calories": 350,
+      "proteins": 12,
+      "fats": 20,
+      "carbohydrates": 34,
+      "servings": 8
+    },
+    {
+      "title": "Пирог песочный с клюквой",
+      "description": "Трехслойный песочный торт с белково-клюквенным кремом. Праздничный десерт.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Маргарин", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Сметана", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Разрыхлитель или погашенная сода", "quantity": 0.5, "unit": "пакетика", "category": "groceries"},
+        {"name": "Сахар", "quantity": 0.5, "unit": "стакан", "category": "spices"},
+        {"name": "Соль", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Клюква", "quantity": 1, "unit": "стакан", "category": "vegetables"},
+        {"name": "Сахар (для крема)", "quantity": 0.75, "unit": "стакан", "category": "spices"},
+        {"name": "Белки", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Цедра лимона", "quantity": 1, "unit": "шт", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растереть размягченный маргарин с сахаром, последовательно добавить по одному желтки, сметану, соль и разрыхлитель, а затем ввести муку. Замесить тесто, разделить на три части и вынести на холод на 30 минут", "durationMinutes": 40},
+        {"stepNumber": 2, "description": "Раскатать тесто и выпечь в духовке при 180-200 °С три лепешки, горячими обрезать по кругу (крошка пойдет на посыпку)", "durationMinutes": 30},
+        {"stepNumber": 3, "description": "Три белка взбить с сахаром, добавляя его в три приема, до густоты крема, прибавить натертую цедру лимона и растолченную клюкву, перемешать", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Полученным кремом смазать песочные лепешки, сложить их друг на друга. Верх торта посыпать крошкой", "durationMinutes": 10}
+      ],
+      "calories": 380,
+      "proteins": 6,
+      "fats": 22,
+      "carbohydrates": 42,
+      "servings": 10
+    },
+    {
+      "title": "Шоколадный пирог",
+      "description": "Простой и быстрый шоколадный пирог. Мягкий, с насыщенным вкусом какао.",
+      "cookingTimeMinutes": 70,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2, "unit": "стакан", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сырые яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Какао", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сода", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Уксус", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Сахарная пудра", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Сахар", "quantity": 1, "unit": "стакан", "category": "spices"},
+        {"name": "Молоко", "quantity": 1, "unit": "стакан", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Масло взбить с сахаром, продолжая взбивать, отбить по одному яйца", "durationMinutes": 5},
+        {"stepNumber": 2, "description": "Муку, соду с уксусом, какао добавлять к яично-масляной смеси попеременно с молоком", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Тесто выложить в форму, смазанную маслом и посыпанную мукой", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Выпекать в духовке до готовности", "durationMinutes": 35},
+        {"stepNumber": 5, "description": "Остывший пирог посыпать сахарной пудрой", "durationMinutes": 5}
+      ],
+      "calories": 320,
+      "proteins": 6,
+      "fats": 16,
+      "carbohydrates": 40,
+      "servings": 8
+    },
+    {
+      "title": "Печенье шоколадное",
+      "description": "Рассыпчатое шоколадное печенье с жидкой шоколадной начинкой внутри. Изысканное лакомство.",
+      "cookingTimeMinutes": 50,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Сливочное масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Мука", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Какао", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Шоколад", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло (для начинки)", "quantity": 1, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар (для начинки)", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Вода", "quantity": 2, "unit": "ст.л.", "category": "drinks"},
+        {"name": "Ванильный сахар", "quantity": 1, "unit": "пакетик", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растереть размягченное сливочное масло с сахаром и какао, добавить муку, замесить тесто", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Из теста раскатать колбаску, нарезать на одинаковые кусочки и скатать шарики с грецкий орех. Разложить на противень, сделав пальцем в середине углубление", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Выпекать в духовке при температуре 140-150 °С", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Шоколад разогреть на водяной бане, растереть с маслом, добавить ванильный сахар. Воду вскипятить с сахаром, тонкой струйкой влить в шоколад. Углубления остывшего печенья заполнить горячей шоколадной массой", "durationMinutes": 10}
+      ],
+      "calories": 350,
+      "proteins": 4,
+      "fats": 22,
+      "carbohydrates": 38,
+      "servings": 8
+    },
+    {
+      "title": "Печенье овсяное",
+      "description": "Домашнее овсяное печенье с изюмом и орехами. Хрустящее и полезное.",
+      "cookingTimeMinutes": 30,
+      "difficulty": "EASY",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Овсяные хлопья", "quantity": 1.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Мука", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Масло (или маргарин)", "quantity": 125, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 0.75, "unit": "стакан", "category": "spices"},
+        {"name": "Изюм", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Орехи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Ванилин", "quantity": 0.5, "unit": "пакетика", "category": "spices"},
+        {"name": "Разрыхлитель теста", "quantity": 0.5, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растереть размягченное масло, добавить сахар, яйца, разрыхлитель, ванилин, соль, муку и хлопья. Хорошо размешать тесто, добавить изюм, орехи, перемешать", "durationMinutes": 10},
+        {"stepNumber": 2, "description": "Ложкой выкладывать тесто небольшими порциями на противень, смазанный маслом", "durationMinutes": 5},
+        {"stepNumber": 3, "description": "Выпекать в духовке при 180-190 °С в течение 15-20 минут", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Готовое печенье можно покрыть шоколадной помадкой и посыпать орехами", "durationMinutes": 0}
+      ],
+      "calories": 300,
+      "proteins": 6,
+      "fats": 18,
+      "carbohydrates": 32,
+      "servings": 10
+    },
+    {
+      "title": "Пирожки жареные с соусом",
+      "description": "Пирожки из пресного теста с мясной начинкой, залитые сметанным соусом. Сытное горячее блюдо.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DINNER",
+      "ingredients": [
+        {"name": "Мука", "quantity": 320, "unit": "г", "category": "groceries"},
+        {"name": "Измельченное отварное мясо", "quantity": 200, "unit": "г", "category": "meat"},
+        {"name": "Жир", "quantity": 100, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Луковица", "quantity": 1, "unit": "шт", "category": "vegetables"},
+        {"name": "Растительное масло", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Мята", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Перец", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "по вкусу", "category": "spices"},
+        {"name": "Сметана", "quantity": 40, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное масло (для соуса)", "quantity": 30, "unit": "г", "category": "dairy"},
+        {"name": "Мука (для соуса)", "quantity": 10, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из муки, яйца, воды и соли замесить тесто, раскатать, вырезать кружки размером с блюдце", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Обжарить на масле нарезанный лук с мясом, вбить 1 яйцо, поперчить, добавить мяту, перемешать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Середину каждого кружка смазать яичным белком, положить начинку, кружок согнуть пополам, защипнуть края и жарить пирожки в духовке", "durationMinutes": 25},
+        {"stepNumber": 4, "description": "В масло добавить муку, сметану, соль и, помешивая, довести до кипения. Готовые пирожки залить соусом", "durationMinutes": 5}
+      ],
+      "calories": 380,
+      "proteins": 18,
+      "fats": 26,
+      "carbohydrates": 20,
+      "servings": 6
+    },
+    {
+      "title": "Пирожки из слоеного дрожжевого теста",
+      "description": "Пышные слоеные пирожки из дрожжевого теста с масляной прослойкой. С любой начинкой.",
+      "cookingTimeMinutes": 240,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Молоко", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сметана", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Маргарин (сливочное масло)", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Дрожжи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Развести свежие дрожжи в небольшом количестве теплого молока, влить в остальное теплое молоко, добавить растительное масло, яйца, сметану, сахар, соль. Взбить, добавить муку и замесить мягкое тесто", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Раскатать тесто слоем 1-1,5 см и смазать размягченным маргарином или маслом 3/4 его площади; 1/4 часть пласта (правую), не смазанную маслом, перегнуть, уложить на смазанную часть и накрыть левой смазанной частью. Таким образом тесто оказывается сложенным втрое", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Тесто повернуть к себе узкой стороной, снова раскатать до толщины 1-1,5 см и смазать маслом пласт указанным способом. Так делают 4-5 раз, пока не израсходуется весь маргарин", "durationMinutes": 30},
+        {"stepNumber": 4, "description": "Из готового слоеного теста сформовать пирожки с любой начинкой, уложить на противень, накрыть салфеткой и поставить в теплое место на 3 часа", "durationMinutes": 180},
+        {"stepNumber": 5, "description": "Выпекать в разогретой до 180-200 °С духовке", "durationMinutes": 20}
+      ],
+      "calories": 350,
+      "proteins": 8,
+      "fats": 22,
+      "carbohydrates": 32,
+      "servings": 12
+    },
+    {
+      "title": "Пирожки с ореховой начинкой",
+      "description": "Оригинальные пирожки из теста, выдержанного в воде, с ореховой начинкой. Посыпаются ванильной пудрой.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочный маргарин", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Дрожжи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Орехи", "quantity": 400, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 250, "unit": "г", "category": "spices"},
+        {"name": "Вода", "quantity": 0.5, "unit": "стакан", "category": "drinks"},
+        {"name": "6%-ный уксус", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Яичный белок", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Ванильная пудра", "quantity": 1, "unit": "ст.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Размягченный маргарин, распущенные в сметане дрожжи, яйца, соль — все тщательно смешать, добавить муку и замесить густое тесто. Опустить тесто в воду комнатной температуры. Когда всплывет, вынуть и осушить салфеткой", "durationMinutes": 20},
+        {"stepNumber": 2, "description": "Приготовить начинку: орехи измельчить, всыпать их в сироп из воды, уксуса и сахара, проварить 5 минут. Охладить, прибавить ванилин, яичный белок, перемешать", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Кусок теста обвалять в муке, раскатать в пласт, нарезать на квадраты 12х12 см. В середину каждого положить начинку и соединить над нею все четыре угла", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Верх смазать взбитым яйцом и выпекать при 180-200 °С до зарумянивания. Готовые изделия посыпать ванильной сахарной пудрой", "durationMinutes": 20}
+      ],
+      "calories": 420,
+      "proteins": 10,
+      "fats": 26,
+      "carbohydrates": 40,
+      "servings": 10
+    },
+    {
+      "title": "Пряники из медового теста",
+      "description": "Классические русские пряники с пряностями. Глазируются белой сахарной помадкой.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 200, "unit": "г", "category": "spices"},
+        {"name": "Мед", "quantity": 10, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Молоко (или кофейный экстракт)", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Разрыхлитель", "quantity": 1, "unit": "порошок", "category": "groceries"},
+        {"name": "Корица", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Гвоздика", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сахарная пудра", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Лимонная цедра", "quantity": 1, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из продуктов и пряностей замесить крутое тесто и выдержать его одну ночь", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Раскатать толстую лепешку толщиной в палец и вырезать выемкой разной формы пряники. Чтобы пряники не растрескались, смазать их яйцом", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Выпекать в духовке при 200-220 °С", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "После выпечки залить белой глазурью (взбить 1 белок с 1 стаканом сахарной пудры и 1 ч. ложкой лимонного сока)", "durationMinutes": 10}
+      ],
+      "calories": 300,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 52,
+      "servings": 10
+    },
+    {
+      "title": "Пряники с начинкой",
+      "description": "Двойные пряники с повидлом и орехами внутри. Ароматные, с ромом и пряностями.",
+      "cookingTimeMinutes": 80,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 400, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 250, "unit": "г", "category": "spices"},
+        {"name": "Мед", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Молоко", "quantity": 3, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Ром", "quantity": 2, "unit": "ч.л.", "category": "drinks"},
+        {"name": "Разрыхлитель", "quantity": 1, "unit": "порошок", "category": "groceries"},
+        {"name": "Корица", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Гвоздика", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Цедра лимона", "quantity": 1, "unit": "шт", "category": "spices"},
+        {"name": "Густое повидло", "quantity": 5, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Цедра лимона (для начинки)", "quantity": 0.5, "unit": "шт", "category": "spices"},
+        {"name": "Орехи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Изюм", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Финики", "quantity": 50, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растопить мед и смешать его с молоком и ромом, прибавить взбитые в пену яйца. Всыпать муку и замесить крутое тесто, прибавив пряности", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Хорошо вымесить тесто и раскатать в пласт толщиной 5-7 мм, намазать начинкой и нарезать", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Соединить пряники попарно (с начинкой внутри), смазать яйцом", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Выпекать в духовке при 200-220 °С. Готовые пряники посыпать сахарной пудрой", "durationMinutes": 15}
+      ],
+      "calories": 350,
+      "proteins": 6,
+      "fats": 10,
+      "carbohydrates": 58,
+      "servings": 10
+    },
+    {
+      "title": "Рогалики с начинкой",
+      "description": "Сдобные дрожжевые рогалики с повидлом или ореховой начинкой. Посыпаются сахарной пудрой.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 1000, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "стакан", "category": "spices"},
+        {"name": "Топленое масло", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 6, "unit": "шт", "category": "dairy"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Дрожжи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Соль", "quantity": 1.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Сахарная пудра", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Густое повидло", "quantity": 300, "unit": "г", "category": "groceries"},
+        {"name": "Грецкие орехи", "quantity": 150, "unit": "г", "category": "groceries"},
+        {"name": "Сахар (для начинки)", "quantity": 120, "unit": "г", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовить тесто опарным способом, разделить на три куска", "durationMinutes": 50},
+        {"stepNumber": 2, "description": "Выложить на подпыленный мукой стол и раскатать каждый в лепешку слоем 1 см", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Смазать каждый пласт повидлом или ореховой массой, разрезать на секторы и сворачивать с широкого конца к узкому", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Разложить рогалики на противень, слегка сгибая их в виде полумесяца, дать расстойку 15-20 минут", "durationMinutes": 20},
+        {"stepNumber": 5, "description": "Смазать изделия яйцом и выпекать при 180-200 °С 20-25 минут. Сверху посыпать сахарной пудрой", "durationMinutes": 25}
+      ],
+      "calories": 380,
+      "proteins": 10,
+      "fats": 18,
+      "carbohydrates": 48,
+      "servings": 12
+    },
+    {
+      "title": "Сибирские шанежки",
+      "description": "Пышные сдобные булочки со сметанной заливкой. Традиционная сибирская выпечка.",
+      "cookingTimeMinutes": 200,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 7, "unit": "стакан", "category": "groceries"},
+        {"name": "Молоко", "quantity": 2, "unit": "стакан", "category": "dairy"},
+        {"name": "Яйца", "quantity": 6, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "стакан", "category": "spices"},
+        {"name": "Сливочное масло", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Дрожжи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Соль", "quantity": 1.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Сметана", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сливочное масло (для массы)", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сахар (для массы)", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Мука (для массы)", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Ванильный сахар", "quantity": 1, "unit": "пакетик", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В теплом молоке развести дрожжи, 1 ст. ложку сахара и половину общего количества муки, хорошо размешать и дать опаре подойти", "durationMinutes": 40},
+        {"stepNumber": 2, "description": "В готовую опару ввести растертые с сахаром яйца, соль, оставшуюся муку, хорошо перемешать и в последнюю очередь добавить размягченное до сметанообразного состояния сливочное масло. Вымесить тесто и поставить для подъема на 1,5-2 часа", "durationMinutes": 120},
+        {"stepNumber": 3, "description": "Готовое тесто сформовать в небольшие булочки, разложить их на смазанном маслом противне и поставить для подъема", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "В середине каждой булочки сделать донышком стакана углубление и заполнить его сметанной массой, смазать взбитым яйцом и выпекать при 220-230 °С 20-25 минут", "durationMinutes": 25}
+      ],
+      "calories": 350,
+      "proteins": 10,
+      "fats": 16,
+      "carbohydrates": 42,
+      "servings": 15
+    },
+    {
+      "title": "Плетенка",
+      "description": "Красивая плетеная булка из сдобного дрожжевого теста с лимонной цедрой и миндалем.",
+      "cookingTimeMinutes": 150,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Маргарин", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Натертая цедра лимона", "quantity": 1, "unit": "шт", "category": "spices"},
+        {"name": "Горький миндаль", "quantity": 4, "unit": "шт", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Яичный желток", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Соль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Молоко", "quantity": 125, "unit": "г", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Из всех компонентов (кроме яичного желтка) приготовить дрожжевое тесто, дать подойти 2 раза, вымесить и разделить на три неравные части", "durationMinutes": 60},
+        {"stepNumber": 2, "description": "Сплести одну большую, из четырех полос, и одну маленькую, из трех полос, булки в виде косы и скатать одну булку из двух полос", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Приготовленные булки сложить одна на другую, обмазать яичным желтком", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Выпекать в духовке 45-50 минут", "durationMinutes": 45}
+      ],
+      "calories": 350,
+      "proteins": 8,
+      "fats": 18,
+      "carbohydrates": 40,
+      "servings": 8
+    },
+    {
+      "title": "Пышки",
+      "description": "Простые дрожжевые пышки, сваренные в кипятке перед выпечкой. Мягкие, с хрустящей корочкой.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 2.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 20, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Мак", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Соль", "quantity": 2, "unit": "ч.л.", "category": "spices"},
+        {"name": "Теплая вода", "quantity": 1, "unit": "стакан", "category": "drinks"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Дрожжи развести теплой водой, смешать с мукой, растопленным маслом и солью, замесить тесто, дать подойти 40 минут", "durationMinutes": 45},
+        {"stepNumber": 2, "description": "Из теста сформовать шарики, в середине каждого сделать дырочку", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Опустить пышки на 1 минуту в кипяток и выложить на смазанный маслом противень", "durationMinutes": 5},
+        {"stepNumber": 4, "description": "Посыпать маком и выпекать 20 минут", "durationMinutes": 20}
+      ],
+      "calories": 220,
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 32,
+      "servings": 6
+    },
+    {
+      "title": "Булка с тыквой",
+      "description": "Сдобная булка с тыквенным пюре. Мягкая, ароматная, золотистого цвета.",
+      "cookingTimeMinutes": 180,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 1000, "unit": "г", "category": "groceries"},
+        {"name": "Молоко", "quantity": 1, "unit": "стакан", "category": "dairy"},
+        {"name": "Мелко нарезанная тыква", "quantity": 2, "unit": "стакан", "category": "vegetables"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 150, "unit": "г", "category": "spices"},
+        {"name": "Дрожжи", "quantity": 50, "unit": "г", "category": "groceries"},
+        {"name": "Масло", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Ваниль", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Соль", "quantity": 0.5, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Мелко нарезать очищенную тыкву, сварить в молоке с добавлением ванили. Протереть через сито, охладить, добавить еще молока, чтобы в общей сложности получилось пол-литра", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Добавить все указанные в рецепте продукты, хорошо вымесить и поставить тесто на 1,5-2 часа для расстойки", "durationMinutes": 120},
+        {"stepNumber": 3, "description": "Из готового теста сформовать крупные булки, разложить в формы и выпекать при среднем нагреве духовки около 1 часа", "durationMinutes": 60}
+      ],
+      "calories": 300,
+      "proteins": 8,
+      "fats": 10,
+      "carbohydrates": 46,
+      "servings": 10
+    },
+    {
+      "title": "Булочки с творогом",
+      "description": "Сдобные булочки с творогом, тмином и кардамоном. Ароматная выпечка к чаю.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Творог", "quantity": 250, "unit": "г", "category": "dairy"},
+        {"name": "Дрожжи", "quantity": 35, "unit": "г", "category": "groceries"},
+        {"name": "Молоко", "quantity": 150, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 150, "unit": "г", "category": "spices"},
+        {"name": "Сливочное масло (маргарин)", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Тмин", "quantity": 2, "unit": "ч.л.", "category": "spices"},
+        {"name": "Кардамон", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 0.5, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Дрожжи растереть с 1 ч. ложкой сахара, прибавить теплое молоко, примешать муки и поставить опару на 20-25 минут подходить", "durationMinutes": 25},
+        {"stepNumber": 2, "description": "Оставшуюся муку просеять, сделать углубление. Взбить яйца с сахаром, добавить размягченное масло, творог, соль, тмин, кардамон", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "В углубление вылить опару и смесь с творогом, замесить гладкое тесто, присыпать мукой, накрыть салфеткой и дать подойти в теплом месте", "durationMinutes": 40},
+        {"stepNumber": 4, "description": "Разделать из теста булочки, разложить на смазанный маслом противень, после расстойки смазать взбитым яйцом. Выпекать в духовке со средним жаром до золотистого цвета", "durationMinutes": 25}
+      ],
+      "calories": 300,
+      "proteins": 12,
+      "fats": 14,
+      "carbohydrates": 34,
+      "servings": 10
+    },
+    {
+      "title": "Булочки с тмином",
+      "description": "Простые дрожжевые булочки с хрустящей тминной корочкой. Классика домашней выпечки.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Молоко", "quantity": 250, "unit": "г", "category": "dairy"},
+        {"name": "Дрожжи", "quantity": 30, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Сливочное масло или маргарин", "quantity": 75, "unit": "г", "category": "dairy"},
+        {"name": "Мука", "quantity": 450, "unit": "г", "category": "groceries"},
+        {"name": "Яйцо для смазывания", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Сливочное масло (для вдавливания)", "quantity": 2, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Тмин", "quantity": 2, "unit": "ст.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 0.75, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Добавить к дрожжам 1 ч. ложку сахара и размешивать, пока дрожжи не станут жидкими. Влить теплое молоко, положить соль, оставшийся сахар, растопленное масло, постепенно подсыпая муку и вымешивая тесто, пока оно не станет отставать от рук. Накрыть и поставить для подъема", "durationMinutes": 45},
+        {"stepNumber": 2, "description": "Хорошо подошедшее тесто выложить на доску, раскатать длинный жгут, нарезать поперек на равные части, сформовать булочки, разложить на смазанный маслом противень и дать им подойти", "durationMinutes": 30},
+        {"stepNumber": 3, "description": "Перед тем как поставить в духовку, в каждую булочку вдавить кусочек масла, смазать поверхность взбитым яйцом, посыпать тмином и солью. Выпекать в горячей духовке до зарумянивания 10-15 минут", "durationMinutes": 15}
+      ],
+      "calories": 280,
+      "proteins": 8,
+      "fats": 14,
+      "carbohydrates": 32,
+      "servings": 8
+    },
+    {
+      "title": "Булочки сдобные на дрожжах",
+      "description": "Необычные двухъярусные булочки: маленький шарик на большом. Сдобные и красивые.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Дрожжи", "quantity": 60, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 60, "unit": "г", "category": "spices"},
+        {"name": "Сливочное масло", "quantity": 250, "unit": "г", "category": "dairy"},
+        {"name": "Яйца", "quantity": 7, "unit": "шт", "category": "dairy"},
+        {"name": "Молоко", "quantity": 2.5, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Соль", "quantity": 0.5, "unit": "ч.л.", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растворить дрожжи в теплом молоке, размягченное сливочное масло растереть с сахаром, последовательно добавить и растереть по одному яйца. Дать тесту подойти, обмять и снова дать подойти", "durationMinutes": 60},
+        {"stepNumber": 2, "description": "Из готового теста сформовать два вида шариков: большего (чуть больше яйца) и вдвое меньшего размера", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Взять шарик большего размера, сделать в нем пальцем углубление, смочить молоком и поместить в него шарик меньшего размера", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Уложить на смазанный маслом противень, смазать яйцом, дать подняться, вторично смазать яйцами, посыпать миндалем и выпекать при 160-180 °С", "durationMinutes": 30}
+      ],
+      "calories": 350,
+      "proteins": 10,
+      "fats": 22,
+      "carbohydrates": 30,
+      "servings": 12
+    },
+    {
+      "title": "Булочки слоеные",
+      "description": "Слоеные дрожжевые булочки с масляно-сахарной прослойкой. Хрустящие и нежные.",
+      "cookingTimeMinutes": 150,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Молоко", "quantity": 0.5, "unit": "л", "category": "dairy"},
+        {"name": "Яйцо", "quantity": 1, "unit": "шт", "category": "dairy"},
+        {"name": "Растительное масло", "quantity": 3, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сахар", "quantity": 3, "unit": "ч.л.", "category": "spices"},
+        {"name": "Дрожжи", "quantity": 40, "unit": "г", "category": "groceries"},
+        {"name": "Соль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Сливочное масло (для прослойки)", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сахар (для прослойки)", "quantity": 1, "unit": "стакан", "category": "spices"},
+        {"name": "Цедра лимона или кориц", "quantity": 1, "unit": "шт", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "В небольшом количестве теплого молока растворить дрожжи, влить в остальное подогретое молоко, добавить яйцо, сахар, растительное масло, соль. Взбить до растворения, добавить муку и вымесить тесто. Поставить для подъема на 1 час", "durationMinutes": 70},
+        {"stepNumber": 2, "description": "Выложить тесто на стол, посыпанный мукой, и раскатать в пласт толщиной примерно 1 см. Смазать всю поверхность размягченным и растертым с сахаром и лимонной цедрой или корицей маслом", "durationMinutes": 10},
+        {"stepNumber": 3, "description": "Скатать весь пласт теста в рулет. Отрезать от него кусочки длиной 5-6 см и укладывать их вертикально на противень. Посыпать штрейзельной массой", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Накрыть салфеткой и дать булочкам постоять 30-40 минут. Выпекать в духовке при 180-200 °С", "durationMinutes": 50}
+      ],
+      "calories": 380,
+      "proteins": 8,
+      "fats": 24,
+      "carbohydrates": 36,
+      "servings": 10
+    },
+    {
+      "title": "Торт ореховый «Праздничный»",
+      "description": "Трехслойный торт с кремом из сгущенного молока и орехов. Один корж шоколадный.",
+      "cookingTimeMinutes": 120,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 400, "unit": "г", "category": "groceries"},
+        {"name": "Маргарин (или сливочное масло)", "quantity": 250, "unit": "г", "category": "dairy"},
+        {"name": "Сахар", "quantity": 0.75, "unit": "стакан", "category": "spices"},
+        {"name": "Яйца", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сгущенное молоко", "quantity": 1, "unit": "банка", "category": "dairy"},
+        {"name": "Грецкие орехи", "quantity": 1, "unit": "стакан", "category": "groceries"},
+        {"name": "Цедра лимона", "quantity": 1, "unit": "шт", "category": "spices"},
+        {"name": "Сода, погашенная лимонным соком (или разрыхлитель)", "quantity": 0.5, "unit": "пакета", "category": "groceries"},
+        {"name": "Какао", "quantity": 1, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сливочное масло (для крема)", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сгущенное молоко (для крема)", "quantity": 0.5, "unit": "банки", "category": "dairy"},
+        {"name": "Орехи (для крема)", "quantity": 0.5, "unit": "стакан", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растереть маргарин с сахаром, добавить половину банки сгущенного молока, последовательно добавить и растереть по одному 3 яйца, цедру лимона, разрыхлитель, муку и замесить тесто", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Разделить тесто на три части и в одну добавить какао и полстакана измельченных орехов. Вынести на холод на 20 минут", "durationMinutes": 20},
+        {"stepNumber": 3, "description": "Раскатать тесто, выпечь в духовке коржи при 200 °С, обрезать по кругу (крошка — на посыпку), охладить", "durationMinutes": 25},
+        {"stepNumber": 4, "description": "Для крема взбить до пены сливочное масло, частями добавить сгущенное молоко, в конце — размельченные орехи. Промазать коржи кремом, сложить один на другой, верх посыпать крошкой", "durationMinutes": 10}
+      ],
+      "calories": 480,
+      "proteins": 10,
+      "fats": 32,
+      "carbohydrates": 40,
+      "servings": 10
+    },
+    {
+      "title": "Торт песочный с шоколадной помадкой",
+      "description": "Четырехслойный песочный торт с белково-ореховым кремом и шоколадной глазурью.",
+      "cookingTimeMinutes": 140,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Сахар", "quantity": 200, "unit": "г", "category": "spices"},
+        {"name": "Сливочное масло", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Желтки", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Сметана", "quantity": 200, "unit": "г", "category": "dairy"},
+        {"name": "Сода, гашеная в уксусе", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Соль", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Ванилин", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Белки", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар (для крема)", "quantity": 0.66, "unit": "стакан", "category": "spices"},
+        {"name": "Измельченные орехи", "quantity": 1.5, "unit": "стакан", "category": "groceries"},
+        {"name": "Какао", "quantity": 2, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Сахарный песок (для помадки)", "quantity": 0.5, "unit": "стакан", "category": "spices"},
+        {"name": "Молоко (для помадки)", "quantity": 5, "unit": "ст.л.", "category": "dairy"},
+        {"name": "Сливочное масло (для помадки)", "quantity": 70, "unit": "г", "category": "dairy"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растереть с сахаром размягченное сливочное масло, добавить последовательно по одному 5 желтков, сметану, соду, соль, ванилин и муку. Поставить тесто на холод на 20-30 минут", "durationMinutes": 40},
+        {"stepNumber": 2, "description": "Выпечь в духовке четыре коржа при 180-200 °С до золотистого цвета", "durationMinutes": 25},
+        {"stepNumber": 3, "description": "Приготовить белковый крем из 5 взбитых с сахаром белков с добавлением в конце измельченных орехов. Все лепешки смазать кремом и положить друг на друга", "durationMinutes": 15},
+        {"stepNumber": 4, "description": "Для помадки размешать сахар с какао, постепенно влить молоко, размешать, поставить на маленький огонь. Когда сахар растворится, снять с огня, добавить сливочное масло. Залить горячей помадкой торт сверху, поставить в холодильник", "durationMinutes": 15}
+      ],
+      "calories": 450,
+      "proteins": 10,
+      "fats": 28,
+      "carbohydrates": 42,
+      "servings": 12
+    },
+    {
+      "title": "Торт с прослойкой из варенья и крема",
+      "description": "Пятислойный торт на желтках с масляным кремом и вареньем. Обсыпан крошкой.",
+      "cookingTimeMinutes": 150,
+      "difficulty": "HARD",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 5, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 1, "unit": "стакан", "category": "spices"},
+        {"name": "Сливочное масло", "quantity": 500, "unit": "г", "category": "dairy"},
+        {"name": "Сметана", "quantity": 100, "unit": "г", "category": "dairy"},
+        {"name": "Сахарная пудра", "quantity": 1, "unit": "стакан", "category": "spices"},
+        {"name": "Соль", "quantity": 0.5, "unit": "ч.л.", "category": "spices"},
+        {"name": "Разрыхлитель", "quantity": 0.5, "unit": "пакета", "category": "groceries"},
+        {"name": "Варенье", "quantity": 200, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло (для крема)", "quantity": 300, "unit": "г", "category": "dairy"},
+        {"name": "Желтки (для крема)", "quantity": 3, "unit": "шт", "category": "dairy"},
+        {"name": "Сахарная пудра (для крема)", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Ванилин", "quantity": 1, "unit": "щепотка", "category": "spices"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Растереть 200 г сливочного масла с сахаром, добавить и растереть по одному 2 желтка, влить сметану, положить разрыхлитель и соль. Добавить муку и замесить не очень крутое тесто", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Разделить тесто на 5 частей и выдержать на холоде 20-30 минут. Раскатать в лепешки, обрезать по кругу и выпечь коржи", "durationMinutes": 40},
+        {"stepNumber": 3, "description": "Для крема масло взбить миксером добела и частями добавлять желтки, растертые с сахарной пудрой, положить ванилин", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Остывшие 4 коржа тонко смазать сверху сиропом от варенья, а затем — кремом, верхний корж — только кремом. Обмазать кремом бока торта и обсыпать крошкой из обрезков", "durationMinutes": 15}
+      ],
+      "calories": 480,
+      "proteins": 8,
+      "fats": 34,
+      "carbohydrates": 38,
+      "servings": 12
+    },
+    {
+      "title": "Торт с песочной крошкой",
+      "description": "Трехслойный песочный торт с повидлом и тертым шоколадным тестом. Необычный и рассыпчатый.",
+      "cookingTimeMinutes": 90,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Маргарин", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Яйца", "quantity": 4, "unit": "шт", "category": "dairy"},
+        {"name": "Сахар", "quantity": 100, "unit": "г", "category": "spices"},
+        {"name": "Сода, гашеная уксусом (или разрыхлитель)", "quantity": 1, "unit": "ч.л.", "category": "groceries"},
+        {"name": "Какао", "quantity": 1.5, "unit": "ст.л.", "category": "groceries"},
+        {"name": "Ванилин", "quantity": 1, "unit": "щепотка", "category": "spices"},
+        {"name": "Сахарная пудра", "quantity": 1, "unit": "ст.л.", "category": "spices"},
+        {"name": "Густое повидло", "quantity": 250, "unit": "г", "category": "groceries"},
+        {"name": "Молотые сухари", "quantity": 2, "unit": "ст.л.", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Муку, маргарин, 4 желтка, разрыхлитель, сахарную пудру перемешать и измельчить с помощью ножа, быстро замесить тесто", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "Разделить тесто на три равные части и в одну из них ввести какао. Все тесто положить в холодильник на 30 минут", "durationMinutes": 30},
+        {"stepNumber": 3, "description": "Одну светлую часть теста положить на дно формы, смазанной маслом и посыпанной сухарями, с бортиками 3 см. Пласт слегка смазать белком и разложить повидло. Сверху натереть на крупной терке охлажденное тесто с какао", "durationMinutes": 10},
+        {"stepNumber": 4, "description": "Выпекать до готовности", "durationMinutes": 25}
+      ],
+      "calories": 380,
+      "proteins": 6,
+      "fats": 22,
+      "carbohydrates": 42,
+      "servings": 10
+    },
+    {
+      "title": "Яблоки в слойке",
+      "description": "Целые яблоки, запеченные в слоеном тесте с изюмом и корицей. Эффектный десерт.",
+      "cookingTimeMinutes": 60,
+      "difficulty": "MEDIUM",
+      "category": "DESSERT",
+      "ingredients": [
+        {"name": "Мука", "quantity": 500, "unit": "г", "category": "groceries"},
+        {"name": "Сливочное масло", "quantity": 300, "unit": "г", "category": "dairy"},
+        {"name": "Вода", "quantity": 300, "unit": "г", "category": "drinks"},
+        {"name": "Соль", "quantity": 1, "unit": "ч.л.", "category": "spices"},
+        {"name": "Мелкие яблоки", "quantity": 500, "unit": "г", "category": "vegetables"},
+        {"name": "Сахар", "quantity": 250, "unit": "г", "category": "spices"},
+        {"name": "Яйца для смазывания", "quantity": 2, "unit": "шт", "category": "dairy"},
+        {"name": "Изюм", "quantity": 100, "unit": "г", "category": "groceries"}
+      ],
+      "steps": [
+        {"stepNumber": 1, "description": "Приготовить и раскатать в пласт толщиной 3 мм слоеное тесто, нарезать на квадраты 10х10 см", "durationMinutes": 15},
+        {"stepNumber": 2, "description": "На каждый кусочек поместить очищенное и без сердцевины яблоко. Полость наполнить сахаром, перемешанным с изюмом и корицей, и соединить над яблоком уголки квадрата", "durationMinutes": 15},
+        {"stepNumber": 3, "description": "Смазать изделия взбитым яйцом, посыпать сахаром. Уложить на смоченный холодной водой противень и выпекать в нагретой до 250-260 °С духовке", "durationMinutes": 20},
+        {"stepNumber": 4, "description": "Готовые изделия посыпать сахарной пудрой", "durationMinutes": 5}
+      ],
+      "calories": 350,
+      "proteins": 4,
+      "fats": 20,
+      "carbohydrates": 42,
+      "servings": 6
     }
   ]
 }
