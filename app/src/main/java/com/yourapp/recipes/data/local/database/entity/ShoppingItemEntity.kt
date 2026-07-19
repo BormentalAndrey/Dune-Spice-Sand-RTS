@@ -6,7 +6,8 @@ import androidx.room.*
     tableName = "shopping_items",
     indices = [
         Index(value = ["category"]),
-        Index(value = ["is_purchased"])
+        Index(value = ["is_purchased"]),
+        Index(value = ["purchase_date"])
     ]
 )
 data class ShoppingItemEntity(
@@ -33,6 +34,9 @@ data class ShoppingItemEntity(
     
     @ColumnInfo(name = "price")
     val price: Float = 0f,
+    
+    @ColumnInfo(name = "purchase_date")
+    val purchaseDate: Long? = null,
     
     @ColumnInfo(name = "date_added")
     val dateAdded: Long = System.currentTimeMillis()
