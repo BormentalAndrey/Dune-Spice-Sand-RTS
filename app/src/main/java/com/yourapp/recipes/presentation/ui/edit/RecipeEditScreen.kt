@@ -36,17 +36,14 @@ fun RecipeEditScreen(
     var selectedDifficulty by remember(recipe) { mutableStateOf(recipe?.difficulty ?: Difficulty.EASY) }
     var photoPath by remember(recipe) { mutableStateOf(recipe?.photoPath) }
     
-    // Ингредиенты
     var ingredients by remember(recipe) {
         mutableStateOf(recipe?.ingredients?.toMutableList() ?: mutableListOf())
     }
     
-    // Шаги
     var steps by remember(recipe) {
         mutableStateOf(recipe?.steps?.toMutableList() ?: mutableListOf())
     }
     
-    // КБЖУ
     var calories by remember(recipe) { mutableStateOf(recipe?.nutritionInfo?.calories?.toString() ?: "") }
     var proteins by remember(recipe) { mutableStateOf(recipe?.nutritionInfo?.proteins?.toString() ?: "") }
     var fats by remember(recipe) { mutableStateOf(recipe?.nutritionInfo?.fats?.toString() ?: "") }
@@ -109,13 +106,11 @@ fun RecipeEditScreen(
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Фото
             PhotoPicker(
                 photoPath = photoPath,
                 onPhotoSelected = { photoPath = it }
             )
             
-            // Основная информация
             Text("Основная информация", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
             
             OutlinedTextField(
@@ -146,7 +141,6 @@ fun RecipeEditScreen(
                     keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
                     singleLine = true
                 )
-                
                 OutlinedTextField(
                     value = servings,
                     onValueChange = { servings = it },
@@ -157,7 +151,6 @@ fun RecipeEditScreen(
                 )
             }
             
-            // Категория
             ExposedDropdownMenuBox(
                 expanded = categoryExpanded,
                 onExpandedChange = { categoryExpanded = it }
@@ -186,7 +179,6 @@ fun RecipeEditScreen(
                 }
             }
             
-            // Сложность
             ExposedDropdownMenuBox(
                 expanded = difficultyExpanded,
                 onExpandedChange = { difficultyExpanded = it }
@@ -217,7 +209,6 @@ fun RecipeEditScreen(
             
             Divider()
             
-            // Ингредиенты
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -249,9 +240,7 @@ fun RecipeEditScreen(
                         )
                     ) {
                         Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(12.dp),
+                            modifier = Modifier.fillMaxWidth().padding(12.dp),
                             horizontalArrangement = Arrangement.SpaceBetween,
                             verticalAlignment = Alignment.CenterVertically
                         ) {
@@ -281,7 +270,6 @@ fun RecipeEditScreen(
             
             Divider()
             
-            // Шаги приготовления
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -313,9 +301,7 @@ fun RecipeEditScreen(
                         )
                     ) {
                         Row(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(12.dp),
+                            modifier = Modifier.fillMaxWidth().padding(12.dp),
                             verticalAlignment = Alignment.Top
                         ) {
                             Text(
@@ -351,7 +337,6 @@ fun RecipeEditScreen(
             
             Divider()
             
-            // КБЖУ
             Text("Пищевая ценность (на порцию)", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.titleMedium)
             
             Row(
@@ -401,37 +386,31 @@ fun RecipeEditScreen(
         }
     }
     
-    // Диалог добавления/редактирования ингредиента
     if (showIngredientDialog) {
         IngredientDialog(
             ingredient = if (editingIngredientIndex >= 0) ingredients.getOrNull(editingIngredientIndex) else null,
             onDismiss = { showIngredientDialog = false },
             onSave = { ingredient ->
-                if (editingIngredientIndex >= 0) {
-                    ingredients = ingredients.toMutableList().also {
-                        it[editingIngredientIndex] = ingredient
-                    }
+                ingredients = if (editingIngredientIndex >= 0) {
+                    ingredients.toMutableList().also { it[editingIngredientIndex] = ingredient }
                 } else {
-                    ingredients = ingredients + ingredient
+                    (ingredients + ingredient).toMutableList()
                 }
                 showIngredientDialog = false
             }
         )
     }
     
-    // Диалог добавления/редактирования шага
     if (showStepDialog) {
         StepDialog(
             step = if (editingStepIndex >= 0) steps.getOrNull(editingStepIndex) else null,
             stepNumber = if (editingStepIndex >= 0) (editingStepIndex + 1) else steps.size + 1,
             onDismiss = { showStepDialog = false },
             onSave = { step ->
-                if (editingStepIndex >= 0) {
-                    steps = steps.toMutableList().also {
-                        it[editingStepIndex] = step
-                    }
+                steps = if (editingStepIndex >= 0) {
+                    steps.toMutableList().also { it[editingStepIndex] = step }
                 } else {
-                    steps = steps + step
+                    (steps + step).toMutableList()
                 }
                 showStepDialog = false
             }
